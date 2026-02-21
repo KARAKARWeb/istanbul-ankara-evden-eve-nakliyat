@@ -41,11 +41,11 @@ export function HeroForm({ routeInfo: propsRoute }: HeroFormProps = {}) {
   });
 
   useEffect(() => {
-    if (routeInfo.fromCity || routeInfo.sourceCity) {
-      form.setValue('from', routeInfo.fromCity || routeInfo.sourceCity || 'İstanbul');
+    if (routeInfo?.fromCity || routeInfo?.sourceCity) {
+      form.setValue('from', routeInfo.fromCity || routeInfo.sourceCity || '');
     }
-    if (routeInfo.toCity || routeInfo.targetCity) {
-      form.setValue('to', routeInfo.toCity || routeInfo.targetCity || 'İzmir');
+    if (routeInfo?.toCity || routeInfo?.targetCity) {
+      form.setValue('to', routeInfo.toCity || routeInfo.targetCity || '');
     }
   }, [routeInfo, form]);
 

@@ -11,7 +11,7 @@ interface CalculatorResult {
   totalPrice: number;
 }
 
-export function PriceCalculator() {
+export function PriceCalculator({ contactData, heroSettings: propsHero, routeInfo: propsRoute }: PriceCalculatorProps = {}) {
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
   const [homeType, setHomeType] = useState('2+1');
@@ -23,19 +23,8 @@ export function PriceCalculator() {
   const heroSettings = propsHero || { pricing: { houseTypes: [], elevatorPrices: { withElevator: 0, withoutElevator: 500 } } };
   const routeInfo = propsRoute || { fromCity: '', toCity: '' };
 
-  useEffect(() => {
-    Promise.all([
-      fetch('/api/settings/contact').then(r => r.json()),
-      fetch('/api/settings/hero').then(r => r.json()),
-      fetch('/api/settings/route-info').then(r => r.json()),
-    ]).then(([contact, hero, route]) => {
-      setContactInfo(contact);
-      setHeroSettings(hero);
-      setRouteInfo(route);
-      setFrom(route.fromCity || route.sourceCity || 'İstanbul');
-      setTo(route.toCity || route.targetCity || 'İzmir');
-    }).catch(() => {});
-  }, []);
+  setFrom(routeInfo.fromCity || routeInfo.sourceCity || 'İstanbul');
+  setTo(routeInfo.toCity || routeInfo.targetCity || 'İzmir');
 
   const homeTypes = heroSettings.pricing.houseTypes.length > 0 
     ? heroSettings.pricing.houseTypes.map((ht: any) => ({
