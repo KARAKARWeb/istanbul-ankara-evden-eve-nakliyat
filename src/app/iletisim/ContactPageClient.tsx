@@ -10,34 +10,27 @@ import { MobileFloatingButtons } from '@/components/shared/MobileFloatingButtons
 import { ScrollToTop } from '@/components/shared/ScrollToTop';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
-export default function ContactPageClient() {
+interface ContactPageClientProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export default function ContactPageClient({ siteSettings, contactData }: ContactPageClientProps = {}) {
   const [pageSEO, setPageSEO] = useState({ title: 'İletişim', description: '', keywords: '' });
-  const [contactSettings, setContactSettings] = useState<any>(null);
-  const [siteData, setSiteData] = useState<any>(null);
   const [contactContent, setContactContent] = useState<any>(null);
 
   useEffect(() => {
     Promise.all([
       fetch('/api/seo/pages').then(r => r.json()),
-      fetch('/api/settings/contact').then(r => r.json()),
-      fetch('/api/settings/site').then(r => r.json()),
       fetch('/api/content/contact').then(r => r.json()),
-    ]).then(([seoData, contact, site, content]) => {
+    ]).then(([seoData, content]) => {
       setPageSEO(seoData.contact || pageSEO);
-      setContactSettings(contact);
-      setSiteData(site);
       setContactContent(content);
     });
   }, []);
 
-  if (!contactSettings || !siteData || !contactContent) {
-    return <div className="min-h-screen bg-surface flex items-center justify-center">
-      <p className="text-text-secondary">Yükleniyor...</p>
-    </div>;
-  }
-
-  const email = `info@${siteData.domain}`;
-  const whatsappNumber = contactSettings.whatsappNumber || contactSettings.phone;
+  const email = `info@${siteSettings?.domain || 'example.com'}`;
+  const whatsappNumber = contactData?.whatsappNumber || contactData?.phone || '';
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '')}?text=Merhaba`;
   
   return (
@@ -51,7 +44,7 @@ export default function ContactPageClient() {
           { name: 'İletişim' }
         ]}
       />
-      <Header />
+      <Header siteSettings={siteSettings} contactData={contactData} />
       
       <PageHero 
         title="İletişim"
@@ -75,8 +68,8 @@ export default function ContactPageClient() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-text-primary">Telefon</h3>
-                    <a href={`tel:${contactSettings.phone}`} className="text-accent hover:underline">
-                      {contactSettings.phone}
+                    <a href={`tel:${contactData?.phone}`} className="text-accent hover:underline">
+                      {contactData?.phone}
                     </a>
                   </div>
                 </div>
@@ -116,8 +109,8 @@ export default function ContactPageClient() {
                     <MapPin className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-text-primary">Adres</h3>
-                    <p className="text-text-secondary">{contactSettings.address}</p>
+                    <p className="text-text-secondary">{contactData?.address}</p>
+                    <p className="text-text-secondary">{contactData?.phone}</p>
                   </div>
                 </div>
               </div>
@@ -142,7 +135,7 @@ export default function ContactPageClient() {
         </div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} contactData={contactData} />
       <MobileFloatingButtons />
       <ScrollToTop />
     </div>

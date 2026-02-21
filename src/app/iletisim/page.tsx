@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
+import { getSiteSettings, getContactSettings } from '@/lib/seo/getContactSettings';
 import ContactPageClient from './ContactPageClient';
 
 // ISR: 1 saat cache
@@ -30,6 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ContactPage() {
-  return <ContactPageClient />;
+export default async function ContactPage() {
+  const siteSettings = await getSiteSettings();
+  const contactSettings = await getContactSettings();
+  
+  return <ContactPageClient siteSettings={siteSettings} contactData={contactSettings} />;
 }

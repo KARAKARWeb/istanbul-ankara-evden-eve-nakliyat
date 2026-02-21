@@ -17,7 +17,12 @@ const tocItems = [
   { id: 'neden-biz', title: 'Neden Bizi Tercih Etmelisiniz?', level: 1 },
 ];
 
-export default function AboutPageClient() {
+interface AboutPageClientProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export default function AboutPageClient({ siteSettings, contactData }: AboutPageClientProps = {}) {
   const [pageSEO, setPageSEO] = useState({ title: 'Hakkımızda', description: '', keywords: '' });
   const [aboutData, setAboutData] = useState<any>({
     story: { content: '' },
@@ -47,7 +52,7 @@ export default function AboutPageClient() {
           { name: 'Hakkımızda' }
         ]}
       />
-      <Header />
+      <Header siteSettings={siteSettings} contactData={contactData} />
       
       <PageHero 
         title="Hakkımızda"
@@ -148,7 +153,7 @@ export default function AboutPageClient() {
         </div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} contactData={contactData} />
       <MobileFloatingButtons />
       <ScrollToTop />
     </div>

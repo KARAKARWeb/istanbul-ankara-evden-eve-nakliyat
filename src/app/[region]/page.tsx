@@ -1,5 +1,6 @@
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { getSiteSettings, getContactSettings } from '@/lib/seo/getContactSettings';
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import { TOC } from '@/components/shared/TOC';
 import { RegionContent } from '@/components/regions/RegionContent';
@@ -134,6 +135,9 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
     notFound();
   }
 
+  const siteSettings = await getSiteSettings();
+  const contactSettings = await getContactSettings();
+
   // Region data'dan routeInfo oluştur - domain bağımsız
   const routeInfo = {
     fromCity: region.sourceCity,
@@ -149,7 +153,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
 
   return (
     <div className="min-h-screen bg-surface">
-      <Header />
+      <Header siteSettings={siteSettings} contactData={contactSettings} />
       
       {/* Hero Section */}
       <section className="bg-[#F3F3F3] border-b border-border py-12 md:py-16">
@@ -208,7 +212,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
         </div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} contactData={contactSettings} />
     </div>
   );
 }

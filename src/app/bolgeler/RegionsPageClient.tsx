@@ -9,7 +9,12 @@ import { MobileFloatingButtons } from '@/components/shared/MobileFloatingButtons
 import { ScrollToTop } from '@/components/shared/ScrollToTop';
 import { WebPageUnifiedSchema } from '@/components/seo/UnifiedSchema';
 
-export default function RegionsPageClient() {
+interface RegionsPageClientProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export default function RegionsPageClient({ siteSettings, contactData }: RegionsPageClientProps = {}) {
   const [regions, setRegions] = useState<any[]>([]);
   const [description, setDescription] = useState('');
   const [pageSEO, setPageSEO] = useState({ title: 'Hizmet Bölgelerimiz', description: '', keywords: '' });
@@ -44,7 +49,7 @@ export default function RegionsPageClient() {
           { name: 'Hizmet Bölgeleri' }
         ]}
       />
-      <Header />
+      <Header siteSettings={siteSettings} contactData={contactData} />
       
       <PageHero 
         title="Hizmet Bölgelerimiz"
@@ -61,7 +66,7 @@ export default function RegionsPageClient() {
         </div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} contactData={contactData} />
       <MobileFloatingButtons />
       <ScrollToTop />
     </div>

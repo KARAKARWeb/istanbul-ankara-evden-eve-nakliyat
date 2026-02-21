@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
+import { getSiteSettings, getContactSettings } from '@/lib/seo/getContactSettings';
 import AboutPageClient from './AboutPageClient';
 
 // ISR: 1 saat cache
@@ -30,6 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function AboutPage() {
-  return <AboutPageClient />;
+export default async function AboutPage() {
+  const siteSettings = await getSiteSettings();
+  const contactSettings = await getContactSettings();
+  
+  return <AboutPageClient siteSettings={siteSettings} contactData={contactSettings} />;
 }

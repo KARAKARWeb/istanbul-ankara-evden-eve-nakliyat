@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
+import { getSiteSettings, getContactSettings } from '@/lib/seo/getContactSettings';
 import RegionsPageClient from './RegionsPageClient';
 
 // ISR: 1 saat cache
@@ -30,6 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function RegionsPage() {
-  return <RegionsPageClient />;
+export default async function RegionsPage() {
+  const siteSettings = await getSiteSettings();
+  const contactSettings = await getContactSettings();
+  
+  return <RegionsPageClient siteSettings={siteSettings} contactData={contactSettings} />;
 }
