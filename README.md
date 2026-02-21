@@ -357,8 +357,8 @@ Dashboard'dan tüm environment variables'ı ekle.
 
 - **Website:** https://karakar.web.tr
 - **Email:** info@karakar.web.tr
-- **Telefon:** +90 545 181 4040
-- **WhatsApp:** https://wa.me/905451814040
+- **Telefon:** +90 532 138 4979
+- **WhatsApp:** https://wa.me/905321384979
 - **Canlı Destek:** https://tawk.to/karakar
 
 ---

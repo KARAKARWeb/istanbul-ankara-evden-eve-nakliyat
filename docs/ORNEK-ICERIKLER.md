@@ -26,7 +26,7 @@
   ],
   cta: {
     primary: "Ücretsiz Teklif Alın",
-    secondary: "Hemen Ara: +90 545 181 4040"
+    secondary: "Hemen Ara: +90 532 138 4979"
   }
 }
 ```
@@ -361,7 +361,7 @@ A: Sigorta kapsamında tam tazminat ödenir.
   },
   secondaryCTA: {
     text: "Hemen Ara",
-    href: "tel:+905451814040"
+    href: "tel:+905321384979"
   },
   features: [
     "Ücretsiz keşif",
@@ -460,7 +460,7 @@ const team = [
 ### 6. İletişim
 ```typescript
 {
-  phone: "+90 545 181 4040",
+  phone: "+90 532 138 4979",
   email: "info@karakar.web.tr",
   address: "İstanbul, Türkiye",
   workingHours: "7/24 Hizmet",

@@ -198,7 +198,7 @@ git push
 ## 📞 DESTEK
 
 **KARAKAR Web**
-- Tel: +90 545 181 4040
+- Tel: +90 532 138 4979
 - Email: info@karakar.web.tr
 - Web: https://karakar.web.tr
 

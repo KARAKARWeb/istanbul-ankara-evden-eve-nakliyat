@@ -33,9 +33,9 @@ export const KARAKAR_WEB = {
   name: 'KARAKAR Web',
   fullName: 'KARAKAR Web Tasarım ve Yazılım Ajansı',
   url: 'https://karakar.web.tr',
-  phone: '+90 545 181 4040',
+  phone: '+90 532 138 4979',
   email: 'info@karakar.web.tr',
-  whatsapp: 'https://wa.me/905451814040?text=Merhaba',
+  whatsapp: 'https://wa.me/905321384979?text=Merhaba',
   support: 'https://tawk.to/karakar',
 };
 
