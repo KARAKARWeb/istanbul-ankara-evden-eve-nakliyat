@@ -3,6 +3,8 @@
 // Dinamik telefon, email, adres için generateHomePageSchema() kullan
 
 // Unified Schema with @graph - Tüm schema'ları tek bir JSON-LD'de birleştirir
+import { useState, useEffect } from 'react';
+
 export function UnifiedSchema({ schemas }: { schemas: any[] }) {
   const unifiedSchema = {
     '@context': 'https://schema.org',
@@ -20,14 +22,24 @@ export function UnifiedSchema({ schemas }: { schemas: any[] }) {
 
 // Ana Sayfa için Unified Schema
 export function HomePageUnifiedSchema() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const [siteSettings, setSiteSettings] = useState<any>(null);
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
+  
+  useEffect(() => {
+    fetch('/api/settings/site')
+      .then(r => r.json())
+      .then(data => setSiteSettings(data))
+      .catch(() => {});
+  }, []);
+
+  const siteName = siteSettings?.siteName || 'Evden Eve Nakliyat';
   
   const schemas = [
     // Organization
     {
       '@type': 'Organization',
       '@id': `${baseUrl}/#organization`,
-      name: 'Evden Eve Nakliyat',
+      name: siteName,
       // TODO: site.json'dan siteName çekilecek
       url: baseUrl,
       logo: `${baseUrl}/logo-koyu.svg`,
@@ -58,8 +70,7 @@ export function HomePageUnifiedSchema() {
     {
       '@type': 'WebSite',
       '@id': `${baseUrl}/#website`,
-      name: 'Evden Eve Nakliyat',
-      // TODO: site.json'dan siteName çekilecek
+      name: siteName,
       url: baseUrl,
       description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
       publisher: {
@@ -78,8 +89,7 @@ export function HomePageUnifiedSchema() {
     {
       '@type': 'LocalBusiness',
       '@id': `${baseUrl}/#localbusiness`,
-      name: 'Evden Eve Nakliyat',
-      // TODO: site.json'dan siteName çekilecek
+      name: siteName,
       image: `${baseUrl}/logo-koyu.svg`,
       url: baseUrl,
       telephone: 'Dinamik telefon',

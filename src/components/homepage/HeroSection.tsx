@@ -12,6 +12,7 @@ interface HeroSectionProps {
 export function HeroSection({ routeInfo }: HeroSectionProps) {
   const [contactData, setContactData] = useState<any>(null);
   const [heroSettings, setHeroSettings] = useState<any>(null);
+  const [siteSettings, setSiteSettings] = useState<any>(null);
   const [rating, setRating] = useState<number>(4.8);
   const distance = routeInfo.distance || 0;
 
@@ -19,10 +20,12 @@ export function HeroSection({ routeInfo }: HeroSectionProps) {
     Promise.all([
       fetch('/api/settings/contact').then(r => r.json()),
       fetch('/api/settings/hero').then(r => r.json()),
+      fetch('/api/settings/site').then(r => r.json()),
       fetch('/api/reviews/global').then(r => r.json()),
-    ]).then(([contact, hero, reviews]) => {
+    ]).then(([contact, hero, site, reviews]) => {
       setContactData(contact);
       setHeroSettings(hero);
+      setSiteSettings(site);
       if (reviews.aggregateRating && reviews.aggregateRating.ratingValue) {
         setRating(reviews.aggregateRating.ratingValue);
       }
@@ -61,7 +64,7 @@ export function HeroSection({ routeInfo }: HeroSectionProps) {
               border: '1px solid rgba(255, 255, 255, 0.3)',
             }}>
               <h1 className="text-xl md:text-2xl font-semibold text-black mb-4">
-                {heroSettings?.title || 'Evden Eve Nakliyat'}
+                {heroSettings?.title || siteSettings?.siteName || 'Evden Eve Nakliyat'}
               </h1>
               <div 
                 className="text-lg text-black"

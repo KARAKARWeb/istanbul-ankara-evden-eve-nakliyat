@@ -1,3 +1,7 @@
+'use client';
+
+import React from 'react';
+
 // Bu component artık kullanılmıyor - generateSchemas.ts kullanılıyor
 // Sadece geriye dönük uyumluluk için bırakıldı
 export function OrganizationSchema() {
@@ -21,10 +25,19 @@ export function OrganizationSchema() {
 
 // WebSite Schema - Global site bilgileri
 export function WebSiteSchema() {
+  const [siteSettings, setSiteSettings] = React.useState<any>(null);
+  
+  React.useEffect(() => {
+    fetch('/api/settings/site')
+      .then(r => r.json())
+      .then(data => setSiteSettings(data))
+      .catch(() => {});
+  }, []);
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Evden Eve Nakliyat',
+    name: siteSettings?.siteName || 'Evden Eve Nakliyat',
     url: process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!,
     description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
     potentialAction: {
