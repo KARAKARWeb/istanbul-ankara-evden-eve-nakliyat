@@ -8,27 +8,14 @@ import { RouteInfo } from '@/lib/data/getRouteInfo';
 interface HeroSectionProps {
   routeInfo: RouteInfo;
   siteSettings: any;
+  contactData?: any;
+  heroSettings?: any;
+  reviewsData?: any;
 }
 
-export function HeroSection({ routeInfo, siteSettings }: HeroSectionProps) {
-  const [contactData, setContactData] = useState<any>(null);
-  const [heroSettings, setHeroSettings] = useState<any>(null);
-  const [rating, setRating] = useState<number>(4.8);
+export function HeroSection({ routeInfo, siteSettings, contactData, heroSettings, reviewsData }: HeroSectionProps) {
+  const rating = reviewsData?.aggregateRating?.ratingValue || 4.8;
   const distance = routeInfo.distance || 0;
-
-  useEffect(() => {
-    Promise.all([
-      fetch('/api/settings/contact').then(r => r.json()),
-      fetch('/api/settings/hero').then(r => r.json()),
-      fetch('/api/reviews/global').then(r => r.json()),
-    ]).then(([contact, hero, reviews]) => {
-      setContactData(contact);
-      setHeroSettings(hero);
-      if (reviews.aggregateRating && reviews.aggregateRating.ratingValue) {
-        setRating(reviews.aggregateRating.ratingValue);
-      }
-    }).catch(() => {});
-  }, []);
   return (
     <section className="relative bg-background border-b border-border overflow-hidden">
       {/* Background Image */}

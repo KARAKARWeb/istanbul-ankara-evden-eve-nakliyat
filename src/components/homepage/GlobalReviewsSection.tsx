@@ -24,32 +24,15 @@ interface AggregateRating {
 interface GlobalReviewsSectionProps {
   siteSettings?: any;
   contactData?: any;
+  reviewsData?: any;
 }
 
-export function GlobalReviewsSection({ siteSettings, contactData }: GlobalReviewsSectionProps = {}) {
-  const [reviews, setReviews] = useState<Review[]>([]);
-  const [aggregateRating, setAggregateRating] = useState<AggregateRating | null>(null);
-  const [loading, setLoading] = useState(true);
+export function GlobalReviewsSection({ siteSettings, contactData, reviewsData }: GlobalReviewsSectionProps = {}) {
+  const reviews = reviewsData?.reviews || [];
+  const aggregateRating = reviewsData?.aggregateRating || null;
+  const loading = !reviewsData;
   const siteName = siteSettings?.siteName || 'Evden Eve Nakliyat';
   const contact = contactData;
-
-  useEffect(() => {
-    fetchGlobalReviews();
-  }, []);
-
-  const fetchGlobalReviews = async () => {
-    try {
-      const reviewsRes = await fetch('/api/reviews/global');
-      const reviewsData = await reviewsRes.json();
-      
-      setReviews(reviewsData.reviews || []);
-      setAggregateRating(reviewsData.aggregateRating || null);
-    } catch (error) {
-      console.error('Global reviews fetch error:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   if (loading) {
     return null;
@@ -92,7 +75,7 @@ export function GlobalReviewsSection({ siteSettings, contactData }: GlobalReview
               "bestRating": displayRating.bestRating,
               "worstRating": displayRating.worstRating
             },
-            "review": reviews.slice(0, 10).map((review) => ({
+            "review": reviews.slice(0, 10).map((review: any) => ({
               "@type": "Review",
               "author": {
                 "@type": "Person",
@@ -142,7 +125,7 @@ export function GlobalReviewsSection({ siteSettings, contactData }: GlobalReview
         {/* Reviews Grid */}
         {reviews.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {reviews.slice(0, 6).map((review) => (
+            {reviews.slice(0, 6).map((review: Review, index: number) => (
               <div
                 key={review.id}
                 className="bg-surface p-6 rounded-xl border border-border"

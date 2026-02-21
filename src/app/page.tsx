@@ -59,17 +59,21 @@ export async function generateMetadata(): Promise<Metadata> {
 async function fetchContentData() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
   try {
-    const [services, whyUs, gallery, faq, seoTop, seoBottom] = await Promise.all([
+    const [servicesData, whyUsData, galleryData, faqData, seoTopData, seoBottomData, heroData, processData, pricingData, reviewsData] = await Promise.all([
       fetch(`${baseUrl}/api/content/services`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
       fetch(`${baseUrl}/api/content/why-us`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
       fetch(`${baseUrl}/api/content/gallery`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
       fetch(`${baseUrl}/api/content/faq`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
       fetch(`${baseUrl}/api/content/seo-top`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
       fetch(`${baseUrl}/api/content/seo-bottom`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/settings/hero`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/process`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/pricing`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/reviews/global`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
     ]);
-    return { services, whyUs, gallery, faq, seoTop, seoBottom };
+    return { services: servicesData, whyUs: whyUsData, gallery: galleryData, faq: faqData, seoTop: seoTopData, seoBottom: seoBottomData, hero: heroData, process: processData, pricing: pricingData, reviews: reviewsData };
   } catch {
-    return { services: null, whyUs: null, gallery: null, faq: null, seoTop: null, seoBottom: null };
+    return { services: null, whyUs: null, gallery: null, faq: null, seoTop: null, seoBottom: null, hero: null, process: null, pricing: null, reviews: null };
   }
 }
 
@@ -108,7 +112,7 @@ export default async function Home() {
       <Header siteSettings={siteSettings} contactData={contactSettings} />
       
       <main>
-        <div id="hero"><HeroSection routeInfo={routeInfo} siteSettings={siteSettings} /></div>
+        <div id="hero"><HeroSection routeInfo={routeInfo} siteSettings={siteSettings} contactData={contactSettings} heroSettings={contentData.hero} reviewsData={contentData.reviews} /></div>
         <div id="seo-top"><TopSEOArticle seoData={contentData.seoTop} /></div>
         
         {/* TOC Section */}
@@ -122,10 +126,10 @@ export default async function Home() {
         <div id="why-us"><WhyUsSection whyUsData={contentData.whyUs} /></div>
         <div id="route-info"><RouteInfoSection routeInfo={routeInfo} /></div>
         <div id="gallery"><GallerySection galleryData={contentData.gallery} /></div>
-        <div id="pricing"><PricingSection routeInfo={routeInfo} /></div>
+        <div id="pricing"><PricingSection routeInfo={routeInfo} pricingData={contentData.pricing} /></div>
         <div id="regions"><RegionsShowcase /></div>
         <div id="faq"><FAQSection faqData={contentData.faq} /></div>
-        <GlobalReviewsSection siteSettings={siteSettings} contactData={contactSettings} />
+        <GlobalReviewsSection siteSettings={siteSettings} contactData={contactSettings} reviewsData={contentData.reviews} />
         <div id="contact"><ContactForm /></div>
         <div id="seo-content"><SEOContentSection seoData={contentData.seoBottom} /></div>
         <div id="cta"><CTASection contactData={contactSettings} /></div>

@@ -8,17 +8,18 @@ import { RouteInfo } from '@/lib/data/getRouteInfo';
 interface PricingSectionProps {
   regionTitle?: string;
   routeInfo: RouteInfo;
+  pricingData?: any;
 }
 
-export function PricingSection({ regionTitle, routeInfo }: PricingSectionProps) {
-  const [pricingData, setPricingData] = useState<any>({
+export function PricingSection({ regionTitle, routeInfo, pricingData: propsData }: PricingSectionProps) {
+  const pricingData = propsData || {
     title: 'Fiyatlandırma',
     description: 'Şeffaf ve rekabetçi fiyatlarımız',
     packages: [
-      { name: '1+1 Ev Taşıma Fiyatı', priceRange: '18.000 – 22.000 TL', elevatorFee: '+ 4.000 TL' },
-      { name: '2+1 Ev Taşıma Fiyatı', priceRange: '20.000 – 28.000 TL', elevatorFee: '+ 4.000 TL', popular: true },
-      { name: '3+1 Ev Taşıma Fiyatı', priceRange: '25.000 – 35.000 TL', elevatorFee: '+ 4.000 TL' },
-      { name: '4+1 Ev Taşıma Fiyatı', priceRange: '30.000 – 40.000 TL', elevatorFee: '+ 4.000 TL' },
+      { name: '1+1 Ev Taşıma Fiyatı', priceRange: '15.000 – 20.000 TL', elevatorFee: '+ 2.000 TL' },
+      { name: '2+1 Ev Taşıma Fiyatı', priceRange: '20.000 – 25.000 TL', elevatorFee: '+ 2.500 TL' },
+      { name: '3+1 Ev Taşıma Fiyatı', priceRange: '25.000 – 30.000 TL', elevatorFee: '+ 3.000 TL' },
+      { name: '4+1 Ev Taşıma Fiyatı', priceRange: '30.000 – 35.000 TL', elevatorFee: '+ 3.500 TL' },
       { name: '5+1 Ev Taşıma Fiyatı', priceRange: '35.000 – 45.000 TL', elevatorFee: '+ 4.000 TL' },
       { name: 'Villa Taşıma Fiyatı', priceRange: '50.000 TL', elevatorFee: '+ 4.000 TL' },
     ],
@@ -35,20 +36,6 @@ export function PricingSection({ regionTitle, routeInfo }: PricingSectionProps) 
       'Sigortalı taşıma ücretsizdir',
       'Kesin fiyat için ücretsiz keşif hizmeti sunuyoruz'
     ]
-  });
-
-  useEffect(() => {
-    fetchPricingData();
-  }, []);
-
-  const fetchPricingData = async () => {
-    try {
-      const res = await fetch('/api/content/pricing');
-      const data = await res.json();
-      setPricingData(data);
-    } catch (error) {
-      console.error('Pricing data yüklenemedi:', error);
-    }
   };
 
   return (

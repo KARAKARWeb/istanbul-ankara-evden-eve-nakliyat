@@ -107,29 +107,16 @@ import { RouteInfo } from '@/lib/data/getRouteInfo';
 
 interface ProcessTimelineProps {
   routeInfo: RouteInfo;
+  processData?: any;
 }
 
-export function ProcessTimeline({ routeInfo }: ProcessTimelineProps) {
-  const [processData, setProcessData] = useState<any>({
+export function ProcessTimeline({ routeInfo, processData: propsData }: ProcessTimelineProps) {
+  const processData = propsData || {
     title: 'Nakliyat Sürecimiz',
     description: `${routeInfo.fromCity}'dan ${routeInfo.toCity}'e profesyonel taşınma sürecinin her adımı`
-  });
+  };
   const [activeStep, setActiveStep] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-
-  useEffect(() => {
-    fetchProcessData();
-  }, []);
-
-  const fetchProcessData = async () => {
-    try {
-      const res = await fetch('/api/content/process');
-      const data = await res.json();
-      setProcessData(data);
-    } catch (error) {
-      console.error('Process data yüklenemedi:', error);
-    }
-  };
 
   const steps = getSteps(routeInfo.fromCity, routeInfo.toCity, routeInfo.distance, routeInfo.duration);
 
