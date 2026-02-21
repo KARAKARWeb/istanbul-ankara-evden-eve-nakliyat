@@ -48,7 +48,7 @@ export default function ContactPageClient({ siteSettings, contactData }: Contact
       
       <PageHero 
         title="İletişim"
-        description={contactContent.description || "Bize ulaşın, ücretsiz fiyat teklifi alın. 7/24 müşteri desteği ile yanınızdayız."}
+        description={contactContent?.description || "Bize ulaşın, ücretsiz fiyat teklifi alın. 7/24 müşteri desteği ile yanınızdayız."}
         breadcrumbs={[
           { label: 'Ana Sayfa', href: '/' },
           { label: 'İletişim' }
