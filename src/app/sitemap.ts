@@ -3,7 +3,25 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  function getBaseUrl(): string {
+    if (process.env.NEXT_PUBLIC_SITE_URL) {
+      return process.env.NEXT_PUBLIC_SITE_URL;
+    }
+    
+    try {
+      const siteJsonPath = path.join(process.cwd(), 'data/settings/site.json');
+      const siteData = JSON.parse(fs.readFileSync(siteJsonPath, 'utf-8'));
+      if (siteData.domain) {
+        return `https://${siteData.domain}`;
+      }
+    } catch (error) {
+      console.error('Error reading site.json:', error);
+    }
+    
+    return 'https://example.com';
+  }
+
+  const baseUrl = getBaseUrl();
   
   // Statik sayfalar
   const staticPages: MetadataRoute.Sitemap = [

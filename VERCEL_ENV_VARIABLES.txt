@@ -1,0 +1,61 @@
+===========================================
+VERCEL ENVIRONMENT VARIABLES
+===========================================
+
+Vercel Dashboard → Project Settings → Environment Variables
+
+Aşağıdaki değişkenleri ekleyin:
+
+-------------------------------------------
+1. NEXT_PUBLIC_SITE_URL (ZORUNLU)
+-------------------------------------------
+Key: NEXT_PUBLIC_SITE_URL
+Value: https://istanbulankara.com.tr
+Environment: Production, Preview, Development
+
+NOT: Domain'inizi buraya yazın. 
+Örnek: https://yourdomain.com (sonunda / olmamalı)
+
+-------------------------------------------
+2. NEXT_PUBLIC_SITE_NAME (Opsiyonel)
+-------------------------------------------
+Key: NEXT_PUBLIC_SITE_NAME
+Value: İstanbul Ankara Evden Eve Nakliyat
+Environment: Production, Preview, Development
+
+NOT: Site adınızı buraya yazın.
+Bu değişken opsiyoneldir, site.json'dan da okunabilir.
+
+-------------------------------------------
+ÖNEMLI NOTLAR:
+-------------------------------------------
+
+✅ NEXT_PUBLIC_SITE_URL mutlaka ayarlanmalı
+✅ Domain'inizi https:// ile başlatın
+✅ Sonunda / (slash) olmamalı
+✅ Production, Preview ve Development için aynı değeri kullanabilirsiniz
+✅ Deploy sonrası domain değişirse, buradan güncelleyin ve yeniden deploy edin
+
+❌ localhost:3000 KULLANMAYIN
+❌ Hardcode URL kullanmayın
+❌ http:// kullanmayın (https:// kullanın)
+
+-------------------------------------------
+DOMAIN BAĞIMSIZLIK:
+-------------------------------------------
+
+Sistem tamamen domain bağımsız çalışır:
+1. NEXT_PUBLIC_SITE_URL yoksa → data/settings/site.json → domain field'ı kullanılır
+2. site.json'da domain yoksa → example.com fallback kullanılır (geçici)
+3. Dashboard'dan domain değiştirildiğinde tüm sistem otomatik güncellenir
+
+-------------------------------------------
+DEPLOY SONRASI:
+-------------------------------------------
+
+1. Vercel Dashboard'a git
+2. Project Settings → Environment Variables
+3. NEXT_PUBLIC_SITE_URL ekle
+4. Redeploy et (Deployments → ... → Redeploy)
+
+===========================================

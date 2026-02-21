@@ -4,7 +4,11 @@ import { getContactSettings, getSiteSettings, formatPhoneForSchema, parseAddress
 export async function generateOrganizationSchema() {
   const contact = await getContactSettings();
   const site = await getSiteSettings();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
+  if (!baseUrl) {
+    console.warn('NEXT_PUBLIC_SITE_URL not set and site.domain is empty');
+    return {};
+  }
   const addressParsed = parseAddress(contact.address);
   
   return {
@@ -36,7 +40,11 @@ export async function generateOrganizationSchema() {
 
 export async function generateWebSiteSchema() {
   const site = await getSiteSettings();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
+  if (!baseUrl) {
+    console.warn('NEXT_PUBLIC_SITE_URL not set and site.domain is empty');
+    return {};
+  }
   
   return {
     '@context': 'https://schema.org',
@@ -58,7 +66,11 @@ export async function generateWebSiteSchema() {
 export async function generateHomePageSchema() {
   const contact = await getContactSettings();
   const site = await getSiteSettings();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
+  if (!baseUrl) {
+    console.warn('NEXT_PUBLIC_SITE_URL not set and site.domain is empty');
+    return {};
+  }
   const addressParsed = parseAddress(contact.address);
   
   return {
