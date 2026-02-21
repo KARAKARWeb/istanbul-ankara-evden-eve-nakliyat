@@ -52,7 +52,6 @@ export function GlobalMetaTags({ siteSettings }: GlobalMetaTagsProps = {}) {
 interface PageMetaTagsProps {
   title: string;
   description: string;
-  canonical?: string;
   canonicalUrl?: string;
   keywords?: string[];
   ogType?: string;
@@ -81,7 +80,8 @@ export function PageMetaTags({
 }: PageMetaTagsProps) {
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
-  const fullCanonical = canonical.startsWith('http') ? canonical : `${baseUrl}${canonical}`;
+  const canonicalToUse = canonicalUrl || '';
+  const fullCanonical = canonicalToUse.startsWith('http') ? canonicalToUse : `${baseUrl}${canonicalToUse}`;
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage}`;
   const siteName = siteSettings?.siteName || 'Site';
   const twitterHandle = siteSettings?.social?.twitter || '@site';
@@ -93,8 +93,9 @@ export function PageMetaTags({
       {/* Canonical */}
       <link rel="canonical" href={fullCanonical} />
       
-      {/* Keywords */}
-      {keywords && <meta name="keywords" content={keywords} />}
+      {keywords && keywords.length > 0 && (
+        <meta name="keywords" content={keywords.join(', ')} />
+      )}
       
       {/* Open Graph */}
       <meta property="og:type" content={ogType} />
@@ -116,7 +117,7 @@ export function PageMetaTags({
           {article.modifiedTime && <meta property="article:modified_time" content={article.modifiedTime} />}
           {article.author && <meta property="article:author" content={article.author} />}
           {article.section && <meta property="article:section" content={article.section} />}
-          {article.tag && article.tag.map((tag, i) => (
+          {article?.tags && article.tags.map((tag: string, i: number) => (
             <meta key={i} property="article:tag" content={tag} />
           ))}
           <meta property="article:publisher" content={facebookUrl} />
