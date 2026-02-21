@@ -3,26 +3,29 @@
 import { useState, useEffect } from 'react';
 import { PriceCalculator } from './PriceCalculator';
 import { Star } from 'lucide-react';
+import { RouteInfo } from '@/lib/data/getRouteInfo';
 
-export function HeroSection() {
+interface HeroSectionProps {
+  routeInfo: RouteInfo;
+}
+
+export function HeroSection({ routeInfo }: HeroSectionProps) {
   const [contactData, setContactData] = useState<any>(null);
   const [heroSettings, setHeroSettings] = useState<any>(null);
   const [rating, setRating] = useState<number>(4.8);
-  const [distance, setDistance] = useState<number>(0);
+  const distance = routeInfo.distance || 0;
 
   useEffect(() => {
     Promise.all([
       fetch('/api/settings/contact').then(r => r.json()),
       fetch('/api/settings/hero').then(r => r.json()),
       fetch('/api/reviews/global').then(r => r.json()),
-      fetch('/api/settings/route-info').then(r => r.json()),
-    ]).then(([contact, hero, reviews, route]) => {
+    ]).then(([contact, hero, reviews]) => {
       setContactData(contact);
       setHeroSettings(hero);
       if (reviews.aggregateRating && reviews.aggregateRating.ratingValue) {
         setRating(reviews.aggregateRating.ratingValue);
       }
-      setDistance(route.distance || 468);
     }).catch(() => {});
   }, []);
   return (

@@ -16,7 +16,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 
-const getSteps = (fromCity: string, toCity: string, distance: number, duration: string) => [
+const getSteps = (fromCity: string, toCity: string, distance: number, duration: string | number) => [
   { 
     icon: ClipboardCheck, 
     title: 'Ücretsiz Keşif', 
@@ -103,23 +103,22 @@ const getSteps = (fromCity: string, toCity: string, distance: number, duration: 
   },
 ];
 
-export function ProcessTimeline() {
+import { RouteInfo } from '@/lib/data/getRouteInfo';
+
+interface ProcessTimelineProps {
+  routeInfo: RouteInfo;
+}
+
+export function ProcessTimeline({ routeInfo }: ProcessTimelineProps) {
   const [processData, setProcessData] = useState<any>({
     title: 'Nakliyat Sürecimiz',
-    description: ''
-  });
-  const [routeInfo, setRouteInfo] = useState<any>({
-    fromCity: '',
-    toCity: '',
-    distance: 0,
-    duration: ''
+    description: `${routeInfo.fromCity}'dan ${routeInfo.toCity}'e profesyonel taşınma sürecinin her adımı`
   });
   const [activeStep, setActiveStep] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
     fetchProcessData();
-    fetchRouteInfo();
   }, []);
 
   const fetchProcessData = async () => {
@@ -129,21 +128,6 @@ export function ProcessTimeline() {
       setProcessData(data);
     } catch (error) {
       console.error('Process data yüklenemedi:', error);
-    }
-  };
-
-  const fetchRouteInfo = async () => {
-    try {
-      const res = await fetch('/api/settings/route-info');
-      const data = await res.json();
-      setRouteInfo({
-        fromCity: data.fromCity || data.sourceCity || 'İstanbul',
-        toCity: data.toCity || data.targetCity || 'İzmir',
-        distance: data.distance || 468,
-        duration: data.duration || '5-6 saat'
-      });
-    } catch (error) {
-      console.error('Route info yüklenemedi:', error);
     }
   };
 

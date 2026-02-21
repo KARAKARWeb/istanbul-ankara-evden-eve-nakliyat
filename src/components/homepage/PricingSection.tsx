@@ -3,11 +3,14 @@
 import { useState, useEffect } from 'react';
 import { Check, Info } from 'lucide-react';
 
+import { RouteInfo } from '@/lib/data/getRouteInfo';
+
 interface PricingSectionProps {
-  regionTitle?: string; // Bölge adı - opsiyonel
+  regionTitle?: string;
+  routeInfo: RouteInfo;
 }
 
-export function PricingSection({ regionTitle }: PricingSectionProps = {}) {
+export function PricingSection({ regionTitle, routeInfo }: PricingSectionProps) {
   const [pricingData, setPricingData] = useState<any>({
     title: 'Fiyatlandırma',
     description: 'Şeffaf ve rekabetçi fiyatlarımız',
@@ -25,29 +28,18 @@ export function PricingSection({ regionTitle }: PricingSectionProps = {}) {
       { name: 'Depolama (Aylık)', price: '+ 1.000 TL' },
       { name: 'Ambalaj Malzemesi', price: '+ 300 TL' },
     ],
-    infoItems: []
+    infoItems: [
+      `Fiyatlar ${routeInfo.fromCity} - ${routeInfo.toCity} arası için geçerlidir`,
+      `Mesafe: ${routeInfo.distance} km`,
+      'Tüm fiyatlar KDV dahildir',
+      'Sigortalı taşıma ücretsizdir',
+      'Kesin fiyat için ücretsiz keşif hizmeti sunuyoruz'
+    ]
   });
-  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: '', toCity: '', distance: 0 });
 
   useEffect(() => {
     fetchPricingData();
-    fetchRouteInfo();
   }, []);
-
-  useEffect(() => {
-    if (pricingData.infoItems?.length === 0 && routeInfo.fromCity) {
-      setPricingData((prev: any) => ({
-        ...prev,
-        infoItems: [
-          `Fiyatlar ${routeInfo.fromCity} - ${routeInfo.toCity} arası için geçerlidir`,
-          `Mesafe: ${routeInfo.distance} km`,
-          'Tüm fiyatlar KDV dahildir',
-          'Sigortalı taşıma ücretsizdir',
-          'Kesin fiyat için ücretsiz keşif hizmeti sunuyoruz'
-        ]
-      }));
-    }
-  }, [routeInfo, pricingData.infoItems]);
 
   const fetchPricingData = async () => {
     try {
@@ -56,20 +48,6 @@ export function PricingSection({ regionTitle }: PricingSectionProps = {}) {
       setPricingData(data);
     } catch (error) {
       console.error('Pricing data yüklenemedi:', error);
-    }
-  };
-
-  const fetchRouteInfo = async () => {
-    try {
-      const res = await fetch('/api/settings/route-info');
-      const data = await res.json();
-      setRouteInfo({
-        fromCity: data.fromCity || data.sourceCity || 'İstanbul',
-        toCity: data.toCity || data.targetCity || 'İzmir',
-        distance: data.distance || 468
-      });
-    } catch (error) {
-      console.error('Route info yüklenemedi:', error);
     }
   };
 

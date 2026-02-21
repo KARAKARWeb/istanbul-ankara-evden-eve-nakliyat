@@ -20,6 +20,7 @@ import { SEOContentSection } from '@/components/homepage/SEOContentSection';
 import { CTASection } from '@/components/homepage/CTASection';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
 import { generateHomePageSchema } from '@/lib/seo/generateSchemas';
+import { getRouteInfo } from '@/lib/data/getRouteInfo';
 
 // ISR: 1 saat cache
 export const revalidate = 3600;
@@ -71,6 +72,7 @@ const tocItems = [
 export default async function Home() {
   const pageSEO = await getPageSEO('home');
   const schema = await generateHomePageSchema();
+  const routeInfo = await getRouteInfo();
   
   return (
     <div className="min-h-screen bg-surface">
@@ -84,7 +86,7 @@ export default async function Home() {
       <Header />
       
       <main>
-        <div id="hero"><HeroSection /></div>
+        <div id="hero"><HeroSection routeInfo={routeInfo} /></div>
         <div id="seo-top"><TopSEOArticle /></div>
         
         {/* TOC Section */}
@@ -96,9 +98,9 @@ export default async function Home() {
         
         <div id="services"><ServicesSection /></div>
         <div id="why-us"><WhyUsSection /></div>
-        <div id="route-info"><RouteInfoSection /></div>
+        <div id="route-info"><RouteInfoSection routeInfo={routeInfo} /></div>
         <div id="gallery"><GallerySection /></div>
-        <div id="pricing"><PricingSection /></div>
+        <div id="pricing"><PricingSection routeInfo={routeInfo} /></div>
         <div id="regions"><RegionsShowcase /></div>
         <div id="faq"><FAQSection /></div>
         <GlobalReviewsSection />

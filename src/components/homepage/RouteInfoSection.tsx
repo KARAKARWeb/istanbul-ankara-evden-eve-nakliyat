@@ -3,49 +3,16 @@
 import { useState, useEffect } from 'react';
 import { Truck } from 'lucide-react';
 import { ProcessTimeline } from './ProcessTimeline';
+import { RouteInfo } from '@/lib/data/getRouteInfo';
 
-interface RouteInfo {
-  title?: string;
-  description?: string;
-  originCoords?: string;
-  destinationCoords?: string;
-  fromCity: string;
-  toCity: string;
-  distance: number;
-  duration: string;
-  basePrice: number;
+interface RouteInfoSectionProps {
+  routeInfo: RouteInfo;
 }
 
-export function RouteInfoSection() {
-  const [routeInfo, setRouteInfo] = useState<RouteInfo>({
-    title: '',
-    description: '',
-    originCoords: '',
-    destinationCoords: '',
-    fromCity: '',
-    toCity: '',
-    distance: 0,
-    duration: '',
-    basePrice: 0,
-  });
+export function RouteInfoSection({ routeInfo }: RouteInfoSectionProps) {
   const [carPosition, setCarPosition] = useState(0);
-  const [remainingKm, setRemainingKm] = useState(0);
+  const [remainingKm, setRemainingKm] = useState(routeInfo.distance || 0);
   const [isAnimating, setIsAnimating] = useState(false);
-
-  useEffect(() => {
-    fetchRouteInfo();
-  }, []);
-
-  const fetchRouteInfo = async () => {
-    try {
-      const res = await fetch('/api/settings/route-info');
-      const data = await res.json();
-      setRouteInfo(data);
-      setRemainingKm(data.distance);
-    } catch (error) {
-      console.error('Route info yüklenemedi:', error);
-    }
-  };
 
   useEffect(() => {
     if (isAnimating) {
@@ -162,7 +129,7 @@ export function RouteInfoSection() {
         </div>
       </section>
       
-      <ProcessTimeline />
+      <ProcessTimeline routeInfo={routeInfo} />
     </>
   );
 }
