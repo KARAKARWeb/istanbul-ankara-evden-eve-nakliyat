@@ -7,12 +7,12 @@ import { RouteInfo } from '@/lib/data/getRouteInfo';
 
 interface HeroSectionProps {
   routeInfo: RouteInfo;
+  siteSettings: any;
 }
 
-export function HeroSection({ routeInfo }: HeroSectionProps) {
+export function HeroSection({ routeInfo, siteSettings }: HeroSectionProps) {
   const [contactData, setContactData] = useState<any>(null);
   const [heroSettings, setHeroSettings] = useState<any>(null);
-  const [siteSettings, setSiteSettings] = useState<any>(null);
   const [rating, setRating] = useState<number>(4.8);
   const distance = routeInfo.distance || 0;
 
@@ -20,12 +20,10 @@ export function HeroSection({ routeInfo }: HeroSectionProps) {
     Promise.all([
       fetch('/api/settings/contact').then(r => r.json()),
       fetch('/api/settings/hero').then(r => r.json()),
-      fetch('/api/settings/site').then(r => r.json()),
       fetch('/api/reviews/global').then(r => r.json()),
-    ]).then(([contact, hero, site, reviews]) => {
+    ]).then(([contact, hero, reviews]) => {
       setContactData(contact);
       setHeroSettings(hero);
-      setSiteSettings(site);
       if (reviews.aggregateRating && reviews.aggregateRating.ratingValue) {
         setRating(reviews.aggregateRating.ratingValue);
       }

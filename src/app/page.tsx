@@ -21,6 +21,7 @@ import { CTASection } from '@/components/homepage/CTASection';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
 import { generateHomePageSchema } from '@/lib/seo/generateSchemas';
 import { getRouteInfo } from '@/lib/data/getRouteInfo';
+import { getSiteSettings } from '@/lib/seo/getContactSettings';
 
 // ISR: 1 saat cache
 export const revalidate = 3600;
@@ -73,6 +74,7 @@ export default async function Home() {
   const pageSEO = await getPageSEO('home');
   const schema = await generateHomePageSchema();
   const routeInfo = await getRouteInfo();
+  const siteSettings = await getSiteSettings();
   
   return (
     <div className="min-h-screen bg-surface">
@@ -86,7 +88,7 @@ export default async function Home() {
       <Header />
       
       <main>
-        <div id="hero"><HeroSection routeInfo={routeInfo} /></div>
+        <div id="hero"><HeroSection routeInfo={routeInfo} siteSettings={siteSettings} /></div>
         <div id="seo-top"><TopSEOArticle /></div>
         
         {/* TOC Section */}
