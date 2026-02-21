@@ -52,8 +52,10 @@ export function GlobalMetaTags({ siteSettings }: GlobalMetaTagsProps = {}) {
 interface PageMetaTagsProps {
   title: string;
   description: string;
+  canonical?: string;
   canonicalUrl?: string;
   keywords?: string[];
+  ogType?: string;
   ogImage?: string;
   ogImageAlt?: string;
   article?: {
