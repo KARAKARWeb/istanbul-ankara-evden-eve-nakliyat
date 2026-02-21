@@ -123,7 +123,7 @@ export default function ContactPageClient({ siteSettings, contactData }: Contact
           </div>
 
           {/* Çalışma Saatleri */}
-          {contactContent.workingHours && (
+          {contactContent?.workingHours && (
             <div className="bg-background p-8 rounded-xl border border-border">
               <h2 className="text-2xl font-semibold text-text-primary mb-6">Çalışma Saatleri</h2>
               <div 
