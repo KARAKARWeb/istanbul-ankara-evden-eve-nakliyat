@@ -63,7 +63,7 @@ export async function generateWebSiteSchema() {
   };
 }
 
-export async function generateHomePageSchema() {
+export async function generateHomePageSchema(routeInfo?: any) {
   const contact = await getContactSettings();
   const site = await getSiteSettings();
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
