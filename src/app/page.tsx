@@ -55,21 +55,33 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-// Server-side content data fetch
+// Server-side content data fetch - Direct file read (Vercel compatible)
 async function fetchContentData() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const fs = require('fs/promises');
+  const path = require('path');
+  
+  async function readJSON(filePath: string) {
+    try {
+      const fullPath = path.join(process.cwd(), filePath);
+      const data = await fs.readFile(fullPath, 'utf-8');
+      return JSON.parse(data);
+    } catch {
+      return null;
+    }
+  }
+  
   try {
     const [servicesData, whyUsData, galleryData, faqData, seoTopData, seoBottomData, heroData, processData, pricingData, reviewsData] = await Promise.all([
-      fetch(`${baseUrl}/api/content/services`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/why-us`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/gallery`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/faq`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/seo-top`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/seo-bottom`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/settings/hero`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/process`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/content/pricing`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
-      fetch(`${baseUrl}/api/reviews/global`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      readJSON('data/content/services.json'),
+      readJSON('data/content/why-us.json'),
+      readJSON('data/content/gallery.json'),
+      readJSON('data/content/faq.json'),
+      readJSON('data/content/seo-top.json'),
+      readJSON('data/content/seo-bottom.json'),
+      readJSON('data/settings/hero.json'),
+      readJSON('data/content/process.json'),
+      readJSON('data/content/pricing.json'),
+      readJSON('data/reviews/global.json'),
     ]);
     return { services: servicesData, whyUs: whyUsData, gallery: galleryData, faq: faqData, seoTop: seoTopData, seoBottom: seoBottomData, hero: heroData, process: processData, pricing: pricingData, reviews: reviewsData };
   } catch {
