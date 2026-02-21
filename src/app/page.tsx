@@ -55,6 +55,24 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+// Server-side content data fetch
+async function fetchContentData() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  try {
+    const [services, whyUs, gallery, faq, seoTop, seoBottom] = await Promise.all([
+      fetch(`${baseUrl}/api/content/services`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/why-us`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/gallery`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/faq`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/seo-top`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+      fetch(`${baseUrl}/api/content/seo-bottom`, { next: { revalidate: 3600 } }).then(r => r.json()).catch(() => null),
+    ]);
+    return { services, whyUs, gallery, faq, seoTop, seoBottom };
+  } catch {
+    return { services: null, whyUs: null, gallery: null, faq: null, seoTop: null, seoBottom: null };
+  }
+}
+
 const tocItems = [
   { id: 'hero', title: 'Evden Eve Nakliyat', level: 1 },
   { id: 'seo-top', title: 'Ev Taşıma', level: 1 },
@@ -72,10 +90,11 @@ const tocItems = [
 
 export default async function Home() {
   const pageSEO = await getPageSEO('home');
-  const schema = await generateHomePageSchema();
   const routeInfo = await getRouteInfo();
   const siteSettings = await getSiteSettings();
   const contactSettings = await getContactSettings();
+  const schema = await generateHomePageSchema(routeInfo);
+  const contentData = await fetchContentData();
   
   return (
     <div className="min-h-screen bg-surface">
@@ -90,7 +109,7 @@ export default async function Home() {
       
       <main>
         <div id="hero"><HeroSection routeInfo={routeInfo} siteSettings={siteSettings} /></div>
-        <div id="seo-top"><TopSEOArticle /></div>
+        <div id="seo-top"><TopSEOArticle seoData={contentData.seoTop} /></div>
         
         {/* TOC Section */}
         <section className="bg-background border-b border-border">
@@ -99,17 +118,17 @@ export default async function Home() {
           </div>
         </section>
         
-        <div id="services"><ServicesSection /></div>
-        <div id="why-us"><WhyUsSection /></div>
+        <div id="services"><ServicesSection servicesData={contentData.services} /></div>
+        <div id="why-us"><WhyUsSection whyUsData={contentData.whyUs} /></div>
         <div id="route-info"><RouteInfoSection routeInfo={routeInfo} /></div>
-        <div id="gallery"><GallerySection /></div>
+        <div id="gallery"><GallerySection galleryData={contentData.gallery} /></div>
         <div id="pricing"><PricingSection routeInfo={routeInfo} /></div>
         <div id="regions"><RegionsShowcase /></div>
-        <div id="faq"><FAQSection /></div>
-        <GlobalReviewsSection />
+        <div id="faq"><FAQSection faqData={contentData.faq} /></div>
+        <GlobalReviewsSection siteSettings={siteSettings} contactData={contactSettings} />
         <div id="contact"><ContactForm /></div>
-        <div id="seo-content"><SEOContentSection /></div>
-        <div id="cta"><CTASection /></div>
+        <div id="seo-content"><SEOContentSection seoData={contentData.seoBottom} /></div>
+        <div id="cta"><CTASection contactData={contactSettings} /></div>
       </main>
 
       <Footer siteSettings={siteSettings} contactData={contactSettings} />
