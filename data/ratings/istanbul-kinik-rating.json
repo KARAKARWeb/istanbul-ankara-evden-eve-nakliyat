@@ -1,0 +1,246 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Kınık",
+  "aggregateRating": {
+    "ratingValue": 4.5,
+    "reviewCount": 29,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606962-0",
+      "author": "Fatma Ö.",
+      "rating": 5,
+      "date": "2025-10-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kınık'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-1",
+      "author": "Ahmet Y.",
+      "rating": 4,
+      "date": "2025-08-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Kınık arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-2",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2026-01-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-3",
+      "author": "Mustafa Y.",
+      "rating": 4,
+      "date": "2025-11-02",
+      "text": "Genel olarak memnun kaldık. İstanbul Kınık arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-4",
+      "author": "Merve B.",
+      "rating": 4,
+      "date": "2026-02-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-5",
+      "author": "Merve Ç.",
+      "rating": 5,
+      "date": "2025-10-29",
+      "text": "İstanbul'dan Kınık'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-6",
+      "author": "Fatma A.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-7",
+      "author": "Elif A.",
+      "rating": 4,
+      "date": "2026-01-30",
+      "text": "Genel olarak memnun kaldık. İstanbul Kınık arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-8",
+      "author": "Zeynep Y.",
+      "rating": 4,
+      "date": "2025-09-09",
+      "text": "Genel olarak memnun kaldık. İstanbul Kınık arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-9",
+      "author": "Elif A.",
+      "rating": 5,
+      "date": "2025-12-14",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-10",
+      "author": "Ali E.",
+      "rating": 4,
+      "date": "2026-01-13",
+      "text": "Genel olarak memnun kaldık. İstanbul Kınık arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-11",
+      "author": "Elif Ç.",
+      "rating": 5,
+      "date": "2025-10-02",
+      "text": "İstanbul'dan Kınık'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-12",
+      "author": "Mustafa A.",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-13",
+      "author": "Mustafa D.",
+      "rating": 5,
+      "date": "2025-09-30",
+      "text": "İstanbul'dan Kınık'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-14",
+      "author": "Fatma Ç.",
+      "rating": 5,
+      "date": "2026-02-16",
+      "text": "İstanbul'dan Kınık'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-15",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2026-02-07",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-16",
+      "author": "Elif T.",
+      "rating": 5,
+      "date": "2025-08-30",
+      "text": "İstanbul'dan Kınık'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-17",
+      "author": "Mustafa B.",
+      "rating": 5,
+      "date": "2025-12-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-18",
+      "author": "Ahmet Ç.",
+      "rating": 4,
+      "date": "2025-12-18",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-19",
+      "author": "Hasan Ö.",
+      "rating": 4,
+      "date": "2026-02-04",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-20",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2025-12-22",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-21",
+      "author": "Fatma D.",
+      "rating": 4,
+      "date": "2026-02-03",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606962-22",
+      "author": "Hasan B.",
+      "rating": 4,
+      "date": "2026-01-24",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-23",
+      "author": "Ali Y.",
+      "rating": 4,
+      "date": "2025-10-12",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kınık'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-24",
+      "author": "Merve A.",
+      "rating": 5,
+      "date": "2025-12-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-25",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-11-01",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-26",
+      "author": "Mustafa D.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-27",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2025-12-07",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kınık'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606962-28",
+      "author": "Ali Ç.",
+      "rating": 5,
+      "date": "2026-01-15",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kınık arası nakliyat için ideal firma.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.962Z",
+  "autoGenerated": true
+}

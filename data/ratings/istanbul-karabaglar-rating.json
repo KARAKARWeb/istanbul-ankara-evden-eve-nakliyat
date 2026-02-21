@@ -1,0 +1,278 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Karabağlar",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 33,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606959-0",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2025-11-03",
+      "text": "İstanbul'dan Karabağlar'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-1",
+      "author": "Ayşe Ç.",
+      "rating": 4,
+      "date": "2025-11-14",
+      "text": "Genel olarak memnun kaldık. İstanbul Karabağlar arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-2",
+      "author": "Mehmet D.",
+      "rating": 5,
+      "date": "2025-12-03",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-3",
+      "author": "Ali Ş.",
+      "rating": 5,
+      "date": "2026-01-09",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-4",
+      "author": "Merve Ö.",
+      "rating": 4,
+      "date": "2025-09-01",
+      "text": "Genel olarak memnun kaldık. İstanbul Karabağlar arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-5",
+      "author": "Ayşe E.",
+      "rating": 4,
+      "date": "2025-12-24",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-6",
+      "author": "Elif Ö.",
+      "rating": 4,
+      "date": "2026-01-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-7",
+      "author": "Elif Ş.",
+      "rating": 5,
+      "date": "2025-09-09",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-8",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2025-09-09",
+      "text": "İstanbul'dan Karabağlar'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-9",
+      "author": "Hasan Ş.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-10",
+      "author": "Mustafa Y.",
+      "rating": 5,
+      "date": "2026-01-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-11",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2025-08-25",
+      "text": "İstanbul'dan Karabağlar'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-12",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karabağlar'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-13",
+      "author": "Mustafa B.",
+      "rating": 4,
+      "date": "2025-09-01",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-14",
+      "author": "Fatma A.",
+      "rating": 4,
+      "date": "2025-12-29",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-15",
+      "author": "Elif K.",
+      "rating": 4,
+      "date": "2025-10-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-16",
+      "author": "Elif T.",
+      "rating": 4,
+      "date": "2026-01-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Karabağlar arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-17",
+      "author": "Merve B.",
+      "rating": 5,
+      "date": "2026-01-22",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-18",
+      "author": "Merve Y.",
+      "rating": 5,
+      "date": "2025-11-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-19",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2025-09-20",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-20",
+      "author": "Fatma T.",
+      "rating": 4,
+      "date": "2025-09-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Karabağlar arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-21",
+      "author": "Fatma Ç.",
+      "rating": 5,
+      "date": "2025-09-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-22",
+      "author": "Ahmet T.",
+      "rating": 5,
+      "date": "2026-01-21",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karabağlar'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-23",
+      "author": "Zeynep B.",
+      "rating": 5,
+      "date": "2025-09-12",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karabağlar arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-24",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2025-09-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karabağlar'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-25",
+      "author": "Mustafa B.",
+      "rating": 4,
+      "date": "2025-12-05",
+      "text": "Genel olarak memnun kaldık. İstanbul Karabağlar arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-26",
+      "author": "Fatma K.",
+      "rating": 5,
+      "date": "2025-09-07",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-27",
+      "author": "Zeynep T.",
+      "rating": 5,
+      "date": "2026-02-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karabağlar'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-28",
+      "author": "Merve B.",
+      "rating": 4,
+      "date": "2025-11-03",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karabağlar'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-29",
+      "author": "Merve Y.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karabağlar'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-30",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2025-10-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karabağlar'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-31",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "İstanbul'dan Karabağlar'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-32",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2025-12-05",
+      "text": "İstanbul'dan Karabağlar'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.959Z",
+  "autoGenerated": true
+}

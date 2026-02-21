@@ -1,0 +1,49 @@
+{
+  "backgroundImage": "/uploads/hero.webp",
+  "backgroundOpacity": 0.7,
+  "backgroundOverlay": false,
+  "title": "İstanbul Ankara Evden Eve Nakliyat",
+  "description": "İstanbul’dan Ankara’ya taşınırken eşyalarınızı planlı paketliyor, rotayı dakik yönetiyoruz; ücretsiz ekspertiz, sigorta poliçesi, asansörlü taşıma desteğiyle yeni evinize stressiz geçiş, aynı gün yerleşim sağlıyoruz.",
+  "stats": {
+    "customers": "8,000+",
+    "customersLabel": "Mutlu Müşteri"
+  },
+  "pricing": {
+    "houseTypes": [
+      {
+        "id": "1+1",
+        "label": "1+1",
+        "basePrice": 13500,
+        "maxPrice": 23500
+      },
+      {
+        "id": "2+1",
+        "label": "2+1",
+        "basePrice": 34500,
+        "maxPrice": 44500
+      },
+      {
+        "id": "3+1",
+        "label": "3+1",
+        "basePrice": 54500,
+        "maxPrice": 65500
+      },
+      {
+        "id": "4+1",
+        "label": "4+1",
+        "basePrice": 76500,
+        "maxPrice": 86500
+      },
+      {
+        "id": "5+1",
+        "label": "5+1",
+        "basePrice": 106000,
+        "maxPrice": 135000
+      }
+    ],
+    "elevatorPrices": {
+      "withElevator": 6500,
+      "withoutElevator": 2500
+    }
+  }
+}

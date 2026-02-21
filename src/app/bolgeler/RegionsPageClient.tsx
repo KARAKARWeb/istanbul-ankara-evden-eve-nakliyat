@@ -1,0 +1,69 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { Header } from '@/components/layout/Header';
+import { Footer } from '@/components/layout/Footer';
+import { PageHero } from '@/components/shared/PageHero';
+import { RegionList } from '@/components/regions/RegionList';
+import { MobileFloatingButtons } from '@/components/shared/MobileFloatingButtons';
+import { ScrollToTop } from '@/components/shared/ScrollToTop';
+import { WebPageUnifiedSchema } from '@/components/seo/UnifiedSchema';
+
+export default function RegionsPageClient() {
+  const [regions, setRegions] = useState<any[]>([]);
+  const [description, setDescription] = useState('');
+  const [pageSEO, setPageSEO] = useState({ title: 'Hizmet Bölgelerimiz', description: '', keywords: '' });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    Promise.all([
+      fetch('/api/regions').then(r => r.json()),
+      fetch('/api/content/regions-showcase').then(r => r.json()),
+      fetch('/api/seo/pages').then(r => r.json()),
+    ]).then(([regionsData, showcaseData, seoData]) => {
+      setRegions(regionsData.filter((r: any) => r.active).sort((a: any, b: any) => a.order - b.order));
+      setDescription(showcaseData.pageDescription || "İstanbul'dan İzmir'in 30+ ilçesine profesyonel evden eve nakliyat hizmeti sunuyoruz.");
+      setPageSEO(seoData.regions || pageSEO);
+    }).catch(() => {}).finally(() => setLoading(false));
+  }, []);
+
+  if (loading) {
+    return <div className="min-h-screen bg-surface flex items-center justify-center">
+      <p className="text-text-secondary">Yükleniyor...</p>
+    </div>;
+  }
+
+  return (
+    <div className="min-h-screen bg-surface">
+      <WebPageUnifiedSchema 
+        name={pageSEO.title}
+        description={pageSEO.description || description}
+        url="/bolgeler"
+        breadcrumbs={[
+          { name: 'Ana Sayfa', url: '/' },
+          { name: 'Hizmet Bölgeleri' }
+        ]}
+      />
+      <Header />
+      
+      <PageHero 
+        title="Hizmet Bölgelerimiz"
+        description={description}
+        breadcrumbs={[
+          { label: 'Ana Sayfa', href: '/' },
+          { label: 'Hizmet Bölgeleri' }
+        ]}
+      />
+      
+      <main className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <RegionList regions={regions} />
+        </div>
+      </main>
+
+      <Footer />
+      <MobileFloatingButtons />
+      <ScrollToTop />
+    </div>
+  );
+}

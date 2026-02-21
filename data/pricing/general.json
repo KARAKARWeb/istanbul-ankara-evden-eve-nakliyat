@@ -1,0 +1,55 @@
+{
+  "packages": [
+    {
+      "id": "1-1",
+      "name": "1+1 Daire",
+      "elevator": 2000,
+      "noElevator": 2500,
+      "description": "Küçük daireler için ideal paket"
+    },
+    {
+      "id": "2-1",
+      "name": "2+1 Daire",
+      "elevator": 2500,
+      "noElevator": 3000,
+      "description": "Orta büyüklükte daireler için",
+      "popular": true
+    },
+    {
+      "id": "3-1",
+      "name": "3+1 Daire",
+      "elevator": 3000,
+      "noElevator": 3500,
+      "description": "Büyük daireler için"
+    },
+    {
+      "id": "4-1",
+      "name": "4+1 Daire",
+      "elevator": 3500,
+      "noElevator": 4000,
+      "description": "Çok büyük daireler için"
+    }
+  ],
+  "additionalServices": [
+    {
+      "id": "packaging",
+      "name": "Profesyonel Paketleme",
+      "price": 500,
+      "unit": "sabit"
+    },
+    {
+      "id": "storage",
+      "name": "Eşya Depolama",
+      "price": 100,
+      "unit": "gün"
+    },
+    {
+      "id": "assembly",
+      "name": "Montaj/Demontaj",
+      "price": 300,
+      "unit": "sabit"
+    }
+  ],
+  "currency": "TRY",
+  "priceNote": "Fiyatlar tahmini olup, kesin fiyat için teklif alınız."
+}

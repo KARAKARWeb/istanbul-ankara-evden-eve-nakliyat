@@ -1,0 +1,9 @@
+{
+  "smtpHost": "smtp.yandex.com",
+  "smtpPort": 465,
+  "smtpSecure": true,
+  "smtpUser": "info@kozcuoglunakliyat.com.tr",
+  "smtpPass": "pvkuesqzlbmbwydq",
+  "fromName": "İstanbul İzmir Evden Eve Nakliyat",
+  "fromEmail": "info@kozcuoglunakliyat.com.tr"
+}

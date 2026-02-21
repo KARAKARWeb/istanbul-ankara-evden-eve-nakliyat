@@ -1,0 +1,246 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Güzelbahçe",
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 29,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606958-0",
+      "author": "Ahmet K.",
+      "rating": 5,
+      "date": "2026-02-06",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-1",
+      "author": "Ali K.",
+      "rating": 5,
+      "date": "2026-01-07",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-2",
+      "author": "Zeynep E.",
+      "rating": 5,
+      "date": "2025-10-13",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-3",
+      "author": "Fatma Y.",
+      "rating": 4,
+      "date": "2025-09-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Güzelbahçe arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-4",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-09-13",
+      "text": "İstanbul'dan Güzelbahçe'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-5",
+      "author": "Fatma K.",
+      "rating": 5,
+      "date": "2025-08-31",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-6",
+      "author": "Elif E.",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-7",
+      "author": "Hasan Ş.",
+      "rating": 5,
+      "date": "2025-10-22",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Güzelbahçe arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-8",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2026-01-07",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Güzelbahçe arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-9",
+      "author": "Ali E.",
+      "rating": 4,
+      "date": "2025-12-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Güzelbahçe'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-10",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2026-01-07",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Güzelbahçe arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-11",
+      "author": "Ali D.",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-12",
+      "author": "Zeynep Y.",
+      "rating": 4,
+      "date": "2025-09-04",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Güzelbahçe'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-13",
+      "author": "Ahmet Ş.",
+      "rating": 4,
+      "date": "2025-11-01",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Güzelbahçe'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-14",
+      "author": "Hasan Ö.",
+      "rating": 4,
+      "date": "2025-10-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Güzelbahçe arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-15",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-10-30",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-16",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-12-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-17",
+      "author": "Ali Ç.",
+      "rating": 4,
+      "date": "2026-02-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Güzelbahçe arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606958-18",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-11-22",
+      "text": "İstanbul'dan Güzelbahçe'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-19",
+      "author": "Ahmet K.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-20",
+      "author": "Mehmet D.",
+      "rating": 4,
+      "date": "2026-01-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Güzelbahçe arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-21",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2025-09-11",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Güzelbahçe'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-22",
+      "author": "Mustafa D.",
+      "rating": 5,
+      "date": "2026-02-19",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-23",
+      "author": "Ahmet B.",
+      "rating": 5,
+      "date": "2026-01-16",
+      "text": "İstanbul'dan Güzelbahçe'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-24",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2026-01-01",
+      "text": "İstanbul'dan Güzelbahçe'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-25",
+      "author": "Mustafa D.",
+      "rating": 4,
+      "date": "2025-10-14",
+      "text": "Genel olarak memnun kaldık. İstanbul Güzelbahçe arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-26",
+      "author": "Elif K.",
+      "rating": 5,
+      "date": "2025-12-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Güzelbahçe'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-27",
+      "author": "Elif Ş.",
+      "rating": 5,
+      "date": "2026-01-15",
+      "text": "İstanbul'dan Güzelbahçe'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606958-28",
+      "author": "Ahmet K.",
+      "rating": 5,
+      "date": "2025-09-25",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Güzelbahçe'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.958Z",
+  "autoGenerated": true
+}

@@ -1,0 +1,326 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Karşıyaka",
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 39,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606960-0",
+      "author": "Hasan K.",
+      "rating": 4,
+      "date": "2025-11-07",
+      "text": "Genel olarak memnun kaldık. İstanbul Karşıyaka arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-1",
+      "author": "Hasan T.",
+      "rating": 4,
+      "date": "2025-11-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-2",
+      "author": "Ayşe Ö.",
+      "rating": 4,
+      "date": "2025-12-30",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-3",
+      "author": "Ahmet B.",
+      "rating": 5,
+      "date": "2025-10-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-4",
+      "author": "Ahmet A.",
+      "rating": 5,
+      "date": "2025-09-25",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-5",
+      "author": "Mehmet K.",
+      "rating": 5,
+      "date": "2025-12-04",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-6",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-11-27",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-7",
+      "author": "Zeynep Ç.",
+      "rating": 4,
+      "date": "2025-11-19",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-8",
+      "author": "Fatma Y.",
+      "rating": 5,
+      "date": "2025-09-02",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-9",
+      "author": "Elif Ş.",
+      "rating": 4,
+      "date": "2025-12-25",
+      "text": "Genel olarak memnun kaldık. İstanbul Karşıyaka arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-10",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2025-09-23",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-11",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-12",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-11-22",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-13",
+      "author": "Zeynep Ç.",
+      "rating": 5,
+      "date": "2026-01-12",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-14",
+      "author": "Ali B.",
+      "rating": 5,
+      "date": "2026-01-22",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-15",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2025-12-12",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-16",
+      "author": "Ali K.",
+      "rating": 5,
+      "date": "2025-09-05",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-17",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-18",
+      "author": "Merve Y.",
+      "rating": 4,
+      "date": "2025-09-17",
+      "text": "Genel olarak memnun kaldık. İstanbul Karşıyaka arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-19",
+      "author": "Merve A.",
+      "rating": 5,
+      "date": "2025-09-23",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-20",
+      "author": "Merve B.",
+      "rating": 5,
+      "date": "2026-01-04",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-21",
+      "author": "Ayşe Ş.",
+      "rating": 4,
+      "date": "2026-02-14",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-22",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-12-20",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-23",
+      "author": "Mehmet D.",
+      "rating": 5,
+      "date": "2025-09-19",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-24",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2026-01-03",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-25",
+      "author": "Zeynep K.",
+      "rating": 5,
+      "date": "2026-02-13",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-26",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-09-04",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-27",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-28",
+      "author": "Elif T.",
+      "rating": 4,
+      "date": "2025-12-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Karşıyaka arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-29",
+      "author": "Ahmet Ö.",
+      "rating": 5,
+      "date": "2026-02-06",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-30",
+      "author": "Elif Ç.",
+      "rating": 4,
+      "date": "2025-11-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606960-31",
+      "author": "Elif A.",
+      "rating": 5,
+      "date": "2025-10-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karşıyaka'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-32",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-12-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-33",
+      "author": "Merve Ç.",
+      "rating": 5,
+      "date": "2025-10-07",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karşıyaka arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-34",
+      "author": "Ali Ş.",
+      "rating": 4,
+      "date": "2025-10-17",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karşıyaka'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-35",
+      "author": "Mehmet E.",
+      "rating": 4,
+      "date": "2025-09-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Karşıyaka arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-36",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2025-12-24",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-37",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2025-12-30",
+      "text": "İstanbul'dan Karşıyaka'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606960-38",
+      "author": "Ali A.",
+      "rating": 5,
+      "date": "2025-12-04",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karşıyaka'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.960Z",
+  "autoGenerated": true
+}

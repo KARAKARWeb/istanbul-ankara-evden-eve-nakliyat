@@ -1,0 +1,246 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Çeşme",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 29,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606952-0",
+      "author": "Ali Ç.",
+      "rating": 5,
+      "date": "2025-09-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çeşme'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-1",
+      "author": "Mehmet A.",
+      "rating": 4,
+      "date": "2025-12-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-2",
+      "author": "Merve Y.",
+      "rating": 4,
+      "date": "2025-09-20",
+      "text": "Genel olarak memnun kaldık. İstanbul Çeşme arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-3",
+      "author": "Merve T.",
+      "rating": 5,
+      "date": "2025-11-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-4",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-08-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-5",
+      "author": "Hasan E.",
+      "rating": 5,
+      "date": "2026-02-03",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-6",
+      "author": "Elif Y.",
+      "rating": 4,
+      "date": "2025-11-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-7",
+      "author": "Merve T.",
+      "rating": 4,
+      "date": "2025-11-03",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-8",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-12-25",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çeşme'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-9",
+      "author": "Ali Ö.",
+      "rating": 5,
+      "date": "2025-11-02",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-10",
+      "author": "Fatma Ç.",
+      "rating": 5,
+      "date": "2025-12-23",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-11",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-08-31",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-12",
+      "author": "Merve T.",
+      "rating": 5,
+      "date": "2025-12-25",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-13",
+      "author": "Mehmet Ş.",
+      "rating": 4,
+      "date": "2025-10-02",
+      "text": "Genel olarak memnun kaldık. İstanbul Çeşme arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-14",
+      "author": "Merve Ç.",
+      "rating": 4,
+      "date": "2025-11-23",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-15",
+      "author": "Elif Ş.",
+      "rating": 5,
+      "date": "2025-12-12",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-16",
+      "author": "Merve E.",
+      "rating": 5,
+      "date": "2025-12-06",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çeşme'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-17",
+      "author": "Mustafa Ş.",
+      "rating": 4,
+      "date": "2025-09-21",
+      "text": "Genel olarak memnun kaldık. İstanbul Çeşme arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-18",
+      "author": "Ali Y.",
+      "rating": 4,
+      "date": "2025-12-17",
+      "text": "Genel olarak memnun kaldık. İstanbul Çeşme arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-19",
+      "author": "Merve A.",
+      "rating": 4,
+      "date": "2025-11-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-20",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2026-01-14",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çeşme'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-21",
+      "author": "Elif Ş.",
+      "rating": 5,
+      "date": "2025-12-25",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-22",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2025-09-13",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-23",
+      "author": "Mustafa Y.",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çeşme arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606952-24",
+      "author": "Mehmet Ç.",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "İstanbul'dan Çeşme'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-25",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-12-24",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çeşme'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-26",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2025-12-16",
+      "text": "Genel olarak memnun kaldık. İstanbul Çeşme arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-27",
+      "author": "Mehmet K.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çeşme'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606952-28",
+      "author": "Mehmet T.",
+      "rating": 4,
+      "date": "2026-01-13",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çeşme'e ulaştı.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.952Z",
+  "autoGenerated": true
+}

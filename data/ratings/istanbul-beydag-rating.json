@@ -1,0 +1,190 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Beydağ",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 22,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606948-0",
+      "author": "Ali Ö.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-1",
+      "author": "Ahmet Ş.",
+      "rating": 5,
+      "date": "2026-02-08",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Beydağ arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-2",
+      "author": "Ahmet A.",
+      "rating": 5,
+      "date": "2026-01-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-3",
+      "author": "Zeynep Ş.",
+      "rating": 4,
+      "date": "2026-02-04",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Beydağ'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-4",
+      "author": "Ahmet A.",
+      "rating": 5,
+      "date": "2026-02-05",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-5",
+      "author": "Hasan Ö.",
+      "rating": 4,
+      "date": "2025-09-12",
+      "text": "Genel olarak memnun kaldık. İstanbul Beydağ arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-6",
+      "author": "Ahmet A.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-7",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-11-18",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-8",
+      "author": "Ahmet B.",
+      "rating": 5,
+      "date": "2026-01-04",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Beydağ'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-9",
+      "author": "Zeynep Ç.",
+      "rating": 5,
+      "date": "2025-11-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-10",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2025-11-09",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-11",
+      "author": "Zeynep Ç.",
+      "rating": 4,
+      "date": "2025-11-08",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Beydağ'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-12",
+      "author": "Mehmet D.",
+      "rating": 5,
+      "date": "2025-12-09",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Beydağ'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-13",
+      "author": "Ahmet A.",
+      "rating": 4,
+      "date": "2025-09-08",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Beydağ'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-14",
+      "author": "Elif A.",
+      "rating": 5,
+      "date": "2025-10-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Beydağ'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-15",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-10-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-16",
+      "author": "Ayşe Ö.",
+      "rating": 4,
+      "date": "2025-12-04",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Beydağ'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-17",
+      "author": "Mehmet B.",
+      "rating": 4,
+      "date": "2026-01-19",
+      "text": "Genel olarak memnun kaldık. İstanbul Beydağ arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-18",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "date": "2026-02-09",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-19",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-08-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Beydağ'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-20",
+      "author": "Ahmet T.",
+      "rating": 5,
+      "date": "2025-12-07",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-21",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2026-02-08",
+      "text": "İstanbul'dan Beydağ'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.948Z",
+  "autoGenerated": true
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Fiyatlandırma",
+  "description": "Tablodaki evden eve nakliyat fiyatları, daire tipi ile hizmet kapsamına göre değişir; kalemleri açık görür, bütçenizi net kurarsınız.\n",
+  "packages": [
+    {
+      "name": "1+1 Ev Taşıma Fiyatı",
+      "priceRange": "12.500 – 23.500 TL",
+      "elevatorFee": "+ 6.500 TL"
+    },
+    {
+      "name": "2+1 Ev Taşıma Fiyatı",
+      "priceRange": "33.500 – 44.500 TL",
+      "elevatorFee": "+ 6.500 TL",
+      "popular": true
+    },
+    {
+      "name": "3+1 Ev Taşıma Fiyatı",
+      "priceRange": "54.500 – 65.500 TL",
+      "elevatorFee": "+ 6.500 TL"
+    },
+    {
+      "name": "4+1 Ev Taşıma Fiyatı",
+      "priceRange": "75.500 – 86.500 TL",
+      "elevatorFee": "+ 6.500 TL"
+    },
+    {
+      "name": "5+1 Ev Taşıma Fiyatı",
+      "priceRange": "105.000 – 135.000 TL",
+      "elevatorFee": "+ 6.500 TL"
+    },
+    {
+      "name": "Villa Taşıma Fiyatı",
+      "priceRange": "65.000 TL - 180.000 TL",
+      "elevatorFee": "+ 6.500 TL"
+    }
+  ],
+  "additionalServices": [
+    {
+      "name": "Piyano Taşıma",
+      "price": "+ 8500 TL"
+    },
+    {
+      "name": "Beyaz Eşya Taşıma",
+      "price": "+ 2200 TL"
+    },
+    {
+      "name": "Depolama (Aylık)",
+      "price": "+ 2.000 TL"
+    },
+    {
+      "name": "Ambalaj Malzemesi",
+      "price": "+ 3300 TL"
+    }
+  ],
+  "infoItems": [
+    "Fiyatlar İstanbul - İzmir arası için geçerlidir",
+    "Mesafe: 468 km",
+    "Tüm fiyatlar KDV dahildir",
+    "Sigortalı taşıma ücretsizdir",
+    "Kesin fiyat için ücretsiz keşif hizmeti sunuyoruz"
+  ]
+}

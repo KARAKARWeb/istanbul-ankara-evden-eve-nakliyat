@@ -1,0 +1,406 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Karaburun",
+  "aggregateRating": {
+    "ratingValue": 4.5,
+    "reviewCount": 49,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606959-0",
+      "author": "Fatma T.",
+      "rating": 4,
+      "date": "2026-01-22",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-1",
+      "author": "Ayşe Ç.",
+      "rating": 4,
+      "date": "2025-11-25",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-2",
+      "author": "Ali A.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-3",
+      "author": "Ali Ö.",
+      "rating": 4,
+      "date": "2025-12-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-4",
+      "author": "Ali A.",
+      "rating": 5,
+      "date": "2025-09-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-5",
+      "author": "Mehmet T.",
+      "rating": 4,
+      "date": "2025-12-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-6",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2026-01-20",
+      "text": "İstanbul'dan Karaburun'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-7",
+      "author": "Merve T.",
+      "rating": 4,
+      "date": "2025-11-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-8",
+      "author": "Merve T.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-9",
+      "author": "Elif K.",
+      "rating": 5,
+      "date": "2025-09-04",
+      "text": "İstanbul'dan Karaburun'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-10",
+      "author": "Ali D.",
+      "rating": 5,
+      "date": "2025-12-22",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-11",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2026-01-14",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-12",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2026-01-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-13",
+      "author": "Fatma D.",
+      "rating": 4,
+      "date": "2025-09-28",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-14",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-15",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2026-01-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-16",
+      "author": "Mustafa Ö.",
+      "rating": 5,
+      "date": "2025-10-27",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-17",
+      "author": "Hasan Ş.",
+      "rating": 4,
+      "date": "2025-11-13",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-18",
+      "author": "Fatma E.",
+      "rating": 4,
+      "date": "2025-10-20",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-19",
+      "author": "Merve Y.",
+      "rating": 4,
+      "date": "2026-02-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-20",
+      "author": "Hasan A.",
+      "rating": 4,
+      "date": "2025-12-01",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-21",
+      "author": "Elif Ö.",
+      "rating": 5,
+      "date": "2025-08-27",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-22",
+      "author": "Mustafa A.",
+      "rating": 5,
+      "date": "2026-02-20",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-23",
+      "author": "Ayşe Ö.",
+      "rating": 4,
+      "date": "2025-12-19",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-24",
+      "author": "Ayşe K.",
+      "rating": 4,
+      "date": "2025-11-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-25",
+      "author": "Ayşe A.",
+      "rating": 4,
+      "date": "2026-01-31",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-26",
+      "author": "Ali Y.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-27",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2025-10-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-28",
+      "author": "Merve K.",
+      "rating": 4,
+      "date": "2025-09-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-29",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-09-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-30",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2026-01-17",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-31",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2026-01-18",
+      "text": "İstanbul'dan Karaburun'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-32",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-12-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-33",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-11-09",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-34",
+      "author": "Ahmet T.",
+      "rating": 5,
+      "date": "2025-11-18",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Karaburun'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-35",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2026-01-22",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-36",
+      "author": "Ali Ş.",
+      "rating": 4,
+      "date": "2026-01-26",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-37",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2025-09-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-38",
+      "author": "Fatma E.",
+      "rating": 5,
+      "date": "2025-11-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-39",
+      "author": "Ali E.",
+      "rating": 4,
+      "date": "2026-02-01",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-40",
+      "author": "Hasan Ş.",
+      "rating": 4,
+      "date": "2026-01-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-41",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2025-11-28",
+      "text": "Genel olarak memnun kaldık. İstanbul Karaburun arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-42",
+      "author": "Fatma K.",
+      "rating": 4,
+      "date": "2025-12-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Karaburun'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-43",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2026-02-05",
+      "text": "İstanbul'dan Karaburun'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-44",
+      "author": "Hasan Ş.",
+      "rating": 5,
+      "date": "2025-12-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-45",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2025-11-25",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606959-46",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-47",
+      "author": "Hasan Ç.",
+      "rating": 5,
+      "date": "2026-01-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Karaburun arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606959-48",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-11-19",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Karaburun'e taşınmak için harika bir seçim.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.959Z",
+  "autoGenerated": true
+}

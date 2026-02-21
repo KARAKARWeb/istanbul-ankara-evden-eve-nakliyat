@@ -1,0 +1,294 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Kiraz",
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 35,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606963-0",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2025-09-22",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-1",
+      "author": "Merve E.",
+      "rating": 5,
+      "date": "2026-02-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-2",
+      "author": "Ali Ş.",
+      "rating": 5,
+      "date": "2025-12-02",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kiraz'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-3",
+      "author": "Ayşe K.",
+      "rating": 4,
+      "date": "2025-09-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-4",
+      "author": "Hasan B.",
+      "rating": 4,
+      "date": "2026-02-10",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-5",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2026-02-19",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-6",
+      "author": "Hasan T.",
+      "rating": 4,
+      "date": "2026-01-31",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-7",
+      "author": "Hasan B.",
+      "rating": 5,
+      "date": "2026-01-01",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-8",
+      "author": "Ayşe D.",
+      "rating": 4,
+      "date": "2025-10-22",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-9",
+      "author": "Mehmet Ç.",
+      "rating": 5,
+      "date": "2026-02-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-10",
+      "author": "Hasan E.",
+      "rating": 4,
+      "date": "2025-11-22",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-11",
+      "author": "Mehmet B.",
+      "rating": 5,
+      "date": "2026-01-29",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-12",
+      "author": "Ali Ş.",
+      "rating": 5,
+      "date": "2025-11-19",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-13",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2026-02-07",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-14",
+      "author": "Elif Ö.",
+      "rating": 5,
+      "date": "2025-11-17",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kiraz'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-15",
+      "author": "Ali Ç.",
+      "rating": 5,
+      "date": "2025-09-27",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kiraz'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-16",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2025-11-15",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-17",
+      "author": "Fatma Ç.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kiraz'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-18",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-11-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kiraz'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-19",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2025-12-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kiraz'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-20",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kiraz'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-21",
+      "author": "Elif K.",
+      "rating": 5,
+      "date": "2026-02-06",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-22",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2026-01-18",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kiraz'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-23",
+      "author": "Mehmet D.",
+      "rating": 4,
+      "date": "2025-08-26",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-24",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2026-02-14",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-25",
+      "author": "Ayşe Ç.",
+      "rating": 5,
+      "date": "2025-10-23",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kiraz'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-26",
+      "author": "Ahmet E.",
+      "rating": 4,
+      "date": "2025-10-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-27",
+      "author": "Merve E.",
+      "rating": 5,
+      "date": "2026-01-16",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-28",
+      "author": "Ali A.",
+      "rating": 5,
+      "date": "2025-09-16",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-29",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-11-05",
+      "text": "İstanbul'dan Kiraz'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-30",
+      "author": "Ali Ö.",
+      "rating": 5,
+      "date": "2025-09-15",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-31",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2025-12-26",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606963-32",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-10-08",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-33",
+      "author": "Fatma Y.",
+      "rating": 5,
+      "date": "2026-02-09",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kiraz arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606963-34",
+      "author": "Elif T.",
+      "rating": 4,
+      "date": "2025-12-26",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kiraz'e ulaştı.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.963Z",
+  "autoGenerated": true
+}

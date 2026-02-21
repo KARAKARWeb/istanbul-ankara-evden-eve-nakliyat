@@ -1,0 +1,198 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Foça",
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 23,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606956-0",
+      "author": "Merve A.",
+      "rating": 5,
+      "date": "2025-09-09",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-1",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2026-01-02",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Foça'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-2",
+      "author": "Ali D.",
+      "rating": 4,
+      "date": "2025-10-22",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-3",
+      "author": "Mehmet A.",
+      "rating": 5,
+      "date": "2025-12-06",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-4",
+      "author": "Fatma Ş.",
+      "rating": 5,
+      "date": "2025-11-30",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Foça'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-5",
+      "author": "Ayşe Ş.",
+      "rating": 4,
+      "date": "2026-01-11",
+      "text": "Genel olarak memnun kaldık. İstanbul Foça arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-6",
+      "author": "Mehmet Ş.",
+      "rating": 4,
+      "date": "2025-11-07",
+      "text": "Genel olarak memnun kaldık. İstanbul Foça arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-7",
+      "author": "Zeynep E.",
+      "rating": 5,
+      "date": "2026-01-27",
+      "text": "İstanbul'dan Foça'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-8",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2025-11-21",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-9",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-12-26",
+      "text": "Genel olarak memnun kaldık. İstanbul Foça arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-10",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2026-01-28",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Foça'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-11",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2025-12-04",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Foça arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-12",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-13",
+      "author": "Merve E.",
+      "rating": 4,
+      "date": "2025-10-23",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-14",
+      "author": "Merve Y.",
+      "rating": 4,
+      "date": "2025-11-19",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-15",
+      "author": "Fatma B.",
+      "rating": 4,
+      "date": "2025-08-29",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606956-16",
+      "author": "Fatma Ö.",
+      "rating": 5,
+      "date": "2026-01-08",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-17",
+      "author": "Merve T.",
+      "rating": 5,
+      "date": "2025-12-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Foça'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-18",
+      "author": "Fatma T.",
+      "rating": 4,
+      "date": "2025-09-25",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-19",
+      "author": "Ahmet Y.",
+      "rating": 4,
+      "date": "2026-01-21",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Foça'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-20",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2026-01-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Foça arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-21",
+      "author": "Mehmet Ş.",
+      "rating": 5,
+      "date": "2025-08-27",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Foça arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606956-22",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2025-10-30",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Foça'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.956Z",
+  "autoGenerated": true
+}

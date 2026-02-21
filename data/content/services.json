@@ -1,0 +1,31 @@
+{
+  "title": "Hizmetlerimiz",
+  "description": "Taşınmanın her adımını tek ekip yönetiyoruz; paketleme, nakliye, kurulum, depolama seçenekleri net planla, şeffaf evrakla, sabit koordinasyonla ilerliyor.\n",
+  "services": [
+    {
+      "title": "Evden Eve Nakliyat",
+      "description": "<p>Oda oda paketleme, kontrollü yükleme, hızlı yerleşim sağlıyoruz.</p>"
+    },
+    {
+      "title": "Sözleşmeli Evden Eve Nakliyat",
+      "description": "<p>Tarih, kapsam, ücret kalemleri sözleşmede yazılı şekilde ilerler.</p>"
+    },
+    {
+      "title": "Sigortalı Evden Eve Nakliyat",
+      "description": "<p>Poliçe düzenlenir, hasar riski kayıtla güvence altına alınır.</p>"
+    },
+    {
+      "title": "Asansörlü Evden Eve Nakliyat",
+      "description": "<p>Dış cephe asansörüyle dar merdiven stresi ortadan kalkar.</p>"
+    },
+    {
+      "title": "Ofis Taşımacılığı",
+      "description": "<p>Arşiv etiketlenir, IT ekipmanı darbeye karşı güvenle korunur.</p>"
+    },
+    {
+      "title": "Eşya Depolama",
+      "description": "<p>Nem kontrolü, etiketli raf, güvenli kilit sistemi sunar.</p>"
+    }
+  ],
+  "footer": "<p>1 gün önce ekspertiz raporu çıkıyor, malzeme listesi netleşiyor. Taşıma sabahı ekip lideri planı okuyup görev dağıtıyor. Koli etiketleri odalara göre ayrılıyor. Ankara’da kapı önü mesafesi ölçülüyor. Kurulumda mobilya bağlantıları kontrol ediliyor, teslim tutanağı imzalanıyor. Sigorta poliçesi isteyenlerde belge numarası dosyaya ekleniyor. Asansör kurulumu gerekiyorsa apartman yönetimi önceden bilgilendiriliyor.</p>"
+}

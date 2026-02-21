@@ -1,0 +1,16 @@
+{
+  "name": "İstanbul İzmir Evden Eve Nakliyat",
+  "short_name": "Nakliyat",
+  "description": "Profesyonel evden eve nakliyat hizmeti",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#16A34A",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}

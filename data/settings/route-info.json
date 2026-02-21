@@ -1,0 +1,14 @@
+{
+  "title": "İstanbul Ankara Rota Bilgileri",
+  "description": "Harita üzerindeki İstanbul–Ankara güzergâhı, ortalama sürüş süresini gösterir; biz çıkış saatini rota yoğunluğuna göre dikkatle seçeriz.\n",
+  "originCoords": "KOZCUOĞLU Eşya Depolama ve Nakliyat Hizmetleri",
+  "destinationCoords": "Ankara",
+  "fromCity": "İstanbul",
+  "toCity": "Ankara",
+  "distance": 545,
+  "duration": 6.5,
+  "basePrice": 1500,
+  "sourceCity": "İstanbul",
+  "targetCity": "Ankara",
+  "priceMin": 14500
+}

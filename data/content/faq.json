@@ -1,0 +1,46 @@
+{
+  "title": "Sıkça Sorulan Sorular",
+  "description": "Sık Sorulan Sorular bölümünde; ücret, sigorta, sözleşme, asansör, paketleme ve teslim zamanını net yanıtlarla açıklıyoruz, kararınızı hızlandırıyoruz ciddi biçimde.\n",
+  "faqs": [
+    {
+      "q": "İstanbul’dan Ankara’ya taşınırken ücretsiz ekspertiz tam olarak neleri içerir?",
+      "a": "Ekspertiz; oda metrajı, koli tahmini, mobilya söküm listesi, asansör kurulumu gereksinimi, park mesafesi kontrolüdür. Raporla birlikte evden eve nakliyat fiyatı kalemleri yazılı teslim edilir."
+    },
+    {
+      "q": "Şehirlerarası evden eve nakliyat sürecinde eşyalarım nasıl paketlenir?",
+      "a": "Kırılganlar köpük koruma, balonlu rulo ambalaj, köşe kartonuyla sarılır. Araçta kayış, bariyer, battaniye kullanılır. Yükleme öncesi fotoğraflı envanter oluşturulur, teslimde kontrol edilir."
+    },
+    {
+      "q": "Evden eve nakliyat ücretleri neden farklı çıkıyor?",
+      "a": "Ücret; kat, merdiven darlığı, asansör ihtiyacı, park mesafesi, eşya yoğunluğu, kilometreyle değişir. Aynı metrekarede mobilya sayısı artarsa ev taşıma fiyatları yükselir, raporda gerekçesi yazılır."
+    },
+    {
+      "q": "Sözleşmeli evden eve nakliyat seçersem sözleşmede hangi maddeler mutlaka olmalı?",
+      "a": "Sözleşmede tarih, adres, kat bilgisi, hizmet kapsamı, ücret kalemleri, ödeme planı yer alır. İptal, tarih değişikliği, hasar bildirimi süresi, sigorta kapsamı maddeler halinde açık yazılır."
+    },
+    {
+      "q": "Sigortalı ev taşıma poliçesi hangi riskleri kapsar?",
+      "a": "Poliçe; taşıma kaynaklı hasarı kapsar, kapsam şirketine göre değişir. Hasar anında fotoğraf çekilir, ekip lideri tutanak yazar, poliçe numarası tutanakta görünür. Bildirim aynı gün yapılır."
+    },
+    {
+      "q": "Asansörlü evden eve nakliyat için binada hangi şartlar aranır?",
+      "a": "Asansör kurulumunda cephe uygunluğu, balkon mesafesi, zemin sağlamlığı kontrol edilir. Kurulum genelde 30–45 dakika sürer. Bariyer, uyarı şeridi, bina koruma levhası kullanılır, randevu önceden alınır."
+    },
+    {
+      "q": "Ofis taşımacılığı sırasında arşiv dosyaları karışmaması için nasıl işaretlenir?",
+      "a": "Arşivler kodlanır, kutular departman adına göre etiketlenir. IT ekipmanı antistatik poşet, köpük destek, çift kat kartonla taşınır. Taşıma akşam veya hafta sonu planlanabilir, süre iş akışına göre çıkar."
+    },
+    {
+      "q": "Eşya depolama hizmetinde depoya girişte hangi kayıtlar tutulur?",
+      "a": "Girişte koli listesi, etiket kodu, fotoğraflı kayıt tutulur. Nem kontrolü, kamera, kilitli alan sağlanır. Süre uzarsa günlük veya aylık tarife uygulanır. Ziyaret için randevu verilir."
+    },
+    {
+      "q": "İstanbul’dan çıkış günü trafik gecikmesi olursa teslim saatim kayar mı?",
+      "a": "Trafik riski için çıkış saati erken seçilir, mola planı sürücü dinlenmesine göre belirlenir. Yakıt, otoyol giderleri fiyata dahil edilir. İsterseniz araç konumu, ekip lideri üzerinden paylaşılır."
+    },
+    {
+      "q": "Ev taşıma firmaları arasında seçim yaparken hangi belgeleri istemeliyim?",
+      "a": "Belgeler; yetki belgesi, araç ruhsatı, poliçe, sözleşme nüshasıdır. Bunlar, taşıma kapsamının yazılı olduğunu gösterir. Personel kimliği, güvenlik açısından önemlidir. Tüm evraklar dosyanıza eklenir."
+    }
+  ]
+}

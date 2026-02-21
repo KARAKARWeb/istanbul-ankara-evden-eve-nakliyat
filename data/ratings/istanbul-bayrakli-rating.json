@@ -1,0 +1,310 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Bayraklı",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 37,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606947-0",
+      "author": "Mehmet B.",
+      "rating": 4,
+      "date": "2025-10-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-1",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2025-08-29",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-2",
+      "author": "Ali Ş.",
+      "rating": 4,
+      "date": "2025-09-11",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-3",
+      "author": "Mehmet A.",
+      "rating": 4,
+      "date": "2025-12-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-4",
+      "author": "Ayşe T.",
+      "rating": 4,
+      "date": "2026-01-21",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-5",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-09-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayraklı'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-6",
+      "author": "Mehmet Ç.",
+      "rating": 4,
+      "date": "2025-09-23",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-7",
+      "author": "Ali D.",
+      "rating": 4,
+      "date": "2025-08-29",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-8",
+      "author": "Ali D.",
+      "rating": 4,
+      "date": "2025-08-26",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-9",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2025-12-08",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-10",
+      "author": "Mustafa K.",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayraklı arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-11",
+      "author": "Zeynep Y.",
+      "rating": 5,
+      "date": "2026-01-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayraklı arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-12",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2025-11-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayraklı'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-13",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2025-10-25",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-14",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2026-01-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayraklı'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-15",
+      "author": "Mustafa Ş.",
+      "rating": 4,
+      "date": "2025-11-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-16",
+      "author": "Ali E.",
+      "rating": 5,
+      "date": "2026-01-10",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-17",
+      "author": "Zeynep Ö.",
+      "rating": 4,
+      "date": "2025-12-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-18",
+      "author": "Zeynep E.",
+      "rating": 5,
+      "date": "2025-09-05",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayraklı'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-19",
+      "author": "Ali Y.",
+      "rating": 4,
+      "date": "2026-02-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-20",
+      "author": "Hasan Ş.",
+      "rating": 5,
+      "date": "2025-08-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayraklı'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-21",
+      "author": "Hasan Y.",
+      "rating": 5,
+      "date": "2025-12-18",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayraklı arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-22",
+      "author": "Zeynep Y.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayraklı'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-23",
+      "author": "Hasan T.",
+      "rating": 4,
+      "date": "2025-11-23",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-24",
+      "author": "Elif T.",
+      "rating": 5,
+      "date": "2025-11-17",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayraklı arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-25",
+      "author": "Elif E.",
+      "rating": 4,
+      "date": "2025-10-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-26",
+      "author": "Mehmet A.",
+      "rating": 4,
+      "date": "2025-08-27",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-27",
+      "author": "Fatma Ş.",
+      "rating": 5,
+      "date": "2025-12-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayraklı arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-28",
+      "author": "Elif A.",
+      "rating": 4,
+      "date": "2025-11-25",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-29",
+      "author": "Elif Ş.",
+      "rating": 5,
+      "date": "2025-12-26",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-30",
+      "author": "Merve E.",
+      "rating": 4,
+      "date": "2025-12-31",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayraklı arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-31",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayraklı'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-32",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2025-09-27",
+      "text": "İstanbul'dan Bayraklı'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-33",
+      "author": "Merve E.",
+      "rating": 4,
+      "date": "2026-01-31",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-34",
+      "author": "Merve T.",
+      "rating": 4,
+      "date": "2025-09-27",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-35",
+      "author": "Hasan T.",
+      "rating": 4,
+      "date": "2025-11-19",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayraklı'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-36",
+      "author": "Mehmet B.",
+      "rating": 5,
+      "date": "2026-02-18",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayraklı'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.947Z",
+  "autoGenerated": true
+}

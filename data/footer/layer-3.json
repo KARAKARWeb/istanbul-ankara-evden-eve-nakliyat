@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "id": "1",
+      "title": "Kozcuoğlu Nakliyat",
+      "url": "https://kozcuoglunakliyat.com.tr",
+      "rel": "nofollow noopener noreferrer",
+      "order": 1,
+      "target": "_blank"
+    },
+    {
+      "id": "2",
+      "title": "Kozcuoğlu Evden Eve Nakliyat",
+      "url": "https://www.kozcuogluevdenevenakliyat.com",
+      "rel": "nofollow noopener noreferrer",
+      "order": 2,
+      "target": "_blank"
+    },
+    {
+      "id": "1771621166945",
+      "title": "Kozcuoğlu Eşya Depolama",
+      "url": "https://kozcuogluesyadepolama.com",
+      "rel": "nofollow noopener noreferrer",
+      "target": "_blank",
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Narlıdere",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 25,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606967-0",
+      "author": "Hasan B.",
+      "rating": 5,
+      "date": "2026-01-31",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Narlıdere'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-1",
+      "author": "Zeynep K.",
+      "rating": 5,
+      "date": "2026-02-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-2",
+      "author": "Mustafa K.",
+      "rating": 5,
+      "date": "2026-01-17",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-3",
+      "author": "Ali T.",
+      "rating": 4,
+      "date": "2025-11-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-4",
+      "author": "Hasan Ş.",
+      "rating": 4,
+      "date": "2025-12-11",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Narlıdere'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-5",
+      "author": "Fatma Y.",
+      "rating": 5,
+      "date": "2025-12-14",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-6",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-09-17",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-7",
+      "author": "Zeynep Ş.",
+      "rating": 4,
+      "date": "2025-12-24",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-8",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-11-21",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-9",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-08-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-10",
+      "author": "Mehmet D.",
+      "rating": 5,
+      "date": "2025-12-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Narlıdere'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-11",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2025-10-01",
+      "text": "İstanbul'dan Narlıdere'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-12",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-12-04",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-13",
+      "author": "Ali B.",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-14",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-15",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-11-25",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-16",
+      "author": "Ayşe A.",
+      "rating": 4,
+      "date": "2025-09-13",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-17",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2025-12-18",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Narlıdere arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-18",
+      "author": "Ahmet Ş.",
+      "rating": 5,
+      "date": "2026-01-19",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606967-19",
+      "author": "Ayşe A.",
+      "rating": 4,
+      "date": "2025-09-02",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-20",
+      "author": "Ali Y.",
+      "rating": 5,
+      "date": "2025-11-06",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-21",
+      "author": "Ayşe Y.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "İstanbul'dan Narlıdere'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-22",
+      "author": "Fatma D.",
+      "rating": 4,
+      "date": "2025-12-24",
+      "text": "Genel olarak memnun kaldık. İstanbul Narlıdere arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-23",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2025-12-22",
+      "text": "İstanbul'dan Narlıdere'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606967-24",
+      "author": "Elif E.",
+      "rating": 5,
+      "date": "2025-10-14",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Narlıdere'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.967Z",
+  "autoGenerated": true
+}

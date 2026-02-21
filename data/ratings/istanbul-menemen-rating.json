@@ -1,0 +1,222 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Menemen",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 26,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606966-0",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2025-10-20",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-1",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2025-12-30",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-2",
+      "author": "Zeynep K.",
+      "rating": 5,
+      "date": "2026-01-02",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Menemen arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-3",
+      "author": "Elif Y.",
+      "rating": 4,
+      "date": "2025-09-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-4",
+      "author": "Ayşe Ö.",
+      "rating": 4,
+      "date": "2025-09-21",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-5",
+      "author": "Ahmet Ö.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Menemen'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-6",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2026-01-16",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-7",
+      "author": "Ali T.",
+      "rating": 4,
+      "date": "2025-10-07",
+      "text": "Genel olarak memnun kaldık. İstanbul Menemen arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-8",
+      "author": "Ahmet Ç.",
+      "rating": 4,
+      "date": "2026-01-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Menemen arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-9",
+      "author": "Zeynep Y.",
+      "rating": 4,
+      "date": "2026-01-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-10",
+      "author": "Hasan E.",
+      "rating": 5,
+      "date": "2026-01-07",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-11",
+      "author": "Ali Ö.",
+      "rating": 4,
+      "date": "2026-02-14",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-12",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2026-01-30",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-13",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Menemen arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-14",
+      "author": "Fatma K.",
+      "rating": 4,
+      "date": "2026-01-28",
+      "text": "Genel olarak memnun kaldık. İstanbul Menemen arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-15",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-11-10",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Menemen'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-16",
+      "author": "Ayşe A.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-17",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2026-01-14",
+      "text": "İstanbul'dan Menemen'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-18",
+      "author": "Ayşe Ç.",
+      "rating": 5,
+      "date": "2025-12-23",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Menemen arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-19",
+      "author": "Mehmet B.",
+      "rating": 4,
+      "date": "2025-11-12",
+      "text": "Genel olarak memnun kaldık. İstanbul Menemen arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-20",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2025-10-20",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Menemen'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-21",
+      "author": "Elif Ç.",
+      "rating": 5,
+      "date": "2025-10-21",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Menemen'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-22",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-11-28",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Menemen'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-23",
+      "author": "Mehmet Ç.",
+      "rating": 4,
+      "date": "2025-12-19",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Menemen'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606966-24",
+      "author": "Ayşe Y.",
+      "rating": 5,
+      "date": "2025-08-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Menemen'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606966-25",
+      "author": "Fatma Ö.",
+      "rating": 5,
+      "date": "2025-11-09",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Menemen'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.966Z",
+  "autoGenerated": true
+}

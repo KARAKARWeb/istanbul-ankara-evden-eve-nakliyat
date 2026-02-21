@@ -1,0 +1,206 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Bergama",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 24,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606948-0",
+      "author": "Mehmet A.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "İstanbul'dan Bergama'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-1",
+      "author": "Hasan A.",
+      "rating": 4,
+      "date": "2025-11-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bergama'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-2",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-10-30",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bergama'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-3",
+      "author": "Ali Ş.",
+      "rating": 4,
+      "date": "2025-12-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-4",
+      "author": "Elif Ç.",
+      "rating": 5,
+      "date": "2025-10-11",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bergama arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-5",
+      "author": "Hasan Ö.",
+      "rating": 4,
+      "date": "2025-11-06",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-6",
+      "author": "Elif A.",
+      "rating": 4,
+      "date": "2025-11-27",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bergama'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-7",
+      "author": "Zeynep A.",
+      "rating": 4,
+      "date": "2025-11-26",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bergama'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-8",
+      "author": "Ali T.",
+      "rating": 4,
+      "date": "2025-10-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-9",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-09-22",
+      "text": "İstanbul'dan Bergama'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-10",
+      "author": "Fatma T.",
+      "rating": 4,
+      "date": "2025-10-10",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bergama'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-11",
+      "author": "Mehmet K.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bergama'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-12",
+      "author": "Zeynep A.",
+      "rating": 4,
+      "date": "2026-01-16",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-13",
+      "author": "Elif A.",
+      "rating": 4,
+      "date": "2025-10-21",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-14",
+      "author": "Elif K.",
+      "rating": 5,
+      "date": "2025-10-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bergama'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-15",
+      "author": "Ali A.",
+      "rating": 4,
+      "date": "2025-12-23",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bergama'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-16",
+      "author": "Zeynep E.",
+      "rating": 4,
+      "date": "2025-12-05",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-17",
+      "author": "Merve E.",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "İstanbul'dan Bergama'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-18",
+      "author": "Hasan Y.",
+      "rating": 4,
+      "date": "2025-10-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Bergama arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-19",
+      "author": "Elif E.",
+      "rating": 5,
+      "date": "2026-01-21",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bergama'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-20",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-10-09",
+      "text": "İstanbul'dan Bergama'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-21",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-11-04",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bergama arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606948-22",
+      "author": "Ali Y.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bergama'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606948-23",
+      "author": "Fatma Ş.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bergama'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.948Z",
+  "autoGenerated": true
+}

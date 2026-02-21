@@ -1,0 +1,6 @@
+{
+  "enableImageSitemap": true,
+  "enableVideoSitemap": false,
+  "changefreq": "hourly",
+  "priority": "0.8"
+}

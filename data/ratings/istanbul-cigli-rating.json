@@ -1,0 +1,270 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Çiğli",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 32,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606953-0",
+      "author": "Ahmet Ç.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çiğli arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606953-1",
+      "author": "Ali D.",
+      "rating": 5,
+      "date": "2025-09-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606953-2",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-12-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606953-3",
+      "author": "Fatma Ş.",
+      "rating": 5,
+      "date": "2025-10-25",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606953-4",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2025-12-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-5",
+      "author": "Ahmet Ç.",
+      "rating": 5,
+      "date": "2025-11-01",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-6",
+      "author": "Mehmet B.",
+      "rating": 5,
+      "date": "2025-11-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çiğli arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-7",
+      "author": "Hasan E.",
+      "rating": 4,
+      "date": "2025-11-24",
+      "text": "Genel olarak memnun kaldık. İstanbul Çiğli arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-8",
+      "author": "Mehmet Ç.",
+      "rating": 4,
+      "date": "2025-12-20",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çiğli'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-9",
+      "author": "Ahmet Ç.",
+      "rating": 5,
+      "date": "2025-10-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-10",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2026-01-31",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-11",
+      "author": "Ahmet Y.",
+      "rating": 4,
+      "date": "2025-09-09",
+      "text": "Genel olarak memnun kaldık. İstanbul Çiğli arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-12",
+      "author": "Elif Ç.",
+      "rating": 4,
+      "date": "2025-09-25",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çiğli'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-13",
+      "author": "Elif A.",
+      "rating": 5,
+      "date": "2025-11-13",
+      "text": "İstanbul'dan Çiğli'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-14",
+      "author": "Elif E.",
+      "rating": 4,
+      "date": "2025-11-03",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çiğli'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-15",
+      "author": "Ahmet B.",
+      "rating": 5,
+      "date": "2025-09-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-16",
+      "author": "Ali Y.",
+      "rating": 5,
+      "date": "2025-11-21",
+      "text": "İstanbul'dan Çiğli'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-17",
+      "author": "Zeynep T.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "İstanbul'dan Çiğli'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-18",
+      "author": "Elif Ç.",
+      "rating": 5,
+      "date": "2025-11-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-19",
+      "author": "Zeynep T.",
+      "rating": 5,
+      "date": "2026-02-13",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-20",
+      "author": "Ayşe B.",
+      "rating": 4,
+      "date": "2026-02-19",
+      "text": "Genel olarak memnun kaldık. İstanbul Çiğli arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-21",
+      "author": "Ali Ç.",
+      "rating": 4,
+      "date": "2025-10-24",
+      "text": "Genel olarak memnun kaldık. İstanbul Çiğli arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-22",
+      "author": "Zeynep K.",
+      "rating": 5,
+      "date": "2025-09-29",
+      "text": "İstanbul'dan Çiğli'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-23",
+      "author": "Ali Ş.",
+      "rating": 5,
+      "date": "2025-10-30",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-24",
+      "author": "Hasan T.",
+      "rating": 5,
+      "date": "2025-11-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çiğli arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-25",
+      "author": "Mehmet B.",
+      "rating": 5,
+      "date": "2026-01-06",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-26",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-09-19",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Çiğli'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606954-27",
+      "author": "Mehmet B.",
+      "rating": 4,
+      "date": "2026-02-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Çiğli'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-28",
+      "author": "Fatma T.",
+      "rating": 5,
+      "date": "2025-11-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çiğli arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-29",
+      "author": "Merve Y.",
+      "rating": 5,
+      "date": "2025-12-30",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-30",
+      "author": "Ali E.",
+      "rating": 5,
+      "date": "2025-11-26",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Çiğli arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606954-31",
+      "author": "Fatma E.",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Çiğli'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.954Z",
+  "autoGenerated": true
+}

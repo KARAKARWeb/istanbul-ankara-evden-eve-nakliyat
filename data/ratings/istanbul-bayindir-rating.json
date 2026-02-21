@@ -1,0 +1,390 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Bayındır",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 47,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606946-0",
+      "author": "Mustafa D.",
+      "rating": 5,
+      "date": "2026-02-05",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-1",
+      "author": "Mustafa A.",
+      "rating": 5,
+      "date": "2026-01-15",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-2",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2025-08-27",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-3",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-11-01",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-4",
+      "author": "Fatma D.",
+      "rating": 5,
+      "date": "2025-10-22",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-5",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2025-11-18",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-6",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-12-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-7",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-8",
+      "author": "Ali K.",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-9",
+      "author": "Mustafa Ç.",
+      "rating": 4,
+      "date": "2025-10-14",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayındır arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-10",
+      "author": "Merve Ç.",
+      "rating": 5,
+      "date": "2025-11-28",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-11",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2025-12-09",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-12",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2026-01-31",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-13",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-14",
+      "author": "Merve Ö.",
+      "rating": 4,
+      "date": "2026-01-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-15",
+      "author": "Elif K.",
+      "rating": 4,
+      "date": "2025-10-13",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-16",
+      "author": "Zeynep Ç.",
+      "rating": 4,
+      "date": "2026-01-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-17",
+      "author": "Elif D.",
+      "rating": 5,
+      "date": "2025-08-30",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-18",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2026-01-02",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-19",
+      "author": "Hasan T.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-20",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2026-01-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayındır arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-21",
+      "author": "Ali Y.",
+      "rating": 4,
+      "date": "2025-11-15",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-22",
+      "author": "Hasan T.",
+      "rating": 5,
+      "date": "2025-11-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-23",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2026-01-26",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-24",
+      "author": "Ali E.",
+      "rating": 5,
+      "date": "2025-10-27",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-25",
+      "author": "Zeynep Ö.",
+      "rating": 5,
+      "date": "2025-12-04",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-26",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2026-01-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-27",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2025-10-18",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-28",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-11-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-29",
+      "author": "Mustafa A.",
+      "rating": 5,
+      "date": "2025-11-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-30",
+      "author": "Mustafa B.",
+      "rating": 5,
+      "date": "2026-01-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-31",
+      "author": "Zeynep K.",
+      "rating": 5,
+      "date": "2025-11-26",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-32",
+      "author": "Hasan B.",
+      "rating": 4,
+      "date": "2026-01-31",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayındır arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-33",
+      "author": "Mehmet E.",
+      "rating": 4,
+      "date": "2026-02-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-34",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-12-29",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-35",
+      "author": "Elif E.",
+      "rating": 5,
+      "date": "2026-02-03",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-36",
+      "author": "Hasan Y.",
+      "rating": 5,
+      "date": "2025-11-17",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-37",
+      "author": "Merve B.",
+      "rating": 5,
+      "date": "2026-01-27",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-38",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2025-12-02",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-39",
+      "author": "Zeynep Y.",
+      "rating": 4,
+      "date": "2025-09-19",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayındır arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-40",
+      "author": "Ahmet B.",
+      "rating": 5,
+      "date": "2025-09-26",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Bayındır'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-41",
+      "author": "Fatma B.",
+      "rating": 4,
+      "date": "2025-09-25",
+      "text": "Genel olarak memnun kaldık. İstanbul Bayındır arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606947-42",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-10-16",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Bayındır'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-43",
+      "author": "Ahmet Y.",
+      "rating": 4,
+      "date": "2025-11-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-44",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2026-01-30",
+      "text": "İstanbul'dan Bayındır'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-45",
+      "author": "Mehmet T.",
+      "rating": 4,
+      "date": "2025-10-03",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Bayındır'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606947-46",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2025-10-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Bayındır arası nakliyat için ideal firma.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.947Z",
+  "autoGenerated": true
+}

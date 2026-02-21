@@ -1,0 +1,390 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Buca",
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 47,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606951-0",
+      "author": "Mehmet Y.",
+      "rating": 4,
+      "date": "2026-02-06",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-1",
+      "author": "Fatma K.",
+      "rating": 4,
+      "date": "2025-09-12",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-2",
+      "author": "Elif E.",
+      "rating": 5,
+      "date": "2025-10-12",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Buca'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-3",
+      "author": "Merve D.",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-4",
+      "author": "Mustafa Ö.",
+      "rating": 5,
+      "date": "2025-09-02",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Buca'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-5",
+      "author": "Ahmet B.",
+      "rating": 4,
+      "date": "2025-11-30",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-6",
+      "author": "Ahmet D.",
+      "rating": 4,
+      "date": "2025-12-01",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-7",
+      "author": "Mehmet E.",
+      "rating": 4,
+      "date": "2026-02-06",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-8",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-9",
+      "author": "Ali E.",
+      "rating": 5,
+      "date": "2025-09-15",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-10",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-11",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2026-02-14",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-12",
+      "author": "Ali Ö.",
+      "rating": 4,
+      "date": "2026-01-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-13",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-10-05",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-14",
+      "author": "Fatma A.",
+      "rating": 5,
+      "date": "2026-02-15",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Buca'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-15",
+      "author": "Hasan Ç.",
+      "rating": 5,
+      "date": "2025-11-23",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-16",
+      "author": "Ayşe D.",
+      "rating": 4,
+      "date": "2025-09-08",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-17",
+      "author": "Elif Ö.",
+      "rating": 4,
+      "date": "2025-11-28",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-18",
+      "author": "Ahmet Ş.",
+      "rating": 4,
+      "date": "2025-11-14",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-19",
+      "author": "Zeynep T.",
+      "rating": 4,
+      "date": "2026-01-16",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-20",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-10-30",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-21",
+      "author": "Elif T.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-22",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-09-11",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-23",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2025-12-27",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-24",
+      "author": "Zeynep Y.",
+      "rating": 4,
+      "date": "2025-11-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-25",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2025-11-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-26",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-27",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-08-29",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-28",
+      "author": "Merve B.",
+      "rating": 5,
+      "date": "2025-11-24",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-29",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-09-07",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-30",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-31",
+      "author": "Hasan Y.",
+      "rating": 5,
+      "date": "2025-11-23",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-32",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Buca'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-33",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2025-12-03",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-34",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2025-09-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-35",
+      "author": "Ayşe B.",
+      "rating": 5,
+      "date": "2025-11-21",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-36",
+      "author": "Fatma Ç.",
+      "rating": 5,
+      "date": "2026-01-14",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-37",
+      "author": "Fatma K.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "İstanbul'dan Buca'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-38",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-39",
+      "author": "Ayşe Y.",
+      "rating": 5,
+      "date": "2026-01-10",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Buca'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606951-40",
+      "author": "Mustafa Ö.",
+      "rating": 4,
+      "date": "2025-12-13",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-41",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2025-10-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-42",
+      "author": "Elif T.",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-43",
+      "author": "Mustafa T.",
+      "rating": 5,
+      "date": "2025-10-17",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Buca'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-44",
+      "author": "Ayşe Ş.",
+      "rating": 4,
+      "date": "2026-02-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Buca arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-45",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-10-06",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Buca arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606951-46",
+      "author": "Ayşe K.",
+      "rating": 4,
+      "date": "2025-09-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Buca'e ulaştı.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.951Z",
+  "autoGenerated": true
+}

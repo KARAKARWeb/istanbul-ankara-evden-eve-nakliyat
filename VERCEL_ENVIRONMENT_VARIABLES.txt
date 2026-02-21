@@ -1,0 +1,100 @@
+# ============================================
+# VERCEL ENVIRONMENT VARIABLES
+# İstanbul İzmir Evden Eve Nakliyat
+# ============================================
+# Tüm değişkenleri Vercel Dashboard'a "Plain Text" olarak ekleyin
+# https://vercel.com/hostener/istanbul-izmir-evden-eve-nakliyat/settings/environment-variables
+# ============================================
+
+# ============================================
+# ZORUNLU (REQUIRED)
+# ============================================
+
+# 1. Site URL (Production Domain)
+NEXT_PUBLIC_SITE_URL=https://istanbulizmirevtasima.com.tr
+
+# 2. Site Adı
+NEXT_PUBLIC_SITE_NAME=İstanbul İzmir Evden Eve Nakliyat
+
+# 3. Dashboard Kullanıcı Adı
+DASHBOARD_USERNAME=info@karakar.web.tr
+
+# 4. Dashboard Şifre Hash
+DASHBOARD_PASSWORD_HASH=$2b$10$Mec.3DaYBhxncYJIRMvDLOV01pLzzzKLppi22xr8FVDvxBJ5gUEb.
+
+# ============================================
+# SMTP AYARLARI (Email Gönderimi)
+# ============================================
+
+# 5. SMTP Host
+SMTP_HOST=smtp.yandex.com
+
+# 6. SMTP Port
+SMTP_PORT=465
+
+# 7. SMTP Secure (SSL/TLS)
+SMTP_SECURE=true
+
+# 8. SMTP Kullanıcı Adı (Email)
+SMTP_USER=info@kozcuoglunakliyat.com.tr
+
+# 9. SMTP Şifre (App Password - Yandex)
+SMTP_PASS=pvkuesqzlbmbwydq
+
+# ============================================
+# GOOGLE MAPS API
+# ============================================
+
+# 10. Google Maps API Key (Backend - Distance Matrix)
+GOOGLE_MAPS_API_KEY=AIzaSyDGxPZemTdFLO05QKGE6wEjMQNynrNhf14
+
+# 11. Google Maps API Key (Frontend - Embed Maps)
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyDGxPZemTdFLO05QKGE6wEjMQNynrNhf14
+
+# ============================================
+# ANALYTICS (Opsiyonel)
+# ============================================
+
+# 12. Google Analytics ID (Opsiyonel)
+NEXT_PUBLIC_GA_ID=
+
+# 13. Google Tag Manager ID (Opsiyonel)
+NEXT_PUBLIC_GTM_ID=
+
+# 14. Facebook Pixel ID (Opsiyonel)
+NEXT_PUBLIC_FB_PIXEL_ID=
+
+# ============================================
+# NOTLAR
+# ============================================
+# 
+# 1. Tüm değişkenleri Vercel'e "Plain Text" olarak ekleyin
+# 2. "Secret" KULLANMAYIN - sadece "Plain Text"
+# 3. Environment: Production, Preview, Development (hepsini seçin)
+# 4. NEXT_PUBLIC_ ile başlayanlar frontend'de görünür
+# 5. SMTP_PASS ve DASHBOARD_PASSWORD_HASH hassas bilgiler
+# 6. Google Maps API key'i Google Cloud Console'dan alınır:
+#    - https://console.cloud.google.com/
+#    - APIs & Services > Credentials
+#    - "Maps Embed API" ve "Distance Matrix API" aktif olmalı
+#
+# ============================================
+# DEPLOY SONRASI KONTROL
+# ============================================
+#
+# 1. Dashboard Login: https://istanbulizmirevtasima.com.tr/karakar/login
+#    - Username: info@karakar.web.tr
+#    - Password: K@r@K@r_W3b.112!.
+#
+# 2. İletişim Formu Test: Ana sayfadan form gönderin
+#    - Email geldi mi kontrol edin: info@kozcuoglunakliyat.com.tr
+#
+# 3. Google Maps Embed: Ana sayfa rota bilgileri
+#    - Harita görünüyor mu?
+#    - 403 hatası var mı?
+#
+# 4. PageSpeed Test: https://pagespeed.web.dev/
+#    - Mobile: %85-90+ hedef
+#    - Desktop: %95-98+ hedef
+#
+# ============================================

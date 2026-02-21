@@ -1,0 +1,38 @@
+{
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 127,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "gen-rev-1",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "date": "2026-02-15",
+      "text": "Çok profesyonel bir ekip. Eşyalarımız hiç zarar görmeden taşındı. Teşekkürler!",
+      "verified": true,
+      "region": "istanbul-bornova"
+    },
+    {
+      "id": "gen-rev-2",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2026-02-10",
+      "text": "Fiyat performans olarak çok iyi. Kesinlikle tavsiye ederim.",
+      "verified": true,
+      "region": "istanbul-konak"
+    },
+    {
+      "id": "gen-rev-3",
+      "author": "Mehmet D.",
+      "rating": 4,
+      "date": "2026-02-05",
+      "text": "Güler yüzlü ve işini bilen bir ekip. Memnun kaldık.",
+      "verified": true,
+      "region": "istanbul-karsiyaka"
+    }
+  ],
+  "lastUpdated": "2026-02-20T19:00:00.000Z"
+}

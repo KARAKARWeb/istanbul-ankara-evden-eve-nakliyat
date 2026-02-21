@@ -1,0 +1,286 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Tire",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 34,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606970-0",
+      "author": "Mehmet B.",
+      "rating": 4,
+      "date": "2025-09-15",
+      "text": "Genel olarak memnun kaldık. İstanbul Tire arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-1",
+      "author": "Mehmet Ç.",
+      "rating": 5,
+      "date": "2025-09-13",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-2",
+      "author": "Ali Ş.",
+      "rating": 5,
+      "date": "2025-10-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-3",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-12-28",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-4",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-09-28",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-5",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-6",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2025-10-31",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-7",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2025-10-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-8",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "date": "2025-10-25",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-9",
+      "author": "Ali B.",
+      "rating": 4,
+      "date": "2025-11-24",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-10",
+      "author": "Fatma Y.",
+      "rating": 5,
+      "date": "2026-02-16",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-11",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2026-01-04",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-12",
+      "author": "Ali B.",
+      "rating": 4,
+      "date": "2025-12-08",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-13",
+      "author": "Ahmet E.",
+      "rating": 5,
+      "date": "2025-10-13",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-14",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-11-23",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-15",
+      "author": "Hasan E.",
+      "rating": 5,
+      "date": "2025-11-30",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-16",
+      "author": "Mehmet Y.",
+      "rating": 5,
+      "date": "2026-01-31",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-17",
+      "author": "Ali Ö.",
+      "rating": 5,
+      "date": "2025-09-01",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-18",
+      "author": "Mustafa A.",
+      "rating": 5,
+      "date": "2025-10-02",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Tire'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-19",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2025-11-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-20",
+      "author": "Ahmet D.",
+      "rating": 5,
+      "date": "2025-10-04",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-21",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2025-12-20",
+      "text": "İstanbul'dan Tire'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-22",
+      "author": "Ahmet Ş.",
+      "rating": 5,
+      "date": "2026-02-05",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Tire'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-23",
+      "author": "Fatma Y.",
+      "rating": 4,
+      "date": "2026-01-19",
+      "text": "Genel olarak memnun kaldık. İstanbul Tire arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-24",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2026-02-19",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-25",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2025-10-14",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-26",
+      "author": "Ayşe E.",
+      "rating": 5,
+      "date": "2025-12-06",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Tire'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-27",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2025-12-17",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Tire'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-28",
+      "author": "Fatma Y.",
+      "rating": 4,
+      "date": "2025-11-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-29",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2026-02-16",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Tire arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-30",
+      "author": "Merve T.",
+      "rating": 4,
+      "date": "2025-10-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-31",
+      "author": "Zeynep Ç.",
+      "rating": 4,
+      "date": "2026-02-18",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606970-32",
+      "author": "Merve Y.",
+      "rating": 4,
+      "date": "2025-10-28",
+      "text": "Genel olarak memnun kaldık. İstanbul Tire arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606970-33",
+      "author": "Elif Y.",
+      "rating": 4,
+      "date": "2025-10-05",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Tire'e ulaştı.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.970Z",
+  "autoGenerated": true
+}

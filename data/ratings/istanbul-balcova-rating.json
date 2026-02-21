@@ -1,0 +1,174 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Balçova",
+  "aggregateRating": {
+    "ratingValue": 4.8,
+    "reviewCount": 20,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606946-0",
+      "author": "Ali K.",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-1",
+      "author": "Mehmet D.",
+      "rating": 5,
+      "date": "2025-11-22",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Balçova'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-2",
+      "author": "Zeynep Ş.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Balçova'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-3",
+      "author": "Mustafa B.",
+      "rating": 5,
+      "date": "2025-12-19",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-4",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2025-09-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-5",
+      "author": "Merve A.",
+      "rating": 5,
+      "date": "2026-01-30",
+      "text": "İstanbul'dan Balçova'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-6",
+      "author": "Mehmet T.",
+      "rating": 5,
+      "date": "2026-01-15",
+      "text": "İstanbul'dan Balçova'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-7",
+      "author": "Ahmet E.",
+      "rating": 4,
+      "date": "2025-11-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Balçova'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-8",
+      "author": "Hasan T.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Balçova'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-9",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2025-11-27",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Balçova'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-10",
+      "author": "Ayşe A.",
+      "rating": 5,
+      "date": "2025-10-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Balçova'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-11",
+      "author": "Mustafa B.",
+      "rating": 4,
+      "date": "2026-01-13",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Balçova'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-12",
+      "author": "Ayşe E.",
+      "rating": 5,
+      "date": "2025-09-24",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-13",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2025-09-22",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Balçova'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-14",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-15",
+      "author": "Ayşe E.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Balçova'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-16",
+      "author": "Mehmet A.",
+      "rating": 5,
+      "date": "2025-10-21",
+      "text": "İstanbul'dan Balçova'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-17",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2025-11-24",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Balçova'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606946-18",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-12-22",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Balçova arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606946-19",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2025-08-29",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Balçova'e taşınmak için harika bir seçim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.946Z",
+  "autoGenerated": true
+}

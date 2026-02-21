@@ -1,0 +1,198 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Aliağa",
+  "aggregateRating": {
+    "ratingValue": 4.5,
+    "reviewCount": 23,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606945-0",
+      "author": "Ali K.",
+      "rating": 5,
+      "date": "2025-12-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Aliağa arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-1",
+      "author": "Mustafa B.",
+      "rating": 5,
+      "date": "2026-01-04",
+      "text": "İstanbul'dan Aliağa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-2",
+      "author": "Ali D.",
+      "rating": 4,
+      "date": "2026-01-09",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Aliağa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-3",
+      "author": "Zeynep Ş.",
+      "rating": 4,
+      "date": "2026-02-16",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Aliağa'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-4",
+      "author": "Hasan D.",
+      "rating": 5,
+      "date": "2025-12-31",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Aliağa arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-5",
+      "author": "Ayşe Y.",
+      "rating": 5,
+      "date": "2025-08-29",
+      "text": "İstanbul'dan Aliağa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-6",
+      "author": "Ayşe Ö.",
+      "rating": 5,
+      "date": "2026-01-20",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Aliağa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-7",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-12-05",
+      "text": "İstanbul'dan Aliağa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-8",
+      "author": "Ali B.",
+      "rating": 4,
+      "date": "2026-01-13",
+      "text": "Genel olarak memnun kaldık. İstanbul Aliağa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-9",
+      "author": "Mustafa K.",
+      "rating": 5,
+      "date": "2025-12-05",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Aliağa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-10",
+      "author": "Elif Ö.",
+      "rating": 5,
+      "date": "2026-01-03",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Aliağa'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-11",
+      "author": "Elif Y.",
+      "rating": 4,
+      "date": "2025-09-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Aliağa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-12",
+      "author": "Merve K.",
+      "rating": 4,
+      "date": "2026-01-06",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Aliağa'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-13",
+      "author": "Merve Ş.",
+      "rating": 5,
+      "date": "2026-01-04",
+      "text": "İstanbul'dan Aliağa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-14",
+      "author": "Ali D.",
+      "rating": 5,
+      "date": "2025-11-09",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Aliağa'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-15",
+      "author": "Elif K.",
+      "rating": 4,
+      "date": "2025-10-01",
+      "text": "Genel olarak memnun kaldık. İstanbul Aliağa arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-16",
+      "author": "Elif A.",
+      "rating": 4,
+      "date": "2025-11-26",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Aliağa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-17",
+      "author": "Fatma K.",
+      "rating": 5,
+      "date": "2025-11-30",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Aliağa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-18",
+      "author": "Fatma Ç.",
+      "rating": 4,
+      "date": "2025-11-10",
+      "text": "Genel olarak memnun kaldık. İstanbul Aliağa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-19",
+      "author": "Elif Ç.",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Aliağa arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-20",
+      "author": "Ayşe Y.",
+      "rating": 5,
+      "date": "2026-01-29",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Aliağa arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606945-21",
+      "author": "Merve Ç.",
+      "rating": 5,
+      "date": "2025-10-27",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Aliağa'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606945-22",
+      "author": "Fatma Y.",
+      "rating": 5,
+      "date": "2025-12-29",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Aliağa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.945Z",
+  "autoGenerated": true
+}

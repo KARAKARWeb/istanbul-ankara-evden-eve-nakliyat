@@ -1,0 +1,206 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Kemalpaşa",
+  "aggregateRating": {
+    "ratingValue": 4.7,
+    "reviewCount": 24,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606961-0",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-10-14",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kemalpaşa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-1",
+      "author": "Mehmet T.",
+      "rating": 4,
+      "date": "2025-12-24",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kemalpaşa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-2",
+      "author": "Ali E.",
+      "rating": 4,
+      "date": "2025-09-01",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kemalpaşa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-3",
+      "author": "Mustafa B.",
+      "rating": 4,
+      "date": "2025-09-02",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kemalpaşa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-4",
+      "author": "Mehmet E.",
+      "rating": 5,
+      "date": "2025-10-24",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kemalpaşa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-5",
+      "author": "Elif Ö.",
+      "rating": 4,
+      "date": "2026-01-07",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606961-6",
+      "author": "Ahmet T.",
+      "rating": 4,
+      "date": "2026-02-16",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606961-7",
+      "author": "Ahmet Ş.",
+      "rating": 4,
+      "date": "2025-10-18",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-8",
+      "author": "Fatma Ş.",
+      "rating": 5,
+      "date": "2025-12-23",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kemalpaşa arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-9",
+      "author": "Ayşe Ş.",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kemalpaşa arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-10",
+      "author": "Mustafa Ç.",
+      "rating": 4,
+      "date": "2025-11-12",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Kemalpaşa'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-11",
+      "author": "Mustafa E.",
+      "rating": 5,
+      "date": "2025-11-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kemalpaşa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-12",
+      "author": "Hasan Y.",
+      "rating": 4,
+      "date": "2026-01-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606961-13",
+      "author": "Elif Y.",
+      "rating": 5,
+      "date": "2025-11-30",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kemalpaşa arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606961-14",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2026-01-31",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kemalpaşa arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-15",
+      "author": "Ahmet A.",
+      "rating": 4,
+      "date": "2026-01-12",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-16",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2025-10-25",
+      "text": "İstanbul'dan Kemalpaşa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-17",
+      "author": "Ayşe E.",
+      "rating": 4,
+      "date": "2025-10-06",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-18",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Kemalpaşa'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-19",
+      "author": "Ali T.",
+      "rating": 5,
+      "date": "2025-11-25",
+      "text": "İstanbul'dan Kemalpaşa'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-20",
+      "author": "Ahmet T.",
+      "rating": 4,
+      "date": "2025-10-09",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-21",
+      "author": "Zeynep K.",
+      "rating": 4,
+      "date": "2025-08-27",
+      "text": "Genel olarak memnun kaldık. İstanbul Kemalpaşa arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606961-22",
+      "author": "Fatma B.",
+      "rating": 5,
+      "date": "2026-02-09",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Kemalpaşa'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606961-23",
+      "author": "Merve B.",
+      "rating": 5,
+      "date": "2025-12-02",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Kemalpaşa arası nakliyat için ideal firma.",
+      "verified": false
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.961Z",
+  "autoGenerated": true
+}

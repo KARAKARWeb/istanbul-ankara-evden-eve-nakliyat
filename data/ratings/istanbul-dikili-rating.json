@@ -1,0 +1,230 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Dikili",
+  "aggregateRating": {
+    "ratingValue": 4.6,
+    "reviewCount": 27,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606955-0",
+      "author": "Zeynep D.",
+      "rating": 4,
+      "date": "2025-11-29",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-1",
+      "author": "Hasan A.",
+      "rating": 4,
+      "date": "2026-01-31",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-2",
+      "author": "Ali Ç.",
+      "rating": 5,
+      "date": "2026-02-08",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-3",
+      "author": "Hasan Ş.",
+      "rating": 5,
+      "date": "2026-02-14",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-4",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2026-02-05",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-5",
+      "author": "Merve K.",
+      "rating": 5,
+      "date": "2025-11-19",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-6",
+      "author": "Merve E.",
+      "rating": 5,
+      "date": "2026-02-19",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Dikili'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-7",
+      "author": "Fatma A.",
+      "rating": 5,
+      "date": "2025-09-21",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Dikili'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-8",
+      "author": "Merve E.",
+      "rating": 4,
+      "date": "2025-12-04",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-9",
+      "author": "Merve K.",
+      "rating": 4,
+      "date": "2025-11-08",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-10",
+      "author": "Mehmet K.",
+      "rating": 4,
+      "date": "2025-08-25",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Dikili'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-11",
+      "author": "Ahmet Ş.",
+      "rating": 5,
+      "date": "2025-11-03",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-12",
+      "author": "Merve Ö.",
+      "rating": 5,
+      "date": "2025-12-10",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-13",
+      "author": "Elif B.",
+      "rating": 5,
+      "date": "2026-02-13",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-14",
+      "author": "Ahmet E.",
+      "rating": 4,
+      "date": "2026-01-06",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-15",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "date": "2025-09-07",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-16",
+      "author": "Merve E.",
+      "rating": 4,
+      "date": "2025-09-04",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-17",
+      "author": "Ayşe A.",
+      "rating": 5,
+      "date": "2026-01-12",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-18",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-09-13",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Dikili arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-19",
+      "author": "Zeynep Ç.",
+      "rating": 5,
+      "date": "2025-12-01",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Dikili'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-20",
+      "author": "Zeynep B.",
+      "rating": 5,
+      "date": "2025-12-04",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Dikili arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-21",
+      "author": "Merve Ş.",
+      "rating": 4,
+      "date": "2025-11-16",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-22",
+      "author": "Ahmet A.",
+      "rating": 5,
+      "date": "2026-01-01",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-23",
+      "author": "Mehmet A.",
+      "rating": 4,
+      "date": "2025-10-10",
+      "text": "Genel olarak memnun kaldık. İstanbul Dikili arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606955-24",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-25",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-12-21",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Dikili'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606955-26",
+      "author": "Ahmet Y.",
+      "rating": 5,
+      "date": "2025-11-03",
+      "text": "İstanbul'dan Dikili'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.955Z",
+  "autoGenerated": true
+}

@@ -1,0 +1,23 @@
+{
+  "weekdays": {
+    "open": "08:00",
+    "close": "18:00",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  "sunday": {
+    "open": "09:00",
+    "close": "18:00"
+  },
+  "holidays": {
+    "open": "10:00",
+    "close": "17:00"
+  },
+  "timezone": "Europe/Istanbul"
+}

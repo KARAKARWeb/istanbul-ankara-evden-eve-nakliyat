@@ -1,0 +1,262 @@
+{
+  "sourceCity": "İstanbul",
+  "targetCity": "Gaziemir",
+  "aggregateRating": {
+    "ratingValue": 4.5,
+    "reviewCount": 31,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "reviews": [
+    {
+      "id": "review-1771608606957-0",
+      "author": "Ayşe Y.",
+      "rating": 4,
+      "date": "2025-11-07",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-1",
+      "author": "Ayşe Ç.",
+      "rating": 5,
+      "date": "2025-10-25",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-2",
+      "author": "Mustafa Ş.",
+      "rating": 5,
+      "date": "2026-02-20",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-3",
+      "author": "Hasan Ö.",
+      "rating": 5,
+      "date": "2025-11-29",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Gaziemir arası nakliyat için ideal firma.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-4",
+      "author": "Ahmet Ç.",
+      "rating": 4,
+      "date": "2025-09-29",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-5",
+      "author": "Fatma Ö.",
+      "rating": 4,
+      "date": "2026-01-21",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-6",
+      "author": "Mehmet Ö.",
+      "rating": 5,
+      "date": "2026-01-27",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-7",
+      "author": "Ayşe T.",
+      "rating": 5,
+      "date": "2026-01-07",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-8",
+      "author": "Mustafa Ş.",
+      "rating": 4,
+      "date": "2025-09-09",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-9",
+      "author": "Zeynep A.",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-10",
+      "author": "Merve D.",
+      "rating": 5,
+      "date": "2025-11-27",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-11",
+      "author": "Mustafa K.",
+      "rating": 5,
+      "date": "2025-09-30",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-12",
+      "author": "Merve A.",
+      "rating": 4,
+      "date": "2025-11-30",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-13",
+      "author": "Zeynep B.",
+      "rating": 5,
+      "date": "2026-01-14",
+      "text": "İstanbul'dan Gaziemir'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-14",
+      "author": "Mehmet K.",
+      "rating": 4,
+      "date": "2025-12-02",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-15",
+      "author": "Mehmet D.",
+      "rating": 4,
+      "date": "2025-08-27",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-16",
+      "author": "Ayşe A.",
+      "rating": 4,
+      "date": "2026-02-08",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-17",
+      "author": "Ayşe E.",
+      "rating": 5,
+      "date": "2026-01-20",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-18",
+      "author": "Hasan K.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-19",
+      "author": "Ayşe K.",
+      "rating": 5,
+      "date": "2025-10-04",
+      "text": "Fiyat/performans açısından çok iyi. İstanbul Gaziemir arası nakliyat için ideal firma.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-20",
+      "author": "Mehmet Ç.",
+      "rating": 4,
+      "date": "2025-08-31",
+      "text": "İyi bir deneyimdi. Eşyalarımız güvenle Gaziemir'e ulaştı.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-21",
+      "author": "Ayşe D.",
+      "rating": 5,
+      "date": "2026-01-11",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-22",
+      "author": "Merve B.",
+      "rating": 4,
+      "date": "2025-10-04",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-23",
+      "author": "Hasan A.",
+      "rating": 5,
+      "date": "2025-11-04",
+      "text": "İstanbul'dan Gaziemir'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-24",
+      "author": "Hasan B.",
+      "rating": 5,
+      "date": "2026-02-12",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-25",
+      "author": "Zeynep D.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "İstanbul'dan Gaziemir'e taşınma işlemimiz sorunsuz geçti. Profesyonel ekip, güler yüzlü hizmet. Teşekkürler!",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-26",
+      "author": "Merve K.",
+      "rating": 4,
+      "date": "2025-10-19",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-27",
+      "author": "Mehmet E.",
+      "rating": 5,
+      "date": "2025-12-16",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-28",
+      "author": "Hasan A.",
+      "rating": 4,
+      "date": "2025-09-26",
+      "text": "Genel olarak memnun kaldık. İstanbul Gaziemir arası sorunsuz taşındık.",
+      "verified": false
+    },
+    {
+      "id": "review-1771608606957-29",
+      "author": "Hasan D.",
+      "rating": 5,
+      "date": "2025-12-28",
+      "text": "Profesyonel hizmet, uygun fiyat. İstanbul'dan Gaziemir'e taşınmak için harika bir seçim.",
+      "verified": true
+    },
+    {
+      "id": "review-1771608606957-30",
+      "author": "Hasan D.",
+      "rating": 5,
+      "date": "2025-11-08",
+      "text": "Çok memnun kaldık. Eşyalarımız hiç zarar görmeden Gaziemir'e ulaştı. Kesinlikle tavsiye ederim.",
+      "verified": true
+    }
+  ],
+  "lastUpdated": "2026-02-20T17:30:06.957Z",
+  "autoGenerated": true
+}
