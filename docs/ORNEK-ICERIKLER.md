@@ -344,7 +344,7 @@ A: Sigorta kapsamında tam tazminat ödenir.
 
 ## İletişim Bilgileri
 
-**Telefon:** +90 545 181 4040
+**Telefon:** +90 532 138 4979
 **E-posta:** info@karakar.web.tr
 **Adres:** İstanbul, Türkiye
 **Çalışma Saatleri:** 7/24 hizmet
