@@ -135,7 +135,7 @@ export function HeroForm({ routeInfo: propsRoute }: HeroFormProps = {}) {
                 <FormItem>
                   <FormLabel>Nereye</FormLabel>
                   <FormControl>
-                    <Input placeholder={routeInfo.toCity || routeInfo.targetCity || 'Hedef Şehir'} {...field} />
+                    <Input placeholder={routeInfo?.toCity || routeInfo?.targetCity || ''} {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
