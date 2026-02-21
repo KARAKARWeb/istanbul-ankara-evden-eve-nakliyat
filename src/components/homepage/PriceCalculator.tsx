@@ -12,8 +12,8 @@ interface CalculatorResult {
 }
 
 export function PriceCalculator() {
-  const [from, setFrom] = useState('İstanbul');
-  const [to, setTo] = useState('İzmir');
+  const [from, setFrom] = useState('');
+  const [to, setTo] = useState('');
   const [homeType, setHomeType] = useState('2+1');
   const [hasElevator, setHasElevator] = useState(true);
   const [moveDate, setMoveDate] = useState('');
@@ -21,7 +21,7 @@ export function PriceCalculator() {
   const [loading, setLoading] = useState(false);
   const [contactInfo, setContactInfo] = useState<any>({ phone: '', whatsapp: '' });
   const [heroSettings, setHeroSettings] = useState<any>({ pricing: { houseTypes: [], elevatorPrices: { withElevator: 0, withoutElevator: 500 } } });
-  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: 'İstanbul', toCity: 'İzmir' });
+  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: '', toCity: '' });
 
   useEffect(() => {
     Promise.all([

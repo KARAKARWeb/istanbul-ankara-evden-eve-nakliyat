@@ -18,18 +18,18 @@ interface RouteInfo {
 
 export function RouteInfoSection() {
   const [routeInfo, setRouteInfo] = useState<RouteInfo>({
-    title: 'İstanbul İzmir Rota Bilgileri',
-    description: 'Güvenli ve hızlı taşımacılık için en iyi rotayı kullanıyoruz',
-    originCoords: '40.87964279652424,29.255537227148615',
-    destinationCoords: '38.42297162766549,27.14327148023357',
-    fromCity: 'İstanbul',
-    toCity: 'İzmir',
-    distance: 468,
-    duration: '5-6 saat',
-    basePrice: 1500,
+    title: '',
+    description: '',
+    originCoords: '',
+    destinationCoords: '',
+    fromCity: '',
+    toCity: '',
+    distance: 0,
+    duration: '',
+    basePrice: 0,
   });
   const [carPosition, setCarPosition] = useState(0);
-  const [remainingKm, setRemainingKm] = useState(468);
+  const [remainingKm, setRemainingKm] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {

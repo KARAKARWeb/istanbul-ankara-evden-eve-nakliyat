@@ -106,13 +106,13 @@ const getSteps = (fromCity: string, toCity: string, distance: number, duration: 
 export function ProcessTimeline() {
   const [processData, setProcessData] = useState<any>({
     title: 'Nakliyat Sürecimiz',
-    description: 'İstanbul\'dan İzmir\'e profesyonel taşınma sürecinin her adımı'
+    description: ''
   });
   const [routeInfo, setRouteInfo] = useState<any>({
-    fromCity: 'İstanbul',
-    toCity: 'İzmir',
-    distance: 468,
-    duration: '5-6 saat'
+    fromCity: '',
+    toCity: '',
+    distance: 0,
+    duration: ''
   });
   const [activeStep, setActiveStep] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);

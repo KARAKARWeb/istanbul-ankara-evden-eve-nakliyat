@@ -27,7 +27,7 @@ export function PricingSection({ regionTitle }: PricingSectionProps = {}) {
     ],
     infoItems: []
   });
-  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: 'İstanbul', toCity: 'İzmir', distance: 468 });
+  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: '', toCity: '', distance: 0 });
 
   useEffect(() => {
     fetchPricingData();

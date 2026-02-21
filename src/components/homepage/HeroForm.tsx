@@ -23,7 +23,7 @@ type FormData = z.infer<typeof formSchema>;
 export function HeroForm() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [routeInfo, setRouteInfo] = useState<any>({ toCity: 'İzmir' });
+  const [routeInfo, setRouteInfo] = useState<any>({ toCity: '' });
 
   useEffect(() => {
     fetch('/api/settings/route-info')

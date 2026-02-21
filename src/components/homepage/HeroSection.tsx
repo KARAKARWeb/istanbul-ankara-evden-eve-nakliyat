@@ -8,7 +8,7 @@ export function HeroSection() {
   const [contactData, setContactData] = useState<any>(null);
   const [heroSettings, setHeroSettings] = useState<any>(null);
   const [rating, setRating] = useState<number>(4.8);
-  const [distance, setDistance] = useState<number>(468);
+  const [distance, setDistance] = useState<number>(0);
 
   useEffect(() => {
     Promise.all([
