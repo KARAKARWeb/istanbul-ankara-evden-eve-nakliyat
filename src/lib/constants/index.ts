@@ -3,7 +3,7 @@
 // API: /api/settings/site ve /api/settings/contact
 export const SITE_CONFIG = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Site Adı',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000',
+  url: process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!,
   description: 'Site açıklaması',
   phone: 'Dinamik telefon',
   email: 'Dinamik email',

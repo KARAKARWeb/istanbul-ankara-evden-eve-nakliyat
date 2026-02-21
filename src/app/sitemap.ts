@@ -2,22 +2,8 @@ import { MetadataRoute } from 'next';
 import fs from 'fs';
 import path from 'path';
 
-function getBaseUrl(): string {
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL;
-  }
-  
-  try {
-    const siteJsonPath = path.join(process.cwd(), 'data/settings/site.json');
-    const siteData = JSON.parse(fs.readFileSync(siteJsonPath, 'utf-8'));
-    return `https://${siteData.domain}`;
-  } catch (error) {
-    return 'https://localhost:3000';
-  }
-}
-
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = getBaseUrl();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   
   // Statik sayfalar
   const staticPages: MetadataRoute.Sitemap = [

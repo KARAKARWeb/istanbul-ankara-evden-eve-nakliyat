@@ -20,7 +20,7 @@ export function UnifiedSchema({ schemas }: { schemas: any[] }) {
 
 // Ana Sayfa için Unified Schema
 export function HomePageUnifiedSchema() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   
   const schemas = [
     // Organization
@@ -211,7 +211,7 @@ export function WebPageUnifiedSchema({
   url: string;
   breadcrumbs?: Array<{ name: string; url?: string }>;
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
   
   const schemas: any[] = [

@@ -15,7 +15,7 @@ export function generateSEOMetadata({
   canonical,
   ogImage = '/og-image.jpg',
 }: SEOHeadProps): Metadata {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
   return {
