@@ -134,6 +134,19 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
     notFound();
   }
 
+  // Region data'dan routeInfo oluştur - domain bağımsız
+  const routeInfo = {
+    fromCity: region.sourceCity,
+    toCity: region.targetCity,
+    sourceCity: region.sourceCity,
+    targetCity: region.targetCity,
+    distance: region.distance,
+    duration: region.duration,
+    basePrice: region.priceMin || 1500,
+    title: region.title,
+    description: region.description || '',
+  };
+
   return (
     <div className="min-h-screen bg-surface">
       <Header />
@@ -177,7 +190,7 @@ export default async function RegionPage({ params }: { params: Promise<{ region:
 
           {/* Fiyatlandırma */}
           <div id="fiyatlandirma">
-            <PricingSection regionTitle={`${region.sourceCity} ${region.targetCity}`} />
+            <PricingSection regionTitle={`${region.sourceCity} ${region.targetCity}`} routeInfo={routeInfo} />
           </div>
 
           {/* SSS - Sık Sorulan Sorular */}
