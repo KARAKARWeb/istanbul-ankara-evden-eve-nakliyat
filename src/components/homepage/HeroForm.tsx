@@ -20,17 +20,14 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-export function HeroForm() {
+interface HeroFormProps {
+  routeInfo?: any;
+}
+
+export function HeroForm({ routeInfo: propsRoute }: HeroFormProps = {}) {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [routeInfo, setRouteInfo] = useState<any>({ toCity: '' });
-
-  useEffect(() => {
-    fetch('/api/settings/route-info')
-      .then(r => r.json())
-      .then(data => setRouteInfo(data))
-      .catch(() => {});
-  }, []);
+  const routeInfo = propsRoute || { toCity: '' };
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),

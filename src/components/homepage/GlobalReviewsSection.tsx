@@ -21,12 +21,17 @@ interface AggregateRating {
   worstRating: number;
 }
 
-export function GlobalReviewsSection() {
+interface GlobalReviewsSectionProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export function GlobalReviewsSection({ siteSettings, contactData }: GlobalReviewsSectionProps = {}) {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [aggregateRating, setAggregateRating] = useState<AggregateRating | null>(null);
   const [loading, setLoading] = useState(true);
-  const [siteName, setSiteName] = useState('Evden Eve Nakliyat');
-  const [contact, setContact] = useState<any>(null);
+  const siteName = siteSettings?.siteName || 'Evden Eve Nakliyat';
+  const contact = contactData;
 
   useEffect(() => {
     fetchGlobalReviews();
@@ -34,19 +39,11 @@ export function GlobalReviewsSection() {
 
   const fetchGlobalReviews = async () => {
     try {
-      const [reviewsRes, siteRes, contactRes] = await Promise.all([
-        fetch('/api/reviews/global'),
-        fetch('/api/settings/site'),
-        fetch('/api/settings/contact')
-      ]);
+      const reviewsRes = await fetch('/api/reviews/global');
       const reviewsData = await reviewsRes.json();
-      const siteData = await siteRes.json();
-      const contactData = await contactRes.json();
       
       setReviews(reviewsData.reviews || []);
-      setAggregateRating(reviewsData.aggregateRating);
-      setSiteName(siteData.siteName || 'Evden Eve Nakliyat');
-      setContact(contactData);
+      setAggregateRating(reviewsData.aggregateRating || null);
     } catch (error) {
       console.error('Global reviews fetch error:', error);
     } finally {

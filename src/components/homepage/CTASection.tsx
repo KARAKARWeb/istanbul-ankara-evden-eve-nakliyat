@@ -2,15 +2,12 @@
 
 import { useState, useEffect } from 'react';
 
-export function CTASection() {
-  const [contactData, setContactData] = useState<any>(null);
+interface CTASectionProps {
+  contactData?: any;
+}
 
-  useEffect(() => {
-    fetch('/api/settings/contact')
-      .then(r => r.json())
-      .then(data => setContactData(data))
-      .catch(() => {});
-  }, []);
+export function CTASection({ contactData: propsData }: CTASectionProps = {}) {
+  const contactData = propsData;
 
   return (
     <section className="bg-surface border-y border-border">

@@ -19,9 +19,9 @@ export function PriceCalculator() {
   const [moveDate, setMoveDate] = useState('');
   const [result, setResult] = useState<CalculatorResult | null>(null);
   const [loading, setLoading] = useState(false);
-  const [contactInfo, setContactInfo] = useState<any>({ phone: '', whatsapp: '' });
-  const [heroSettings, setHeroSettings] = useState<any>({ pricing: { houseTypes: [], elevatorPrices: { withElevator: 0, withoutElevator: 500 } } });
-  const [routeInfo, setRouteInfo] = useState<any>({ fromCity: '', toCity: '' });
+  const contactInfo = contactData;
+  const heroSettings = propsHero || { pricing: { houseTypes: [], elevatorPrices: { withElevator: 0, withoutElevator: 500 } } };
+  const routeInfo = propsRoute || { fromCity: '', toCity: '' };
 
   useEffect(() => {
     Promise.all([

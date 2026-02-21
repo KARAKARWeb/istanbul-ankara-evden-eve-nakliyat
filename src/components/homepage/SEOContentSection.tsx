@@ -7,17 +7,23 @@ interface SEOBottomData {
   content: string;
 }
 
-export function SEOContentSection() {
-  const [data, setData] = useState<SEOBottomData | null>(null);
-  const [loading, setLoading] = useState(true);
+interface SEOContentSectionProps {
+  seoData?: SEOBottomData;
+}
+
+export function SEOContentSection({ seoData: propsData }: SEOContentSectionProps = {}) {
+  const [data, setData] = useState<SEOBottomData | null>(propsData || null);
+  const [loading, setLoading] = useState(!propsData);
 
   useEffect(() => {
-    fetch('/api/content/seo-bottom')
-      .then(r => r.json())
-      .then(d => setData(d))
-      .catch(() => {})
-      .finally(() => setLoading(false));
-  }, []);
+    if (!propsData) {
+      fetch('/api/content/seo-bottom')
+        .then(r => r.json())
+        .then(d => setData(d))
+        .catch(() => {})
+        .finally(() => setLoading(false));
+    }
+  }, [propsData]);
 
   if (loading || !data || !data.content) {
     return null;

@@ -6,17 +6,23 @@ interface SEOTopData {
   content: string;
 }
 
-export function TopSEOArticle() {
-  const [data, setData] = useState<SEOTopData | null>(null);
-  const [loading, setLoading] = useState(true);
+interface TopSEOArticleProps {
+  seoData?: SEOTopData;
+}
+
+export function TopSEOArticle({ seoData: propsData }: TopSEOArticleProps = {}) {
+  const [data, setData] = useState<SEOTopData | null>(propsData || null);
+  const [loading, setLoading] = useState(!propsData);
 
   useEffect(() => {
-    fetch('/api/content/seo-top')
-      .then(r => r.json())
-      .then(d => setData(d))
-      .catch(() => {})
-      .finally(() => setLoading(false));
-  }, []);
+    if (!propsData) {
+      fetch('/api/content/seo-top')
+        .then(r => r.json())
+        .then(d => setData(d))
+        .catch(() => {})
+        .finally(() => setLoading(false));
+    }
+  }, [propsData]);
 
   if (loading || !data || !data.content) {
     return null;
