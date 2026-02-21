@@ -108,7 +108,7 @@ export function HeroSection({ routeInfo, siteSettings, contactData, heroSettings
 
           {/* Right: Price Calculator */}
           <div>
-            <PriceCalculator />
+            <PriceCalculator contactData={contactData} heroSettings={heroSettings} routeInfo={routeInfo} />
           </div>
         </div>
       </div>
