@@ -21,6 +21,7 @@ interface SiteSettings {
   siteName: string;
   siteTitle: string;
   description: string;
+  domain: string;
 }
 
 export async function getContactSettings(): Promise<ContactSettings> {

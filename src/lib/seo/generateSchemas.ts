@@ -2,12 +2,9 @@ import { getContactSettings, getSiteSettings, formatPhoneForSchema, parseAddress
 
 // Global Schema Generator - Metadata API için
 export async function generateOrganizationSchema() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
-  if (!baseUrl) {
-    throw new Error('NEXT_PUBLIC_SITE_URL environment variable is required');
-  }
   const contact = await getContactSettings();
   const site = await getSiteSettings();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
   const addressParsed = parseAddress(contact.address);
   
   return {
@@ -38,11 +35,8 @@ export async function generateOrganizationSchema() {
 }
 
 export async function generateWebSiteSchema() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
-  if (!baseUrl) {
-    throw new Error('NEXT_PUBLIC_SITE_URL environment variable is required');
-  }
   const site = await getSiteSettings();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
   
   return {
     '@context': 'https://schema.org',
@@ -62,12 +56,9 @@ export async function generateWebSiteSchema() {
 }
 
 export async function generateHomePageSchema() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
-  if (!baseUrl) {
-    throw new Error('NEXT_PUBLIC_SITE_URL environment variable is required');
-  }
   const contact = await getContactSettings();
   const site = await getSiteSettings();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}`;
   const addressParsed = parseAddress(contact.address);
   
   return {
