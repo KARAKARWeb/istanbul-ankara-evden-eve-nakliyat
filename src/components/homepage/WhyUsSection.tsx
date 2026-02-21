@@ -2,8 +2,12 @@
 
 import { useState, useEffect } from 'react';
 
-export function WhyUsSection() {
-  const [whyUsData, setWhyUsData] = useState<any>({
+interface WhyUsSectionProps {
+  whyUsData?: any;
+}
+
+export function WhyUsSection({ whyUsData: propsData }: WhyUsSectionProps = {}) {
+  const [whyUsData, setWhyUsData] = useState<any>(propsData || {
     title: 'Neden Bizi Tercih Etmelisiniz?',
     description: 'Yılların deneyimi ve müşteri memnuniyeti odaklı hizmet anlayışımız',
     features: [
@@ -18,8 +22,10 @@ export function WhyUsSection() {
   });
 
   useEffect(() => {
-    fetchWhyUsData();
-  }, []);
+    if (!propsData) {
+      fetchWhyUsData();
+    }
+  }, [propsData]);
 
   const fetchWhyUsData = async () => {
     try {

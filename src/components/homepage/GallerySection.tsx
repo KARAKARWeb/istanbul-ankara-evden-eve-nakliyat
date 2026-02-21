@@ -3,17 +3,23 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-export function GallerySection() {
-  const [galleryData, setGalleryData] = useState<any>({
+interface GallerySectionProps {
+  galleryData?: any;
+}
+
+export function GallerySection({ galleryData: propsData }: GallerySectionProps = {}) {
+  const [galleryData, setGalleryData] = useState<any>(propsData || {
     title: 'Galeri',
-    description: 'Hizmetlerimizden görüntüler',
+    description: 'Nakliyat çalışmalarımızdan görüntüler',
     images: [],
     footer: ''
   });
 
   useEffect(() => {
-    fetchGalleryData();
-  }, []);
+    if (!propsData) {
+      fetchGalleryData();
+    }
+  }, [propsData]);
 
   const fetchGalleryData = async () => {
     try {

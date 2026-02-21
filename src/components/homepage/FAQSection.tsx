@@ -4,18 +4,21 @@ import { useState, useEffect } from 'react';
 
 interface FAQSectionProps {
   regionFaqs?: Array<{ q: string; a: string }>; // Bölgeye özel FAQ'lar - opsiyonel
+  faqData?: Array<{ q: string; a: string }>; // Global FAQ'lar - opsiyonel
 }
 
-export function FAQSection({ regionFaqs }: FAQSectionProps = {}) {
-  const [faqData, setFaqData] = useState<any>({
+export function FAQSection({ regionFaqs, faqData: propsData }: FAQSectionProps = {}) {
+  const [faqData, setFaqData] = useState<any>(propsData || {
     title: 'Sıkça Sorulan Sorular',
     description: '',
     faqs: []
   });
 
   useEffect(() => {
-    fetchFaqData();
-  }, []);
+    if (!propsData) {
+      fetchFaqData();
+    }
+  }, [propsData]);
 
   const fetchFaqData = async () => {
     try {

@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 export function ServicesSection() {
   const [servicesData, setServicesData] = useState<any>({
     title: 'Hizmetlerimiz',
-    description: 'Evden eve nakliyat sürecinizde ihtiyaç duyabileceğiniz tüm hizmetler',
+    description: 'Profesyonel evden eve nakliyat hizmetleri',
     services: [
       { title: 'Evden Eve Nakliyat', description: 'Modern asansör sistemleri ile güvenli taşıma' },
       { title: 'Sözleşmeli Evden Eve Nakliyat', description: 'Özel paketleme malzemeleri ile koruma' },
@@ -18,8 +18,10 @@ export function ServicesSection() {
   });
 
   useEffect(() => {
-    fetchServicesData();
-  }, []);
+    if (!propsData) {
+      fetchServicesData();
+    }
+  }, [propsData]);
 
   const fetchServicesData = async () => {
     try {

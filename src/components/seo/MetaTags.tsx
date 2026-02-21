@@ -52,9 +52,8 @@ export function GlobalMetaTags({ siteSettings }: GlobalMetaTagsProps = {}) {
 interface PageMetaTagsProps {
   title: string;
   description: string;
-  canonical: string;
-  keywords?: string;
-  ogType?: string;
+  canonicalUrl?: string;
+  keywords?: string[];
   ogImage?: string;
   ogImageAlt?: string;
   article?: {
@@ -62,14 +61,15 @@ interface PageMetaTagsProps {
     modifiedTime?: string;
     author?: string;
     section?: string;
-    tag?: string[];
+    tags?: string[];
   };
+  siteSettings?: any;
 }
 
 export function PageMetaTags({
   title, 
   description, 
-  canonical,
+  canonicalUrl,
   keywords,
   ogType = 'website',
   ogImage = '/og-image.jpg',
