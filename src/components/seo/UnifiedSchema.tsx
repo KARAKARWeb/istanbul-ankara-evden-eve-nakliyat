@@ -20,18 +20,13 @@ export function UnifiedSchema({ schemas }: { schemas: any[] }) {
   );
 }
 
-// Ana Sayfa için Unified Schema
-export function HomePageUnifiedSchema() {
-  const [siteSettings, setSiteSettings] = useState<any>(null);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
-  
-  useEffect(() => {
-    fetch('/api/settings/site')
-      .then(r => r.json())
-      .then(data => setSiteSettings(data))
-      .catch(() => {});
-  }, []);
+interface HomePageUnifiedSchemaProps {
+  siteSettings?: any;
+}
 
+// Ana Sayfa için Unified Schema
+export function HomePageUnifiedSchema({ siteSettings }: HomePageUnifiedSchemaProps = {}) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
   const siteName = siteSettings?.siteName || 'Evden Eve Nakliyat';
   
   const schemas = [

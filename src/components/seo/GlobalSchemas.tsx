@@ -23,17 +23,12 @@ export function OrganizationSchema() {
   );
 }
 
-// WebSite Schema - Global site bilgileri
-export function WebSiteSchema() {
-  const [siteSettings, setSiteSettings] = React.useState<any>(null);
-  
-  React.useEffect(() => {
-    fetch('/api/settings/site')
-      .then(r => r.json())
-      .then(data => setSiteSettings(data))
-      .catch(() => {});
-  }, []);
+interface WebSiteSchemaProps {
+  siteSettings?: any;
+}
 
+// WebSite Schema - Global site bilgileri
+export function WebSiteSchema({ siteSettings }: WebSiteSchemaProps = {}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',

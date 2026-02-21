@@ -2,16 +2,12 @@
 
 import { useEffect, useState } from 'react';
 
-// Global Meta Tags Component - Tüm sayfalarda kullanılacak
-export function GlobalMetaTags() {
-  const [siteSettings, setSiteSettings] = useState<any>(null);
+interface GlobalMetaTagsProps {
+  siteSettings?: any;
+}
 
-  useEffect(() => {
-    fetch('/api/settings/site')
-      .then(res => res.json())
-      .then(data => setSiteSettings(data))
-      .catch(() => {});
-  }, []);
+// Global Meta Tags Component - Tüm sayfalarda kullanılacak
+export function GlobalMetaTags({ siteSettings }: GlobalMetaTagsProps = {}) {
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   const author = siteSettings?.author || siteSettings?.siteName || 'Site';
@@ -78,16 +74,9 @@ export function PageMetaTags({
   ogType = 'website',
   ogImage = '/og-image.jpg',
   ogImageAlt,
-  article
+  article,
+  siteSettings
 }: PageMetaTagsProps) {
-  const [siteSettings, setSiteSettings] = useState<any>(null);
-
-  useEffect(() => {
-    fetch('/api/settings/site')
-      .then(res => res.json())
-      .then(data => setSiteSettings(data))
-      .catch(() => {});
-  }, []);
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
   const fullCanonical = canonical.startsWith('http') ? canonical : `${baseUrl}${canonical}`;
