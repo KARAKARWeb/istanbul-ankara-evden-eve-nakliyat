@@ -54,7 +54,7 @@ export default function ContentPage() {
     footer: ''
   });
   const [routeData, setRouteData] = useState<any>({
-    title: 'İstanbul İzmir Rota Bilgileri',
+    title: 'Rota Bilgileri',
     description: 'Güvenli ve hızlı taşımacılık için en iyi rotayı kullanıyoruz',
     originCoords: '40.87964279652424,29.255537227148615',
     destinationCoords: '38.42297162766549,27.14327148023357'
@@ -67,7 +67,7 @@ export default function ContentPage() {
   });
   const [processData, setProcessData] = useState<any>({
     title: 'Nakliyat Sürecimiz',
-    description: 'İstanbul\'dan İzmir\'e profesyonel taşınma sürecinin her adımı'
+    description: 'Profesyonel taşınma sürecinin her adımı'
   });
   const [pricingData, setPricingData] = useState<any>({
     title: 'Fiyatlandırma',
@@ -88,7 +88,7 @@ export default function ContentPage() {
     content: ''
   });
   const [seoBottomData, setSeoBottomData] = useState<any>({
-    title: 'İstanbul İzmir Evden Eve Nakliyat Hakkında',
+    title: 'Evden Eve Nakliyat Hakkında',
     content: ''
   });
 
@@ -551,7 +551,7 @@ export default function ContentPage() {
                     value={heroSettings.title}
                     onChange={(e) => setHeroSettings({ ...heroSettings, title: e.target.value })}
                     className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-                    placeholder="İstanbul İzmir Evden Eve Nakliyat"
+                    placeholder="Ana Sayfa Başlığı"
                   />
                 </div>
 
@@ -996,7 +996,7 @@ export default function ContentPage() {
                     type="text"
                     value={routeData.title}
                     onChange={(e) => setRouteData({ ...routeData, title: e.target.value })}
-                    placeholder="İstanbul İzmir Rota Bilgileri"
+                    placeholder="Rota Bilgileri Başlığı"
                     className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
                   />
                 </div>
@@ -1553,7 +1553,7 @@ export default function ContentPage() {
                   value={seoBottomData.title}
                   onChange={(e) => setSeoBottomData({ ...seoBottomData, title: e.target.value })}
                   className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-                  placeholder="İstanbul İzmir Evden Eve Nakliyat Hakkında"
+                  placeholder="SEO İçerik Başlığı"
                 />
               </div>
 
@@ -1597,7 +1597,7 @@ export default function ContentPage() {
                 value={aboutData.description}
                 onChange={(e) => setAboutData({ ...aboutData, description: e.target.value })}
                 className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-                placeholder="10 yılı aşkın tecrübemiz ile İstanbul İzmir arası profesyonel evden eve nakliyat hizmeti sunuyoruz."
+                placeholder="Hakkımızda sayfası açıklama metni"
               />
             </div>
 

@@ -89,7 +89,7 @@ export default function SEOPagesPage() {
                   Tüm sayfa başlıklarının sonuna eklenecek metin. Boş bırakılabilir.
                 </p>
                 <p className="text-xs text-info mt-1">
-                  Örnek: "İstanbul İzmir Nakliyat" + " | Profesyonel Taşımacılık"
+                  Örnek: "Site Adı" + " | Profesyonel Taşımacılık"
                 </p>
               </div>
             </div>

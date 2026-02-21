@@ -166,7 +166,7 @@ export async function generateHomePageSchema() {
         },
         areaServed: {
           '@type': 'City',
-          name: `${routeInfo.fromCity || 'İstanbul'}, ${routeInfo.toCity || 'Ankara'}`,
+          name: routeInfo ? `${routeInfo.fromCity || 'İstanbul'}, ${routeInfo.toCity || 'Ankara'}` : 'İstanbul, Ankara',
         },
         hasOfferCatalog: {
           '@type': 'OfferCatalog',

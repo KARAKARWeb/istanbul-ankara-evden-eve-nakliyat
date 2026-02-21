@@ -20,12 +20,13 @@ export function UnifiedSchema({ schemas }: { schemas: any[] }) {
   );
 }
 
-interface HomePageUnifiedSchemaProps {
+interface UnifiedSchemaProps {
   siteSettings?: any;
+  routeInfo?: any;
 }
 
 // Ana Sayfa için Unified Schema
-export function HomePageUnifiedSchema({ siteSettings }: HomePageUnifiedSchemaProps = {}) {
+export function HomePageUnifiedSchema({ siteSettings, routeInfo }: UnifiedSchemaProps = {}) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
   const siteName = siteSettings?.siteName || 'Evden Eve Nakliyat';
   

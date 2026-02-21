@@ -143,10 +143,12 @@ export function FAQPageSchema() {
 export function ServiceSchema({
   name = 'Evden Eve Nakliyat',
   phone = '',
+  routeInfo = { fromCity: 'İstanbul', toCity: 'Ankara' }
 }: {
   name?: string;
   phone?: string;
-} = {}) {
+  routeInfo?: any;
+}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Service',

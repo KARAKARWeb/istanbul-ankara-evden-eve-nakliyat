@@ -140,7 +140,7 @@ export default function RegionsPage() {
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-                placeholder="İstanbul'dan İzmir'in 30+ ilçesine profesyonel evden eve nakliyat hizmeti sunuyoruz."
+                placeholder="Bölgeler sayfası açıklama metni"
               />
               <p className="text-xs text-text-muted mt-1">
                 Bölgeler sayfası hero bölümünde görünecek açıklama metni
@@ -275,7 +275,7 @@ export default function RegionsPage() {
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                     className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-                    placeholder="İstanbul'dan İzmir'in 30+ ilçesine profesyonel evden eve nakliyat hizmeti sunuyoruz."
+                    placeholder="Bölgeler sayfası açıklama metni"
                   />
                   <p className="text-xs text-text-muted mt-1">
                     Bölgeler sayfası hero bölümünde görünecek açıklama metni

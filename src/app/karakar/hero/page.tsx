@@ -186,7 +186,7 @@ export default function HeroSettingsPage() {
               value={settings.title}
               onChange={(e) => setSettings({ ...settings, title: e.target.value })}
               className="w-full px-4 py-2 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none"
-              placeholder="İstanbul İzmir Evden Eve Nakliyat"
+              placeholder="Site Başlığı"
             />
           </div>
 
