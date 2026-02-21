@@ -19,7 +19,7 @@ const inter = Inter({
 // Dinamik metadata - site.json'dan çekilecek
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getSiteSettings();
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `https://${site.domain}` || 'https://localhost:3000';
   
   return {
     metadataBase: new URL(baseUrl),

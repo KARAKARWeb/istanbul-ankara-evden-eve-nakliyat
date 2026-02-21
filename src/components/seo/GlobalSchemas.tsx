@@ -5,8 +5,8 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Dinamik Site Adı',
-    url: process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!,
-    logo: `${process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!}/logo-koyu.svg`,
+    url: process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000'),
+    logo: `${process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000')}/logo-koyu.svg`,
     description: 'Dinamik açıklama',
   };
 
@@ -25,13 +25,13 @@ export function WebSiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'İstanbul İzmir Evden Eve Nakliyat',
-    url: process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!,
+    url: process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000'),
     description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!}/bolgeler?q={search_term_string}`,
+        urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000')}/bolgeler?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -97,7 +97,7 @@ export function ImageObjectSchema({
   width?: number; 
   height?: number; 
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   
   const schema = {
     '@context': 'https://schema.org',
@@ -136,7 +136,7 @@ export function ArticleSchema({
   authorName?: string;
   image?: string;
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   
   const schema = {
     '@context': 'https://schema.org',
@@ -183,7 +183,7 @@ export function HowToSchema({
   description: string; 
   steps: Array<{ name: string; text: string; image?: string }>;
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   
   const schema = {
     '@context': 'https://schema.org',
@@ -225,7 +225,7 @@ export function VideoObjectSchema({
   duration: string; 
   contentUrl: string;
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   
   const schema = {
     '@context': 'https://schema.org',

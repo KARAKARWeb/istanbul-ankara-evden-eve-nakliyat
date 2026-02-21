@@ -13,7 +13,7 @@ export function GlobalMetaTags() {
       .catch(() => {});
   }, []);
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   const author = siteSettings?.author || siteSettings?.siteName || 'Site';
   const appTitle = siteSettings?.siteName || 'App';
 
@@ -89,7 +89,7 @@ export function PageMetaTags({
       .catch(() => {});
   }, []);
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://localhost:3000');
   const fullCanonical = canonical.startsWith('http') ? canonical : `${baseUrl}${canonical}`;
   const fullOgImage = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage}`;
   const siteName = siteSettings?.siteName || 'Site';
