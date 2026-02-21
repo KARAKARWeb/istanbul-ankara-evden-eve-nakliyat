@@ -28,8 +28,8 @@ export async function GET() {
         { name: 'Ambalaj Malzemesi', price: '+ 300 TL' },
       ],
       infoItems: [
-        'Fiyatlar İstanbul - İzmir arası için geçerlidir',
-        'Mesafe: 468 km',
+        'Fiyatlar rota bazlı hesaplanır',
+        'Mesafe ve süre değişkenlik gösterebilir',
         'Tüm fiyatlar KDV dahildir',
         'Sigortalı taşıma ücretsizdir',
         'Kesin fiyat için ücretsiz keşif hizmeti sunuyoruz'

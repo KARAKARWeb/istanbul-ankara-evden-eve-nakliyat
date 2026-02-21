@@ -123,7 +123,7 @@ export function PriceCalculator({ contactData, heroSettings: propsHero, routeInf
               value={to}
               onChange={(e) => setTo(e.target.value)}
               className="w-full px-4 py-3 rounded-lg border border-border bg-surface focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
-              placeholder={routeInfo.toCity || routeInfo.targetCity || 'İzmir'}
+              placeholder={routeInfo.toCity || routeInfo.targetCity || 'Hedef Şehir'}
             />
           </div>
         </div>

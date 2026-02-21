@@ -158,7 +158,7 @@ export function ServiceSchema({
     },
     areaServed: {
       '@type': 'City',
-      name: 'İstanbul, İzmir',
+      name: `${routeInfo.fromCity || 'İstanbul'}, ${routeInfo.toCity || 'Ankara'}`,
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

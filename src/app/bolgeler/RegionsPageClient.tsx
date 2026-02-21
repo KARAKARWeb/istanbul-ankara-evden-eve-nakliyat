@@ -27,7 +27,7 @@ export default function RegionsPageClient({ siteSettings, contactData }: Regions
       fetch('/api/seo/pages').then(r => r.json()),
     ]).then(([regionsData, showcaseData, seoData]) => {
       setRegions(regionsData.filter((r: any) => r.active).sort((a: any, b: any) => a.order - b.order));
-      setDescription(showcaseData.pageDescription || "İstanbul'dan İzmir'in 30+ ilçesine profesyonel evden eve nakliyat hizmeti sunuyoruz.");
+      setDescription(showcaseData.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
       setPageSEO(seoData.regions || pageSEO);
     }).catch(() => {}).finally(() => setLoading(false));
   }, []);

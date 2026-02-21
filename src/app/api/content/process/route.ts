@@ -9,10 +9,10 @@ export async function GET() {
   try {
     const data = await fs.readFile(DATA_PATH, 'utf-8');
     return NextResponse.json(JSON.parse(data));
-  } catch (error) {
+  } catch {
     return NextResponse.json({ 
       title: 'Nakliyat Sürecimiz',
-      description: 'İstanbul\'dan İzmir\'e profesyonel taşınma sürecinin her adımı'
+      description: 'Profesyonel taşınma sürecinin her adımı'
     });
   }
 }
