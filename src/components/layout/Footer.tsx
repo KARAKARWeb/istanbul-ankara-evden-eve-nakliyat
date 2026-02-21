@@ -22,12 +22,15 @@ interface Layer3Link {
   order: number;
 }
 
-export function Footer() {
+interface FooterProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export function Footer({ siteSettings, contactData }: FooterProps = {}) {
   const [layer1Links, setLayer1Links] = useState<Layer1Link[]>([]);
   const [layer2AboutText, setLayer2AboutText] = useState('');
   const [layer3Links, setLayer3Links] = useState<Layer3Link[]>([]);
-  const [contactData, setContactData] = useState<any>(null);
-  const [siteData, setSiteData] = useState<any>(null);
   const [regions, setRegions] = useState<any[]>([]);
   const [showTooltip, setShowTooltip] = useState(false);
   const [clickCount, setClickCount] = useState(0);
@@ -38,15 +41,11 @@ export function Footer() {
       fetch('/api/footer/layer-1').then(r => r.json()),
       fetch('/api/footer/layer-2').then(r => r.json()),
       fetch('/api/footer/layer-3').then(r => r.json()),
-      fetch('/api/settings/contact').then(r => r.json()),
-      fetch('/api/settings/site').then(r => r.json()),
       fetch('/api/regions').then(r => r.json()),
-    ]).then(([layer1, layer2, layer3, contact, site, regionsData]) => {
+    ]).then(([layer1, layer2, layer3, regionsData]) => {
       setLayer1Links(layer1.links || []);
       setLayer2AboutText(layer2.aboutText || '');
       setLayer3Links(layer3.links || []);
-      setContactData(contact);
-      setSiteData(site);
       const topRegions = Array.isArray(regionsData) ? regionsData.slice(0, 5) : [];
       setRegions(topRegions);
     }).catch(() => {});
@@ -109,12 +108,12 @@ export function Footer() {
             <div className="mb-4">
               <img 
                 src="/logo-koyu.svg" 
-                alt={siteData?.siteName || 'Evden Eve Nakliyat'}
+                alt={siteSettings?.siteName || 'Evden Eve Nakliyat'}
                 className="h-11 w-auto"
               />
-              {siteData?.siteName && (
+              {siteSettings?.siteName && (
                 <h3 className="text-lg font-semibold text-text-primary mt-3">
-                  {siteData.siteName}
+                  {siteSettings.siteName}
                 </h3>
               )}
             </div>
@@ -218,7 +217,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-text-secondary">
-              © {new Date().getFullYear()} {siteData?.siteName || 'Evden Eve Nakliyat'}. Tüm hakları saklıdır.
+              © {new Date().getFullYear()} {siteSettings?.siteName || 'Evden Eve Nakliyat'}. Tüm hakları saklıdır.
             </p>
             <div ref={tooltipRef} className="relative">
               <a 

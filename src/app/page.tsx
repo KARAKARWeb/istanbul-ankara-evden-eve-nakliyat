@@ -21,7 +21,7 @@ import { CTASection } from '@/components/homepage/CTASection';
 import { getPageSEO } from '@/lib/seo/getPageSEO';
 import { generateHomePageSchema } from '@/lib/seo/generateSchemas';
 import { getRouteInfo } from '@/lib/data/getRouteInfo';
-import { getSiteSettings } from '@/lib/seo/getContactSettings';
+import { getSiteSettings, getContactSettings } from '@/lib/seo/getContactSettings';
 
 // ISR: 1 saat cache
 export const revalidate = 3600;
@@ -75,6 +75,7 @@ export default async function Home() {
   const schema = await generateHomePageSchema();
   const routeInfo = await getRouteInfo();
   const siteSettings = await getSiteSettings();
+  const contactSettings = await getContactSettings();
   
   return (
     <div className="min-h-screen bg-surface">
@@ -85,7 +86,7 @@ export default async function Home() {
         suppressHydrationWarning
       />
       
-      <Header />
+      <Header siteSettings={siteSettings} contactData={contactSettings} />
       
       <main>
         <div id="hero"><HeroSection routeInfo={routeInfo} siteSettings={siteSettings} /></div>
@@ -111,7 +112,7 @@ export default async function Home() {
         <div id="cta"><CTASection /></div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} contactData={contactSettings} />
       
       {/* Mobile Floating Buttons */}
       <MobileFloatingButtons />

@@ -5,18 +5,15 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 
-export function Header() {
+interface HeaderProps {
+  siteSettings?: any;
+  contactData?: any;
+}
+
+export function Header({ siteSettings, contactData }: HeaderProps = {}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [contactData, setContactData] = useState<any>(null);
-
-  useEffect(() => {
-    fetch('/api/settings/contact')
-      .then(r => r.json())
-      .then(data => setContactData(data))
-      .catch(() => {});
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
