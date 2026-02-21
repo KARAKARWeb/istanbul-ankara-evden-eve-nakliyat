@@ -27,7 +27,8 @@ export function HomePageUnifiedSchema() {
     {
       '@type': 'Organization',
       '@id': `${baseUrl}/#organization`,
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
+      // TODO: site.json'dan siteName çekilecek
       url: baseUrl,
       logo: `${baseUrl}/logo-koyu.svg`,
       description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
@@ -57,7 +58,8 @@ export function HomePageUnifiedSchema() {
     {
       '@type': 'WebSite',
       '@id': `${baseUrl}/#website`,
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
+      // TODO: site.json'dan siteName çekilecek
       url: baseUrl,
       description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
       publisher: {
@@ -76,7 +78,8 @@ export function HomePageUnifiedSchema() {
     {
       '@type': 'LocalBusiness',
       '@id': `${baseUrl}/#localbusiness`,
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
+      // TODO: site.json'dan siteName çekilecek
       image: `${baseUrl}/logo-koyu.svg`,
       url: baseUrl,
       telephone: 'Dinamik telefon',

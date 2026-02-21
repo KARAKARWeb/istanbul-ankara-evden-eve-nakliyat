@@ -30,7 +30,7 @@ export function generateSEOMetadata({
       type: 'website',
       locale: 'tr_TR',
       url: fullCanonical,
-      siteName: 'İstanbul İzmir Evden Eve Nakliyat',
+      siteName: 'Evden Eve Nakliyat',
       title,
       description,
       images: [

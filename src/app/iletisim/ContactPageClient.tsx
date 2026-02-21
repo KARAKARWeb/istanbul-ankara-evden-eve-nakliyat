@@ -43,7 +43,7 @@ export default function ContactPageClient() {
   return (
     <div className="min-h-screen bg-surface">
       <WebPageUnifiedSchema 
-        name="İletişim - İstanbul İzmir Evden Eve Nakliyat"
+        name="İletişim - Evden Eve Nakliyat"
         description={contactContent?.description || "Bizimle iletişime geçin. Profesyonel evden eve nakliyat hizmeti."}
         url="/iletisim"
         breadcrumbs={[

@@ -301,7 +301,7 @@ export function WebPageSchema({ name, description, url }: { name: string; descri
     url,
     isPartOf: {
       '@type': 'WebSite',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
       url: process.env.NEXT_PUBLIC_SITE_URL,
     },
   };
@@ -326,7 +326,7 @@ export function OfferSchema({ name, price, description }: { name: string; price:
     ...(description && { description }),
     seller: {
       '@type': 'Organization',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
     },
   };
 

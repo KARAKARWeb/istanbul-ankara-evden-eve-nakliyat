@@ -14,7 +14,7 @@ export function WhyUsSection() {
       { title: 'Uygun Fiyat Garantisi', description: 'Rekabetçi fiyatlarla kaliteli hizmet sunuyoruz' },
       { title: 'Modern Araç Filosu', description: 'Yeni model araçlarımız ile güvenli taşımacılık' },
     ],
-    footer: 'Neden Bizi Tercih Etmelisiniz? 10 yılı aşkın sektör tecrübemiz, profesyonel ekibimiz ve modern araç filomuz ile İstanbul İzmir arası evden eve nakliyat hizmetinde güvenilir çözüm ortağınızız. Tüm eşyalarınız sigorta kapsamında taşınır ve 7/24 müşteri desteğimiz ile her zaman yanınızdayız. Rekabetçi fiyatlarımız ve kaliteli hizmet anlayışımız ile taşınma sürecinizi kolaylaştırıyoruz.'
+    footer: 'Neden Bizi Tercih Etmelisiniz? 10 yılı aşkın sektör tecrübemiz, profesyonel ekibimiz ve modern araç filomuz ile evden eve nakliyat hizmetinde güvenilir çözüm ortağınızız. Tüm eşyalarınız sigorta kapsamında taşınır ve 7/24 müşteri desteğimiz ile her zaman yanınızdayız. Rekabetçi fiyatlarımız ve kaliteli hizmet anlayışımız ile taşınma sürecinizi kolaylaştırıyoruz.'
   });
 
   useEffect(() => {

@@ -61,7 +61,7 @@ export function HeroSection({ routeInfo }: HeroSectionProps) {
               border: '1px solid rgba(255, 255, 255, 0.3)',
             }}>
               <h1 className="text-xl md:text-2xl font-semibold text-black mb-4">
-                {heroSettings?.title || 'İstanbul İzmir Evden Eve Nakliyat'}
+                {heroSettings?.title || 'Evden Eve Nakliyat'}
               </h1>
               <div 
                 className="text-lg text-black"

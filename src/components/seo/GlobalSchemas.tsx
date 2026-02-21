@@ -24,7 +24,7 @@ export function WebSiteSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'İstanbul İzmir Evden Eve Nakliyat',
+    name: 'Evden Eve Nakliyat',
     url: process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_SITE_URL!,
     description: 'Profesyonel, güvenilir ve uygun fiyatlı evden eve nakliyat hizmeti',
     potentialAction: {
@@ -73,7 +73,7 @@ export function AggregateRatingSchema({
     },
     brand: {
       '@type': 'Brand',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
     },
   };
 
@@ -108,7 +108,7 @@ export function ImageObjectSchema({
     height,
     author: {
       '@type': 'Organization',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
     },
   };
 
@@ -151,7 +151,7 @@ export function ArticleSchema({
     },
     publisher: {
       '@type': 'Organization',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
       logo: {
         '@type': 'ImageObject',
         url: `${baseUrl}/logo-koyu.svg`,
@@ -238,7 +238,7 @@ export function VideoObjectSchema({
     contentUrl,
     publisher: {
       '@type': 'Organization',
-      name: 'İstanbul İzmir Evden Eve Nakliyat',
+      name: 'Evden Eve Nakliyat',
       logo: {
         '@type': 'ImageObject',
         url: `${baseUrl}/logo-koyu.svg`,

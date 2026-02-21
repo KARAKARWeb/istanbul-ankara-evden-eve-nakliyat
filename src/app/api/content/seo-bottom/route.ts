@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
     } catch (error) {
       // Dosya yoksa default içerik dön
       return NextResponse.json({ 
-        title: 'İstanbul İzmir Evden Eve Nakliyat Hakkında',
+        title: 'Evden Eve Nakliyat Hakkında',
         content: ''
       });
     }
