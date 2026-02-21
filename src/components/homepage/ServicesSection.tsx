@@ -2,8 +2,12 @@
 
 import { useState, useEffect } from 'react';
 
-export function ServicesSection() {
-  const [servicesData, setServicesData] = useState<any>({
+interface ServicesSectionProps {
+  servicesData?: any;
+}
+
+export function ServicesSection({ servicesData: propsData }: ServicesSectionProps = {}) {
+  const [servicesData, setServicesData] = useState<any>(propsData || {
     title: 'Hizmetlerimiz',
     description: 'Profesyonel evden eve nakliyat hizmetleri',
     services: [
