@@ -64,6 +64,7 @@ export function RouteInfoSection({ routeInfo }: RouteInfoSectionProps) {
           <div className="mb-12 bg-surface p-6 rounded-xl border border-border">
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
               <iframe
+                title={`${routeInfo.fromCity} ${routeInfo.toCity} arası rota haritası`}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -101,6 +101,8 @@ export function Footer({ siteSettings, contactData, footerData: propsFooterData,
                 src="/logo-koyu.svg" 
                 alt={siteSettings?.siteName || 'Evden Eve Nakliyat'}
                 className="h-11 w-auto"
+                width="120"
+                height="44"
               />
               {siteSettings?.siteName && (
                 <h3 className="text-lg font-semibold text-text-primary mt-3">
