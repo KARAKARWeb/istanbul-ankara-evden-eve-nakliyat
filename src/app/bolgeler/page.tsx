@@ -35,5 +35,39 @@ export default async function RegionsPage() {
   const siteSettings = await getSiteSettings();
   const contactSettings = await getContactSettings();
   
-  return <RegionsPageClient siteSettings={siteSettings} contactData={contactSettings} />;
+  // Server-side regions fetch
+  const fs = require('fs/promises');
+  const path = require('path');
+  let regionsData = [];
+  let showcaseData = null;
+  let pageSEO = null;
+  
+  try {
+    const regionsDir = path.join(process.cwd(), 'data/regions');
+    const showcasePath = path.join(process.cwd(), 'data/content/regions-showcase.json');
+    const seoPath = path.join(process.cwd(), 'data/seo/pages.json');
+    
+    const [files, showcase, seo] = await Promise.all([
+      fs.readdir(regionsDir),
+      fs.readFile(showcasePath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+      fs.readFile(seoPath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+    ]);
+    
+    const regions = await Promise.all(
+      files
+        .filter((file: string) => file.endsWith('.json'))
+        .map(async (file: string) => {
+          const data = await fs.readFile(path.join(regionsDir, file), 'utf-8');
+          return JSON.parse(data);
+        })
+    );
+    
+    regionsData = regions.filter((r: any) => r.active);
+    showcaseData = showcase;
+    pageSEO = seo?.regions || null;
+  } catch {
+    // Fallback
+  }
+  
+  return <RegionsPageClient siteSettings={siteSettings} contactData={contactSettings} regionsData={regionsData} showcaseData={showcaseData} pageSEO={pageSEO} />;
 }

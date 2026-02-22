@@ -11,18 +11,8 @@ interface TopSEOArticleProps {
 }
 
 export function TopSEOArticle({ seoData: propsData }: TopSEOArticleProps = {}) {
-  const [data, setData] = useState<SEOTopData | null>(propsData || null);
-  const [loading, setLoading] = useState(!propsData);
-
-  useEffect(() => {
-    if (!propsData) {
-      fetch('/api/content/seo-top')
-        .then(r => r.json())
-        .then(d => setData(d))
-        .catch(() => {})
-        .finally(() => setLoading(false));
-    }
-  }, [propsData]);
+  const data = propsData || null;
+  const loading = !propsData;
 
   if (loading || !data || !data.content) {
     return null;

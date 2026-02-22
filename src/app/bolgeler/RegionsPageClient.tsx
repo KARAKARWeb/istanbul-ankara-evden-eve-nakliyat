@@ -12,24 +12,31 @@ import { WebPageUnifiedSchema } from '@/components/seo/UnifiedSchema';
 interface RegionsPageClientProps {
   siteSettings?: any;
   contactData?: any;
+  regionsData?: any[];
+  showcaseData?: any;
+  pageSEO?: any;
 }
 
-export default function RegionsPageClient({ siteSettings, contactData }: RegionsPageClientProps = {}) {
-  const [regions, setRegions] = useState<any[]>([]);
-  const [description, setDescription] = useState('');
-  const [pageSEO, setPageSEO] = useState({ title: 'Hizmet Bölgelerimiz', description: '', keywords: '' });
-  const [loading, setLoading] = useState(true);
+export default function RegionsPageClient({ siteSettings, contactData, regionsData: propsRegions, showcaseData: propsShowcase, pageSEO: propsPageSEO }: RegionsPageClientProps = {}) {
+  const [regions, setRegions] = useState(propsRegions || []);
+  const [description, setDescription] = useState(propsShowcase?.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
+  const [pageSEO, setPageSEO] = useState(propsPageSEO || { title: 'Hizmet Bölgelerimiz', description: '', keywords: '' });
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    Promise.all([
-      fetch('/api/regions').then(r => r.json()),
-      fetch('/api/content/regions-showcase').then(r => r.json()),
-      fetch('/api/seo/pages').then(r => r.json()),
-    ]).then(([regionsData, showcaseData, seoData]) => {
-      setRegions(regionsData.filter((r: any) => r.active).sort((a: any, b: any) => a.order - b.order));
-      setDescription(showcaseData.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
-      setPageSEO(seoData.regions || pageSEO);
-    }).catch(() => {}).finally(() => setLoading(false));
+    if (!propsRegions || !propsShowcase || !propsPageSEO) {
+      Promise.all([
+        fetch('/api/regions').then(r => r.json()),
+        fetch('/api/content/regions-showcase').then(r => r.json()),
+        fetch('/api/seo/pages').then(r => r.json()),
+      ]).then(([regionsData, showcaseData, seoData]) => {
+        setRegions(regionsData.filter((r: any) => r.active).sort((a: any, b: any) => a.order - b.order));
+        setDescription(showcaseData.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
+        setPageSEO(seoData.regions || pageSEO);
+      }).catch(() => {}).finally(() => setLoading(false));
+    } else {
+      setLoading(false);
+    }
   }, []);
 
   if (loading) {

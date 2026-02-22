@@ -25,31 +25,22 @@ interface Layer3Link {
 interface FooterProps {
   siteSettings?: any;
   contactData?: any;
+  footerData?: any;
+  regionsData?: any[];
 }
 
-export function Footer({ siteSettings, contactData }: FooterProps = {}) {
-  const [layer1Links, setLayer1Links] = useState<Layer1Link[]>([]);
-  const [layer2AboutText, setLayer2AboutText] = useState('');
-  const [layer3Links, setLayer3Links] = useState<Layer3Link[]>([]);
-  const [regions, setRegions] = useState<any[]>([]);
+export function Footer({ siteSettings, contactData, footerData: propsFooterData, regionsData: propsRegions }: FooterProps = {}) {
+  const footerData = propsFooterData;
+  const regions = propsRegions || [];
+  const [visibleRegions, setVisibleRegions] = useState(6);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  const layer1Links = footerData?.layer1?.links || [];
+  const layer2AboutText = footerData?.layer2?.aboutText || '';
+  const layer3Links = footerData?.layer3?.links || [];
   const [showTooltip, setShowTooltip] = useState(false);
   const [clickCount, setClickCount] = useState(0);
   const tooltipRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    Promise.all([
-      fetch('/api/footer/layer-1').then(r => r.json()),
-      fetch('/api/footer/layer-2').then(r => r.json()),
-      fetch('/api/footer/layer-3').then(r => r.json()),
-      fetch('/api/regions').then(r => r.json()),
-    ]).then(([layer1, layer2, layer3, regionsData]) => {
-      setLayer1Links(layer1.links || []);
-      setLayer2AboutText(layer2.aboutText || '');
-      setLayer3Links(layer3.links || []);
-      const topRegions = Array.isArray(regionsData) ? regionsData.slice(0, 5) : [];
-      setRegions(topRegions);
-    }).catch(() => {});
-  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
