@@ -83,16 +83,26 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   // Dinamik schema'ları server-side oluştur
   const organizationSchema = await generateOrganizationSchema();
   const websiteSchema = await generateWebSiteSchema();
   
   return (
-    <html lang="tr">
+    <html lang="tr" suppressHydrationWarning>
       <head>
+        {/* Font Preload */}
+        <link
+          rel="preload"
+          href="/_next/static/media/1bffadaabf893a1e-s.7cd81963.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        {/* DNS Prefetch */}
+        <link rel="dns-prefetch" href="https://istanbulankaraevdenevenakliye.com.tr" />
         {/* Resource Hints - Performance Optimization */}
         <link rel="dns-prefetch" href="https://maps.googleapis.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />

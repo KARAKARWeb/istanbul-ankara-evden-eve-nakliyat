@@ -28,6 +28,7 @@ export function HeroSection({ routeInfo, siteSettings, contactData, heroSettings
               backgroundImage: `url(${heroSettings.backgroundImage})`,
               backgroundPosition: 'center center',
               opacity: heroSettings.backgroundOpacity || 0.1,
+              willChange: 'opacity',
             }}
           />
           {heroSettings.backgroundOverlay && (
