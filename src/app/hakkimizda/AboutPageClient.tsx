@@ -20,27 +20,19 @@ const tocItems = [
 interface AboutPageClientProps {
   siteSettings?: any;
   contactData?: any;
+  aboutData?: any;
+  pageSEO?: any;
 }
 
-export default function AboutPageClient({ siteSettings, contactData }: AboutPageClientProps = {}) {
-  const [pageSEO, setPageSEO] = useState({ title: 'Hakkımızda', description: '', keywords: '' });
-  const [aboutData, setAboutData] = useState<any>({
+export default function AboutPageClient({ siteSettings, contactData, aboutData: propsAboutData, pageSEO: propsPageSEO }: AboutPageClientProps = {}) {
+  const pageSEO = propsPageSEO || { title: 'Hakkımızda', description: '', keywords: '' };
+  const aboutData = propsAboutData || {
     story: { content: '' },
     mission: { content: '' },
     vision: { content: '' },
     values: { content: '' },
     whyUs: { content: '' },
-  });
-
-  useEffect(() => {
-    Promise.all([
-      fetch('/api/seo/pages').then(r => r.json()),
-      fetch('/api/content/about').then(r => r.json()),
-    ]).then(([seoData, aboutContent]) => {
-      setPageSEO(seoData.about || pageSEO);
-      setAboutData(aboutContent);
-    }).catch(() => {});
-  }, []);
+  };
   return (
     <div className="min-h-screen bg-surface">
       <WebPageUnifiedSchema 

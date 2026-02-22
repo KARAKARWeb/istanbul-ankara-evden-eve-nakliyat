@@ -13,21 +13,13 @@ import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 interface ContactPageClientProps {
   siteSettings?: any;
   contactData?: any;
+  contactContent?: any;
+  pageSEO?: any;
 }
 
-export default function ContactPageClient({ siteSettings, contactData }: ContactPageClientProps = {}) {
-  const [pageSEO, setPageSEO] = useState({ title: 'İletişim', description: '', keywords: '' });
-  const [contactContent, setContactContent] = useState<any>(null);
-
-  useEffect(() => {
-    Promise.all([
-      fetch('/api/seo/pages').then(r => r.json()),
-      fetch('/api/content/contact').then(r => r.json()),
-    ]).then(([seoData, content]) => {
-      setPageSEO(seoData.contact || pageSEO);
-      setContactContent(content);
-    });
-  }, []);
+export default function ContactPageClient({ siteSettings, contactData, contactContent: propsContactContent, pageSEO: propsPageSEO }: ContactPageClientProps = {}) {
+  const pageSEO = propsPageSEO || { title: 'İletişim', description: '', keywords: '' };
+  const contactContent = propsContactContent;
 
   const email = `info@${siteSettings?.domain || 'example.com'}`;
   const whatsappNumber = contactData?.whatsappNumber || contactData?.phone || '';

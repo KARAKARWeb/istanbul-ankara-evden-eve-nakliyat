@@ -35,5 +35,24 @@ export default async function AboutPage() {
   const siteSettings = await getSiteSettings();
   const contactSettings = await getContactSettings();
   
-  return <AboutPageClient siteSettings={siteSettings} contactData={contactSettings} />;
+  // Server-side about content fetch
+  const fs = require('fs/promises');
+  const path = require('path');
+  let aboutData = null;
+  let pageSEO = null;
+  
+  try {
+    const aboutPath = path.join(process.cwd(), 'data/content/about.json');
+    const seoPath = path.join(process.cwd(), 'data/seo/pages.json');
+    const [aboutContent, seoContent] = await Promise.all([
+      fs.readFile(aboutPath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+      fs.readFile(seoPath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+    ]);
+    aboutData = aboutContent;
+    pageSEO = seoContent?.about || null;
+  } catch {
+    // Fallback
+  }
+  
+  return <AboutPageClient siteSettings={siteSettings} contactData={contactSettings} aboutData={aboutData} pageSEO={pageSEO} />;
 }

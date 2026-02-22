@@ -35,5 +35,24 @@ export default async function ContactPage() {
   const siteSettings = await getSiteSettings();
   const contactSettings = await getContactSettings();
   
-  return <ContactPageClient siteSettings={siteSettings} contactData={contactSettings} />;
+  // Server-side contact content fetch
+  const fs = require('fs/promises');
+  const path = require('path');
+  let contactContent = null;
+  let pageSEO = null;
+  
+  try {
+    const contentPath = path.join(process.cwd(), 'data/content/contact.json');
+    const seoPath = path.join(process.cwd(), 'data/seo/pages.json');
+    const [content, seoContent] = await Promise.all([
+      fs.readFile(contentPath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+      fs.readFile(seoPath, 'utf-8').then((d: string) => JSON.parse(d)).catch(() => null),
+    ]);
+    contactContent = content;
+    pageSEO = seoContent?.contact || null;
+  } catch {
+    // Fallback
+  }
+  
+  return <ContactPageClient siteSettings={siteSettings} contactData={contactSettings} contactContent={contactContent} pageSEO={pageSEO} />;
 }
