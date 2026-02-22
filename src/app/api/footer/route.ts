@@ -44,7 +44,7 @@ export async function GET(request: NextRequest) {
         title: 'İletişim',
         phone: contactSettings.phone,
         email: contactSettings.email,
-        address: contactSettings.address.split('/')[1]?.trim() || 'İstanbul, Türkiye',
+        address: contactSettings.address.split('/')[1]?.trim() || contactSettings.address || '',
         whatsapp: contactSettings.whatsapp,
       },
       layer4: {
