@@ -91,9 +91,14 @@ export function Header({ siteSettings, contactData }: HeaderProps = {}) {
           )}
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden p-2 text-text-secondary hover:text-text-primary" aria-label="Menüyü aç">
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <button 
+  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+  className="md:hidden..."
+>
+  {mobileMenuOpen ? <X /> : <Menu />}
+</button>
+
+          
         </div>
 
         {/* Mobile Menu */}
