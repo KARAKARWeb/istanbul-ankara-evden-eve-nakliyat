@@ -18,26 +18,12 @@ interface RegionsPageClientProps {
 }
 
 export default function RegionsPageClient({ siteSettings, contactData, regionsData: propsRegions, showcaseData: propsShowcase, pageSEO: propsPageSEO }: RegionsPageClientProps = {}) {
-  const [regions, setRegions] = useState(propsRegions || []);
-  const [description, setDescription] = useState(propsShowcase?.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
-  const [pageSEO, setPageSEO] = useState(propsPageSEO || { title: 'Hizmet Bölgelerimiz', description: '', keywords: '' });
-  const [loading, setLoading] = useState(false);
+  const regions = (propsRegions || []).sort((a: any, b: any) => a.order - b.order);
+  const description = propsShowcase?.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`;
+  const pageSEO = propsPageSEO || { title: 'Hizmet Bölgelerimiz', description: '', keywords: '' };
+  const loading = false;
 
-  useEffect(() => {
-    if (!propsRegions || !propsShowcase || !propsPageSEO) {
-      Promise.all([
-        fetch('/api/regions').then(r => r.json()),
-        fetch('/api/content/regions-showcase').then(r => r.json()),
-        fetch('/api/seo/pages').then(r => r.json()),
-      ]).then(([regionsData, showcaseData, seoData]) => {
-        setRegions(regionsData.filter((r: any) => r.active).sort((a: any, b: any) => a.order - b.order));
-        setDescription(showcaseData.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`);
-        setPageSEO(seoData.regions || pageSEO);
-      }).catch(() => {}).finally(() => setLoading(false));
-    } else {
-      setLoading(false);
-    }
-  }, []);
+  // Props kullan, fallback fetch YOK
 
   if (loading) {
     return <div className="min-h-screen bg-surface flex items-center justify-center">
