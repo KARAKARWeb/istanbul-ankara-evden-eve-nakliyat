@@ -150,7 +150,7 @@ export default async function Home() {
       <Footer siteSettings={siteSettings} contactData={contactSettings} />
       
       {/* Mobile Floating Buttons */}
-      <MobileFloatingButtons />
+      <MobileFloatingButtons contactData={contactSettings} />
       
       {/* Scroll to Top Button */}
       <ScrollToTop />

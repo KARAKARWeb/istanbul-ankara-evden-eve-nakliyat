@@ -60,7 +60,7 @@ export default function RegionsPageClient({ siteSettings, contactData, regionsDa
       </main>
 
       <Footer siteSettings={siteSettings} contactData={contactData} />
-      <MobileFloatingButtons />
+      <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>
   );

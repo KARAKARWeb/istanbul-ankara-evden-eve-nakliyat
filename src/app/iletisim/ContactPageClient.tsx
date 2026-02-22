@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { WebPageUnifiedSchema } from '@/components/seo/UnifiedSchema';
@@ -138,7 +137,7 @@ export default function ContactPageClient({ siteSettings, contactData, contactCo
       </main>
 
       <Footer siteSettings={siteSettings} contactData={contactData} />
-      <MobileFloatingButtons />
+      <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>
   );

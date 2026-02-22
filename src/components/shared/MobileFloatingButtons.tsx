@@ -3,17 +3,13 @@
 import { useState, useEffect } from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 
-export function MobileFloatingButtons() {
+interface MobileFloatingButtonsProps {
+  contactData?: any;
+}
+
+export function MobileFloatingButtons({ contactData }: MobileFloatingButtonsProps = {}) {
   const [isVisible, setIsVisible] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [contactData, setContactData] = useState<any>(null);
-
-  useEffect(() => {
-    fetch('/api/settings/contact')
-      .then(r => r.json())
-      .then(data => setContactData(data))
-      .catch(() => {});
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {

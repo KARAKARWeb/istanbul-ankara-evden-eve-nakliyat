@@ -146,7 +146,7 @@ export default function AboutPageClient({ siteSettings, contactData, aboutData: 
       </main>
 
       <Footer siteSettings={siteSettings} contactData={contactData} />
-      <MobileFloatingButtons />
+      <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>
   );
