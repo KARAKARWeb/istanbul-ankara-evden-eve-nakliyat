@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { WebPageUnifiedSchema } from '@/components/seo/UnifiedSchema';
@@ -8,7 +7,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { TOC } from '@/components/shared/TOC';
 import { MobileFloatingButtons } from '@/components/shared/MobileFloatingButtons';
 import { ScrollToTop } from '@/components/shared/ScrollToTop';
-import { Trophy, Shield, Users, DollarSign, Target, Eye } from 'lucide-react';
+import { Trophy, Shield, Users, Target, Eye } from 'lucide-react';
 
 const tocItems = [
   { id: 'hikayemiz', title: 'Hikayemiz', level: 1 },
