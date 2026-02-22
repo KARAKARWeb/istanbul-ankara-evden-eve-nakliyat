@@ -20,64 +20,10 @@ export function SEOContentSection({ seoData: propsData }: SEOContentSectionProps
   }
 
   return (
-    <section id="seo-content" className="bg-background border-b border-border">
-      <style jsx global>{`
-        #seo-content h2 {
-          font-size: 1.5rem;
-          font-weight: 600;
-          color: #1A1A1A;
-          margin-bottom: 1rem;
-          margin-top: 1.5rem;
-        }
-        #seo-content h3 {
-          font-size: 1.25rem;
-          font-weight: 600;
-          color: #1A1A1A;
-          margin-bottom: 1rem;
-          margin-top: 1.25rem;
-        }
-        #seo-content p {
-          margin-bottom: 1.5rem;
-          line-height: 1.75;
-          color: #737373;
-        }
-        #seo-content ul, #seo-content ol {
-          margin-bottom: 1.5rem;
-          padding-left: 1.5rem;
-          color: #737373;
-        }
-        #seo-content ul {
-          list-style-type: disc;
-        }
-        #seo-content ol {
-          list-style-type: decimal;
-        }
-        #seo-content li {
-          margin-bottom: 0.5rem;
-          color: #737373;
-        }
-        #seo-content strong {
-          font-weight: 600;
-          color: #1A1A1A;
-        }
-        #seo-content em {
-          font-style: italic;
-          color: #737373;
-        }
-        #seo-content a {
-          color: #16A34A;
-          text-decoration: underline;
-        }
-        #seo-content a:hover {
-          color: #15803D;
-        }
-      `}</style>
+    <section id="seo-content" className="bg-background border-b border-border seo-content">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="prose prose-gray max-w-none">
-          <h2 className="text-2xl font-semibold text-text-primary mb-6">
-            {data.title}
-          </h2>
-          
+          <h2 className="text-2xl font-semibold text-text-primary mb-6">{data.title}</h2>
           <div 
             className="text-text-secondary leading-relaxed"
             dangerouslySetInnerHTML={{ __html: data.content }}

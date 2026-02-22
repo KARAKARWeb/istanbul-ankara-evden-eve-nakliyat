@@ -74,7 +74,11 @@ const nextConfig: NextConfig = {
   
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+    optimizeCss: true,
   },
+  
+  // Modern browser target - no polyfills
+  transpilePackages: [],
 };
 
 export default nextConfig;
