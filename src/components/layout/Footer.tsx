@@ -75,7 +75,7 @@ export function Footer({ siteSettings, contactData, footerData: propsFooterData,
         <div className="border-b border-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex flex-wrap justify-center gap-6">
-              {layer1Links.sort((a, b) => a.order - b.order).map((link) => (
+              {layer1Links.sort((a: Layer1Link, b: Layer1Link) => a.order - b.order).map((link: Layer1Link) => (
                 <Link
                   key={link.id}
                   href={link.url}
@@ -187,7 +187,7 @@ export function Footer({ siteSettings, contactData, footerData: propsFooterData,
         <div className="border-t border-border">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex flex-wrap justify-center gap-6">
-              {layer3Links.sort((a, b) => a.order - b.order).map((link) => (
+              {layer3Links.sort((a: Layer3Link, b: Layer3Link) => a.order - b.order).map((link: Layer3Link) => (
                 <Link
                   key={link.id}
                   href={link.url}
