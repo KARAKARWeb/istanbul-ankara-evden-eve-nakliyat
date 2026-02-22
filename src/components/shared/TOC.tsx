@@ -70,7 +70,7 @@ export function TOC({ items }: TOCProps) {
 
   return (
     <div className="bg-background p-6 rounded-xl border border-border">
-      <h3 className="font-semibold text-text-primary mb-4 text-center">İçindekiler</h3>
+      <h2 className="font-semibold text-text-primary mb-4 text-center">İçindekiler</h2>
       <nav className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3" aria-label="İçindekiler navigasyonu">
         {items.map((item, index) => {
           const urlSlug = createUrlSlug(item.title);

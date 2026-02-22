@@ -182,11 +182,12 @@ export function PriceCalculator({ contactData, heroSettings: propsHero, routeInf
             </div>
           </div>
           <div>
-            <label className="block text-sm font-medium text-text-primary mb-2">
+            <label htmlFor="move-date" className="block text-sm font-medium text-text-primary mb-2">
               <Calendar className="w-4 h-4 inline mr-1" />
               Taşınma Tarihi
             </label>
             <input
+              id="move-date"
               type="date"
               value={moveDate}
               onChange={(e) => setMoveDate(e.target.value)}

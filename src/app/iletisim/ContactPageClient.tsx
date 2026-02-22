@@ -101,6 +101,16 @@ export default function ContactPageClient({ siteSettings, contactData, contactCo
                     <MapPin className="w-6 h-6 text-accent" />
                   </div>
                   <div>
+                    <iframe
+                      title="İstanbul Ankara arası rota haritası"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      loading="lazy"
+                      allowFullScreen
+                      referrerPolicy="no-referrer-when-downgrade"
+                      src={`https://www.google.com/maps/embed/v1/directions?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&origin=${encodeURIComponent(contactData?.address || 'İstanbul')}&destination=Ankara&mode=driving`}
+                    />
                     <p className="text-text-secondary">{contactData?.address}</p>
                     <p className="text-text-secondary">{contactData?.phone}</p>
                   </div>

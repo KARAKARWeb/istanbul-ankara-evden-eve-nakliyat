@@ -53,15 +53,7 @@ export function Header({ siteSettings, contactData }: HeaderProps = {}) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/logo-koyu.svg"
-              alt="Logo"
-              width={180}
-              height={44}
-              style={{ width: '180px', height: '44px' }}
-              className="h-11 w-auto"
-              priority
-            />
+            <img src="/logo-koyu.svg" alt={siteSettings?.siteName || 'Evden Eve Nakliyat'} className="h-11 w-auto" width="120" height="44" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -100,10 +92,7 @@ export function Header({ siteSettings, contactData }: HeaderProps = {}) {
           )}
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-text-secondary hover:text-text-primary"
-          >
+          <button className="md:hidden p-2 text-text-secondary hover:text-text-primary" aria-label="Menüyü aç">
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
