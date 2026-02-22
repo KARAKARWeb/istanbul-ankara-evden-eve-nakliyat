@@ -1,13 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-
 interface ServicesSectionProps {
   servicesData?: any;
 }
 
 export function ServicesSection({ servicesData: propsData }: ServicesSectionProps = {}) {
-  const [servicesData, setServicesData] = useState<any>(propsData || {
+  const servicesData = propsData || {
     title: 'Hizmetlerimiz',
     description: 'Profesyonel evden eve nakliyat hizmetleri',
     services: [
@@ -19,22 +17,6 @@ export function ServicesSection({ servicesData: propsData }: ServicesSectionProp
       { title: 'Eşya Depolama', description: 'Her zaman ulaşabileceğiniz müşteri hizmetleri' },
     ],
     footer: ''
-  });
-
-  useEffect(() => {
-    if (!propsData) {
-      fetchServicesData();
-    }
-  }, [propsData]);
-
-  const fetchServicesData = async () => {
-    try {
-      const res = await fetch('/api/content/services');
-      const data = await res.json();
-      setServicesData(data);
-    } catch (error) {
-      console.error('Services data yüklenemedi:', error);
-    }
   };
 
   return (

@@ -14,9 +14,11 @@ interface ContactPageClientProps {
   contactData?: any;
   contactContent?: any;
   pageSEO?: any;
+  footerData?: any;
+  regionsData?: any[];
 }
 
-export default function ContactPageClient({ siteSettings, contactData, contactContent: propsContactContent, pageSEO: propsPageSEO }: ContactPageClientProps = {}) {
+export default function ContactPageClient({ siteSettings, contactData, contactContent: propsContactContent, pageSEO: propsPageSEO, footerData, regionsData }: ContactPageClientProps = {}) {
   const pageSEO = propsPageSEO || { title: 'İletişim', description: '', keywords: '' };
   const contactContent = propsContactContent;
 
@@ -136,7 +138,7 @@ export default function ContactPageClient({ siteSettings, contactData, contactCo
         </div>
       </main>
 
-      <Footer siteSettings={siteSettings} contactData={contactData} />
+      <Footer siteSettings={siteSettings} contactData={contactData} footerData={footerData} regionsData={regionsData} />
       <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>

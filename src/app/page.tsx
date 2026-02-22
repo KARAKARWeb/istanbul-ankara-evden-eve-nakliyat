@@ -71,7 +71,7 @@ async function fetchContentData() {
   }
   
   try {
-    const [servicesData, whyUsData, galleryData, faqData, seoTopData, seoBottomData, heroData, processData, pricingData, reviewsData] = await Promise.all([
+    const [servicesData, whyUsData, galleryData, faqData, seoTopData, seoBottomData, heroData, processData, pricingData, reviewsData, footerLayer1, footerLayer2, footerLayer3] = await Promise.all([
       readJSON('data/content/services.json'),
       readJSON('data/content/why-us.json'),
       readJSON('data/content/gallery.json'),
@@ -81,11 +81,30 @@ async function fetchContentData() {
       readJSON('data/settings/hero.json'),
       readJSON('data/content/process.json'),
       readJSON('data/content/pricing.json'),
-      readJSON('data/reviews/global.json'),
+      readJSON('data/reviews/general.json'),
+      readJSON('data/footer/layer-1.json'),
+      readJSON('data/footer/layer-2.json'),
+      readJSON('data/footer/layer-3.json'),
     ]);
-    return { services: servicesData, whyUs: whyUsData, gallery: galleryData, faq: faqData, seoTop: seoTopData, seoBottom: seoBottomData, hero: heroData, process: processData, pricing: pricingData, reviews: reviewsData };
+    return { 
+      services: servicesData, 
+      whyUs: whyUsData, 
+      gallery: galleryData, 
+      faq: faqData, 
+      seoTop: seoTopData, 
+      seoBottom: seoBottomData, 
+      hero: heroData, 
+      process: processData, 
+      pricing: pricingData, 
+      reviews: reviewsData,
+      footer: {
+        layer1: footerLayer1,
+        layer2: footerLayer2,
+        layer3: footerLayer3
+      }
+    };
   } catch {
-    return { services: null, whyUs: null, gallery: null, faq: null, seoTop: null, seoBottom: null, hero: null, process: null, pricing: null, reviews: null };
+    return { services: null, whyUs: null, gallery: null, faq: null, seoTop: null, seoBottom: null, hero: null, process: null, pricing: null, reviews: null, footer: null };
   }
 }
 
@@ -104,6 +123,29 @@ const tocItems = [
   { id: 'seo-content', title: 'Detaylı Bilgi', level: 1 },
 ];
 
+// Server-side regions data fetch
+async function fetchRegionsData() {
+  const fs = require('fs/promises');
+  const path = require('path');
+  
+  try {
+    const regionsDir = path.join(process.cwd(), 'data/regions');
+    const files = await fs.readdir(regionsDir);
+    const regions = await Promise.all(
+      files
+        .filter((file: string) => file.endsWith('.json'))
+        .map(async (file: string) => {
+          const filePath = path.join(regionsDir, file);
+          const data = await fs.readFile(filePath, 'utf-8');
+          return JSON.parse(data);
+        })
+    );
+    return regions.slice(0, 6); // Footer için ilk 6 bölge
+  } catch {
+    return [];
+  }
+}
+
 export default async function Home() {
   const pageSEO = await getPageSEO('home');
   const routeInfo = await getRouteInfo();
@@ -111,6 +153,7 @@ export default async function Home() {
   const contactSettings = await getContactSettings();
   const schema = await generateHomePageSchema(routeInfo);
   const contentData = await fetchContentData();
+  const regionsData = await fetchRegionsData();
   
   return (
     <div className="min-h-screen bg-surface">
@@ -141,13 +184,13 @@ export default async function Home() {
         <div id="pricing"><PricingSection routeInfo={routeInfo} pricingData={contentData.pricing} /></div>
         <div id="regions"><RegionsShowcase /></div>
         <div id="faq"><FAQSection faqData={contentData.faq} /></div>
-        <GlobalReviewsSection siteSettings={siteSettings} contactData={contactSettings} reviewsData={contentData.reviews} />
+        <div id="reviews"><GlobalReviewsSection siteSettings={siteSettings} contactData={contactSettings} reviewsData={contentData.reviews} /></div>
         <div id="contact"><ContactForm /></div>
         <div id="seo-content"><SEOContentSection seoData={contentData.seoBottom} /></div>
         <div id="cta"><CTASection contactData={contactSettings} /></div>
       </main>
 
-      <Footer siteSettings={siteSettings} contactData={contactSettings} />
+      <Footer siteSettings={siteSettings} contactData={contactSettings} footerData={contentData.footer} regionsData={regionsData} />
       
       {/* Mobile Floating Buttons */}
       <MobileFloatingButtons contactData={contactSettings} />

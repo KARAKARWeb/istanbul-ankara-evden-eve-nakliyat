@@ -14,9 +14,10 @@ interface RegionsPageClientProps {
   regionsData?: any[];
   showcaseData?: any;
   pageSEO?: any;
+  footerData?: any;
 }
 
-export default function RegionsPageClient({ siteSettings, contactData, regionsData: propsRegions, showcaseData: propsShowcase, pageSEO: propsPageSEO }: RegionsPageClientProps = {}) {
+export default function RegionsPageClient({ siteSettings, contactData, regionsData: propsRegions, showcaseData: propsShowcase, pageSEO: propsPageSEO, footerData }: RegionsPageClientProps = {}) {
   const regions = (propsRegions || []).sort((a: any, b: any) => a.order - b.order);
   const description = propsShowcase?.pageDescription || `${siteSettings?.siteName || 'Evden Eve Nakliyat'} - Profesyonel taşımacılık hizmeti sunuyoruz.`;
   const pageSEO = propsPageSEO || { title: 'Hizmet Bölgelerimiz', description: '', keywords: '' };
@@ -58,7 +59,7 @@ export default function RegionsPageClient({ siteSettings, contactData, regionsDa
         </div>
       </main>
 
-      <Footer siteSettings={siteSettings} contactData={contactData} />
+      <Footer siteSettings={siteSettings} contactData={contactData} footerData={footerData} regionsData={propsRegions?.slice(0, 6)} />
       <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>

@@ -21,9 +21,11 @@ interface AboutPageClientProps {
   contactData?: any;
   aboutData?: any;
   pageSEO?: any;
+  footerData?: any;
+  regionsData?: any[];
 }
 
-export default function AboutPageClient({ siteSettings, contactData, aboutData: propsAboutData, pageSEO: propsPageSEO }: AboutPageClientProps = {}) {
+export default function AboutPageClient({ siteSettings, contactData, aboutData: propsAboutData, pageSEO: propsPageSEO, footerData, regionsData }: AboutPageClientProps = {}) {
   const pageSEO = propsPageSEO || { title: 'Hakkımızda', description: '', keywords: '' };
   const aboutData = propsAboutData || {
     story: { content: '' },
@@ -144,7 +146,7 @@ export default function AboutPageClient({ siteSettings, contactData, aboutData: 
         </div>
       </main>
 
-      <Footer siteSettings={siteSettings} contactData={contactData} />
+      <Footer siteSettings={siteSettings} contactData={contactData} footerData={footerData} regionsData={regionsData} />
       <MobileFloatingButtons contactData={contactData} />
       <ScrollToTop />
     </div>

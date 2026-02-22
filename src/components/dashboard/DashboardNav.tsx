@@ -47,6 +47,10 @@ const navItems = [
     title: 'Yorumlar',
     href: '/karakar/reviews',
     icon: Star,
+    subItems: [
+      { title: 'Bölge Yorumları', href: '/karakar/reviews' },
+      { title: 'Ana Sayfa Yorumları', href: '/karakar/reviews/global' },
+    ],
   },
   {
     title: 'SEO Yönetimi',

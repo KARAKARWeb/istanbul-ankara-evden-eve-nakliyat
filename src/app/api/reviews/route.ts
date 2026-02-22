@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth/session';
+import { revalidatePath } from 'next/cache';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -40,6 +41,10 @@ export async function PUT(request: NextRequest) {
     }
     
     await fs.writeFile(DATA_PATH, JSON.stringify(body, null, 2), 'utf-8');
+    
+    // Ana sayfayı revalidate et
+    revalidatePath('/');
+    
     return NextResponse.json({ success: true, data: body });
   } catch (error) {
     return NextResponse.json({ error: 'Yorumlar kaydedilemedi' }, { status: 500 });
@@ -85,6 +90,10 @@ export async function POST(request: NextRequest) {
     reviewsData.lastUpdated = new Date().toISOString();
     
     await fs.writeFile(DATA_PATH, JSON.stringify(reviewsData, null, 2), 'utf-8');
+    
+    // Ana sayfayı revalidate et - yeni yorum hemen görünsün
+    revalidatePath('/');
+    
     return NextResponse.json({ success: true, data: review });
   } catch (error) {
     return NextResponse.json({ error: 'Yorum eklenemedi' }, { status: 500 });

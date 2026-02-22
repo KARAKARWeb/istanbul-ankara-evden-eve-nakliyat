@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 interface GallerySectionProps {
@@ -8,27 +7,11 @@ interface GallerySectionProps {
 }
 
 export function GallerySection({ galleryData: propsData }: GallerySectionProps = {}) {
-  const [galleryData, setGalleryData] = useState<any>(propsData || {
+  const galleryData = propsData || {
     title: 'Galeri',
     description: 'Nakliyat çalışmalarımızdan görüntüler',
     images: [],
     footer: ''
-  });
-
-  useEffect(() => {
-    if (!propsData) {
-      fetchGalleryData();
-    }
-  }, [propsData]);
-
-  const fetchGalleryData = async () => {
-    try {
-      const res = await fetch('/api/content/gallery');
-      const data = await res.json();
-      setGalleryData(data);
-    } catch (error) {
-      console.error('Gallery data yüklenemedi:', error);
-    }
   };
 
   return (

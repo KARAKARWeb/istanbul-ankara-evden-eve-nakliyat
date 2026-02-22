@@ -1,13 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-
 interface WhyUsSectionProps {
   whyUsData?: any;
 }
 
 export function WhyUsSection({ whyUsData: propsData }: WhyUsSectionProps = {}) {
-  const [whyUsData, setWhyUsData] = useState<any>(propsData || {
+  const whyUsData = propsData || {
     title: 'Neden Bizi Tercih Etmelisiniz?',
     description: 'Yılların deneyimi ve müşteri memnuniyeti odaklı hizmet anlayışımız',
     features: [
@@ -19,22 +17,6 @@ export function WhyUsSection({ whyUsData: propsData }: WhyUsSectionProps = {}) {
       { title: 'Modern Araç Filosu', description: 'Yeni model araçlarımız ile güvenli taşımacılık' },
     ],
     footer: 'Neden Bizi Tercih Etmelisiniz? 10 yılı aşkın sektör tecrübemiz, profesyonel ekibimiz ve modern araç filomuz ile evden eve nakliyat hizmetinde güvenilir çözüm ortağınızız. Tüm eşyalarınız sigorta kapsamında taşınır ve 7/24 müşteri desteğimiz ile her zaman yanınızdayız. Rekabetçi fiyatlarımız ve kaliteli hizmet anlayışımız ile taşınma sürecinizi kolaylaştırıyoruz.'
-  });
-
-  useEffect(() => {
-    if (!propsData) {
-      fetchWhyUsData();
-    }
-  }, [propsData]);
-
-  const fetchWhyUsData = async () => {
-    try {
-      const res = await fetch('/api/content/why-us');
-      const data = await res.json();
-      setWhyUsData(data);
-    } catch (error) {
-      console.error('Why Us data yüklenemedi:', error);
-    }
   };
 
   return (

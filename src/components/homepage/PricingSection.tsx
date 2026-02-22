@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { Check, Info } from 'lucide-react';
 
 import { RouteInfo } from '@/lib/data/getRouteInfo';

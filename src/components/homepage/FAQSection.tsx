@@ -1,33 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-
 interface FAQSectionProps {
   regionFaqs?: Array<{ q: string; a: string }>; // Bölgeye özel FAQ'lar - opsiyonel
-  faqData?: Array<{ q: string; a: string }>; // Global FAQ'lar - opsiyonel
+  faqData?: any; // Global FAQ'lar - opsiyonel
 }
 
 export function FAQSection({ regionFaqs, faqData: propsData }: FAQSectionProps = {}) {
-  const [faqData, setFaqData] = useState<any>(propsData || {
+  const faqData = propsData || {
     title: 'Sıkça Sorulan Sorular',
     description: '',
     faqs: []
-  });
-
-  useEffect(() => {
-    if (!propsData) {
-      fetchFaqData();
-    }
-  }, [propsData]);
-
-  const fetchFaqData = async () => {
-    try {
-      const res = await fetch('/api/content/faq');
-      const data = await res.json();
-      setFaqData(data);
-    } catch (error) {
-      console.error('FAQ data yüklenemedi:', error);
-    }
   };
 
   // Bölgeye özel FAQ'lar varsa onları kullan, yoksa global FAQ'ları kullan
